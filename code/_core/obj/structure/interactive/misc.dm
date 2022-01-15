@@ -221,6 +221,7 @@ obj/structure/interactive/misc/coatrack/PostInitialize() //Random shelf.
 
 /obj/structure/interactive/misc/halo/decor/machinery/radio_tower_gm/urf
 	name = "Main Radio-Tower"
+	desc = "Destruction of this tower will end the round with the UNSC's victory."
 	icon = 'icons/halo/icons/machinery/radio_tower.dmi'
 	icon_state = "tower_on"
 	layer = LAYER_LARGE_OBJ
@@ -238,6 +239,29 @@ obj/structure/interactive/misc/coatrack/PostInitialize() //Random shelf.
 
 	icon_state = "tower_broke"
 	world.end(WORLD_END_NANOTRASEN_VICTORY)
+
+	return ..()
+
+/obj/structure/interactive/misc/halo/decor/machinery/radio_tower_gm/unsc
+	name = "Secondary Radio-Tower"
+	desc = "Destruction of this tower will end the round with the URF's victory."
+	icon = 'icons/halo/icons/machinery/radio_tower.dmi'
+	icon_state = "tower_on"
+	layer = LAYER_LARGE_OBJ
+	plane = PLANE_SCENERY
+	collision_flags = FLAG_COLLISION_WALL
+	collision_bullet_flags = FLAG_COLLISION_BULLET_INORGANIC
+	bound_width = TILE_SIZE*3
+	bound_height = TILE_SIZE*3
+	health = /health/construction
+	health_base = 4000
+	density = TRUE
+	bullet_block_chance = 50
+
+/obj/structure/interactive/misc/halo/decor/machinery/radio_tower_gm/unsc/on_destruction(var/mob/caller,var/damage = FALSE)
+
+	icon_state = "tower_broke"
+	world.end(WORLD_END_SYNDICATE_VICTORY)
 
 	return ..()
 
