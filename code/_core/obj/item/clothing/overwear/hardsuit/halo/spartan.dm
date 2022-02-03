@@ -35,7 +35,7 @@
 	name = "Mark V MJOLNIR Suit"
 	desc = "An advanced suit."
 	desc_extended = "The MJOLNIR Powered Assault Armor/Mark V was the fifth of seven versions of the MJOLNIR Powered Assault Armor."
-	icon = 'icons/obj/item/clothing/suit/markv_purple.dmi'
+	icon = 'icons/obj/item/clothing/suit/markv_sage.dmi'
 	rarity = RARITY_UNCOMMON
 //	flags_clothing = FLAG_CLOTHING_SPARTAN
 

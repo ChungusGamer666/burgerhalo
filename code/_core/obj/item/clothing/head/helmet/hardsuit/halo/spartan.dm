@@ -33,7 +33,7 @@
 	name = "Mark V MJOLNIR Helmet"
 	desc = "An advanced piece of kit."
 	desc_extended = "The MJOLNIR Powered Assault Armor/Mark V was the fifth of seven versions of the MJOLNIR Powered Assault Armor."
-	icon = 'icons/obj/item/clothing/hats/spi.dmi' //Will be changed once sprites are done
+	icon = 'icons/obj/item/clothing/hats/markv_sage.dmi'
 	rarity = RARITY_UNCOMMON
 //	flags_clothing = FLAG_CLOTHING_SPARTAN
 
