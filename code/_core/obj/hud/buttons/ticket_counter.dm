@@ -3,7 +3,8 @@ var/global/list/ticket_counters = list()
 /obj/hud/button/ticket_counter
     name = "tickets"
     desc = "Counts the tickets for a certain team."
-    icon_state = ""
+    icon = 'icons/hud/fucking.dmi'
+    icon_state = "blank"
     is_static = TRUE
     screen_loc = "CENTER,TOP"
     var/team = "FUCK"
