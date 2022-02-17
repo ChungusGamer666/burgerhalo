@@ -45,6 +45,8 @@
 		probablyshit.unsc_points -= 1
 	if(istype(penisshit))
 		penisshit.unsc_points -= 1
+	for(var/obj/hud/button/ticket_counter/ticket_counter as anything in ticket_counters)
+		ticket_counter.update_name()
 
 /mob/living/advanced/player/nt/default_appearance()
 	var/species/S = SPECIES(species)
