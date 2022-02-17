@@ -23,7 +23,7 @@ var/global/list/ticket_counters = list()
     if(isnull(count))
         maptext = null
     else
-        maptext = "<span style='text-align: center;font-family: \"Small Fonts\";font-size:12px;-dm-text-outline: 2px black;color: #FFFFFF'>[count]</span>"
+        maptext = "<span style='text-align: center;font-family: \"Small Fonts\";font-size:12px;-dm-text-outline: 2px black;color: #FFFFFF'>[uppertext(team)]: [count]</span>"
 
 /obj/hud/button/ticket_counter/proc/get_count()
     var/gamemode/horde/horde_mode = SSgamemode.active_gamemode
@@ -39,6 +39,7 @@ var/global/list/ticket_counters = list()
 /obj/hud/button/ticket_counter/covenant
     name = "covenant tickets"
     team = "covenant"
+    screen_loc = "CENTER,TOP:-16"
 
 /obj/hud/button/ticket_counter/urf
     name = "urf tickets"
