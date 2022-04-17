@@ -15,13 +15,6 @@
 	var/enemies_to_spawn_base = 4
 	var/enemies_to_spawn_per_player = 0.5
 	var/enemies_to_spawn_per_minute = 0.1
-
-	var/list/team_points = list(
-		"unsc" = 0,
-		"covenant" = 0,
-		"urf" = 0,
-	)
-
 	var/next_spawn_check = 0
 
 	var/spawn_on_markers = TRUE

@@ -6,7 +6,7 @@ var/global/list/hud_ticket_counters = list()
     icon = 'icons/hud/fucking.dmi'
     icon_state = "blank"
     is_static = TRUE
-    screen_loc = "CENTER,TOP:-16"
+    screen_loc = "CENTER,TOP"
     var/team = "FUCK"
 
 /obj/hud/button/ticket_counter/Initialize()
@@ -36,11 +36,15 @@ var/global/list/hud_ticket_counters = list()
 /obj/hud/button/ticket_counter/unsc
     name = "unsc tickets"
     team = "unsc"
-
-/obj/hud/button/ticket_counter/covenant
-    name = "covenant tickets"
-    team = "covenant"
+    screen_loc = "CENTER,TOP"
 
 /obj/hud/button/ticket_counter/urf
     name = "urf tickets"
     team = "urf"
+    screen_loc = "CENTER,TOP"
+
+/obj/hud/button/ticket_counter/covenant
+    name = "covenant tickets"
+    team = "covenant"
+    screen_loc = "CENTER,TOP:-16"
+
