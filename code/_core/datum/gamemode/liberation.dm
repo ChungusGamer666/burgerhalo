@@ -10,7 +10,7 @@
 	. = ..()
 	state = GAMEMODE_WAITING
 	round_time = 0
-	round_time_next = HORDE_DELAY_WAIT //Skip to gearing. Nothing to wait for.
+	round_time_next = LIBERATION_DELAY_WAIT //Skip to gearing. Nothing to wait for.
 	announce(name, "Starting new round...", desc)
 
 /gamemode/liberation/update_points()
