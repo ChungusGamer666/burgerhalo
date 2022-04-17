@@ -3,52 +3,56 @@ var/global/list/hud_ticket_counters = list()
     name = "tickets"
     desc = "Counts the tickets for a certain team."
     flags = FLAGS_HUD_MOB
-    icon = 'icons/hud/fucking.dmi'
-    icon_state = "blank"
+    icon = 'icons/halo/hud/fucking.dmi'
+    icon_state = "tickets"
     is_static = TRUE
     screen_loc = "CENTER,TOP"
-    mouse_opacity = 0
+    maptext_height = 16
+    maptext_width = 128
+    maptext_y = 21
+    mouse_opacity = 1
     var/team = "FUCK"
 
 /obj/hud/button/ticket_counter/Initialize()
     . = ..()
     hud_ticket_counters += src
-    update_name()
 
 /obj/hud/button/ticket_counter/Destroy()
     . = ..()
     hud_ticket_counters -= src
 
+/obj/hud/button/ticket_counter/update_owner(mob/desired_owner)
+    . = ..()
+    update_name()
+
 //doesn't actually deal with name but this works i guess
 /obj/hud/button/ticket_counter/update_name(desired_name)
     . = ..()
-    var/points = get_points()
-    if(isnull(points))
-        maptext = null
-        return
-    maptext = TICKET_COUNTER_TEXT(team, points)
+    maptext = TICKET_COUNTER_TEXT(team, get_points())
 
 /obj/hud/button/ticket_counter/proc/get_points()
-    var/gamemode/gamemode = SSgamemode.active_gamemode
-    return gamemode.team_points["[team]_points"]
+    var/points = SSgamemode.active_gamemode.team_points[team]
+    if(isnull(points))
+        return 0
+    return points
 
 /obj/hud/button/ticket_counter/unsc
     name = "unsc tickets"
-    team = "unsc"
+    team = TEAM_UNSC
     screen_loc = "CENTER,TOP"
 
 /obj/hud/button/ticket_counter/covenant
     name = "covenant tickets"
-    team = "covenant"
-    screen_loc = "CENTER,TOP:-16"
+    team = TEAM_COVENANT
+    screen_loc = "CENTER,TOP:-12"
 
 /obj/hud/button/ticket_counter/urf
     name = "urf tickets"
-    team = "urf"
-    screen_loc = "CENTER,TOP:-32"
+    team = TEAM_URF
+    screen_loc = "CENTER,TOP:-24"
 
 /obj/hud/button/ticket_counter/urf/Initialize()
     . = ..()
     var/gamemode/gamemode = SSgamemode.active_gamemode
-    if(isnull(gamemode.team_points["covenant"]))
-        screen_loc = "CENTER,TOP:-16"
+    if(isnull(gamemode.team_points[TEAM_COVENANT]))
+        screen_loc = "CENTER,TOP:-12"

@@ -40,10 +40,10 @@
 
 /mob/living/advanced/player/nt/proc/nt_point_loss()
 	var/gamemode/gamemode = SSgamemode.active_gamemode
-	if(!isnull(gamemode.team_points["unsc"]))
-		gamemode.team_points["unsc"] -= 1
+	if(!isnull(gamemode.team_points[TEAM_UNSC]))
+		gamemode.team_points[TEAM_UNSC] -= 1
 		for(var/obj/hud/button/ticket_counter/ticket_counter as anything in hud_ticket_counters)
-			if(ticket_counter.team != "unsc")
+			if(ticket_counter.team != TEAM_UNSC)
 				continue
 			ticket_counter.update_name()
 	gamemode.update_points()

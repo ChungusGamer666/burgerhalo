@@ -3,9 +3,9 @@
 	var/desc = "Gamemode Description"
 
 	var/list/team_points = list(
-		"unsc" = 0,
-		"covenant" = 0,
-		"urf" = 0,
+		TEAM_UNSC = 0,
+		TEAM_COVENANT = 0,
+		TEAM_URF = 0,
 	)
 
 	var/list/objective/crew_active_objectives = list()

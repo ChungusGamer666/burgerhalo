@@ -40,10 +40,10 @@
 
 /mob/living/advanced/player/antagonist/proc/syndicate_point_loss()
 	var/gamemode/gamemode = SSgamemode.active_gamemode
-	if(!isnull(gamemode.team_points["urf"]))
-		gamemode.team_points["urf"] -= 1
+	if(!isnull(gamemode.team_points[TEAM_URF]))
+		gamemode.team_points[TEAM_URF] -= 1
 		for(var/obj/hud/button/ticket_counter/ticket_counter as anything in hud_ticket_counters)
-			if(ticket_counter.team != "urf")
+			if(ticket_counter.team != TEAM_URF)
 				continue
 			ticket_counter.update_name()
 	gamemode.update_points()

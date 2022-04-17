@@ -81,6 +81,7 @@
 #include "code\__defines\status.dm"
 #include "code\__defines\stealth.dm"
 #include "code\__defines\subsystems.dm"
+#include "code\__defines\teams.dm"
 #include "code\__defines\temperature.dm"
 #include "code\__defines\ticket_counter.dm"
 #include "code\__defines\ticks.dm"

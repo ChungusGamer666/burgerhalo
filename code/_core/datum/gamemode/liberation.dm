@@ -2,8 +2,8 @@
 	name = "Liberation"
 	desc = "Team deathmatch: UNSC vs Covenant!"
 	team_points = list(
-		"unsc" = 50,
-		"covenant" = 50,
+		TEAM_UNSC = 50,
+		TEAM_COVENANT = 50,
 	)
 
 /gamemode/liberation/New()

@@ -10,7 +10,7 @@
 		/*/mob/living/advanced/npc/halo/urf/hmg = 1*/)
 	hidden = TRUE
 	team_points = list(
-		"unsc" = 15,
+		TEAM_UNSC = 15,
 	)
 
 	enemies_to_spawn_base = 5
@@ -23,7 +23,7 @@
 	enemy_types_to_spawn = list()
 	hidden = TRUE
 	team_points = list(
-		"urf" = 15,
+		TEAM_URF = 15,
 	)
 
 	enemies_to_spawn_base = 5
@@ -36,7 +36,7 @@
 	enemy_types_to_spawn = list()
 	hidden = TRUE
 	team_points = list(
-		"covenant" = 15,
+		TEAM_COVENANT = 15,
 	)
 
 	enemies_to_spawn_base = 5

@@ -1,3 +1,4 @@
+/*
 /gamemode/horde/
 	name = "TDM"
 	desc = "Fight 20vs20vs20 on a medium sized map. Tickets are based on deaths."
@@ -388,3 +389,4 @@
 		return N_start
 
 	return null*/
+*/
