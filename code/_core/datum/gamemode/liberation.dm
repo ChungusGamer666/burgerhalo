@@ -1,4 +1,6 @@
 /gamemode/liberation
+	name = "Liberation"
+	desc = "Team deathmatch: UNSC vs Covenant."
 	team_points = list(
 		"unsc" = 50,
 		"covenant" = 50,
