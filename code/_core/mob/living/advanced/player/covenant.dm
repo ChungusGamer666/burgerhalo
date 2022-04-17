@@ -37,12 +37,16 @@
 	return TRUE
 
 /mob/living/advanced/player/covenant/proc/covenant_point_loss()
-	var/gamemode/horde/penisshit = SSgamemode.active_gamemode
-	var/gamemode/firefight/probablyshit = SSgamemode.active_gamemode
-	if(istype(probablyshit))
-		probablyshit.covenant_points -= 1
-	if(istype(penisshit))
-		penisshit.covenant_points -= 1
+	var/gamemode/firefight/firefight = SSgamemode.active_gamemode
+	var/gamemode/horde/horde = SSgamemode.active_gamemode
+	if(istype(firefight))
+		if(!isnull(firefight.team_points["covenant"]))
+			firefight.team_points["covenant"] -= 1
+	else if(istype(horde))
+		if(!isnull(horde.team_points["covenant"]))
+			horde.team_points["covenant"] -= 1
+	for(var/obj/hud/button/ticket_counter/ticket_counter as anything in hud_ticket_counters)
+		ticket_counter.update_name()
 
 /mob/living/advanced/player/covenant/default_appearance()
 	var/species/S = SPECIES(species)

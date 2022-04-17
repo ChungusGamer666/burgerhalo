@@ -39,12 +39,16 @@
 	return TRUE
 
 /mob/living/advanced/player/antagonist/proc/syndicate_point_loss()
-	var/gamemode/horde/penisshit = SSgamemode.active_gamemode
-	var/gamemode/firefight/probablyshit = SSgamemode.active_gamemode
-	if(istype(probablyshit))
-		probablyshit.urf_points -= 1
-	if(istype(penisshit))
-		penisshit.urf_points -= 1
+	var/gamemode/firefight/firefight = SSgamemode.active_gamemode
+	var/gamemode/horde/horde = SSgamemode.active_gamemode
+	if(istype(firefight))
+		if(!isnull(firefight.team_points["urf"]))
+			firefight.team_points["urf"] -= 1
+	else if(istype(horde))
+		if(!isnull(horde.team_points["urf"]))
+			horde.team_points["urf"] -= 1
+	for(var/obj/hud/button/ticket_counter/ticket_counter as anything in hud_ticket_counters)
+		ticket_counter.update_name()
 
 /mob/living/advanced/player/antagonist/default_appearance()
 	var/species/S = SPECIES(species)
