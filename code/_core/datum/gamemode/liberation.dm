@@ -62,7 +62,7 @@
 	state = GAMEMODE_FIGHTING
 	round_time = 0
 	round_time_next = LIBERATION_DELAY_GEARING
-    allow_launch = TRUE
+	allow_launch = TRUE
 	announce(
 		"Central Command Update",
 		"Shuttle Boarding",
