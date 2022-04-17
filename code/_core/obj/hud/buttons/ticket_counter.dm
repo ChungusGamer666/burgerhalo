@@ -21,26 +21,19 @@ var/global/list/hud_ticket_counters = list()
 //doesn't actually deal with name but this works i guess
 /obj/hud/button/ticket_counter/update_name(desired_name)
     . = ..()
-    var/count = get_count()
-    if(isnull(count))
+    var/points = get_points()
+    if(isnull(points))
         maptext = null
-    else
-        maptext = "<span style='text-align: center;font-family: \"Small Fonts\";font-size:12px;-dm-text-outline: 2px black;color: #FFFFFF'>[uppertext(team)]: [count]</span>"
+        return
+    maptext = TICKET_COUNTER_TEXT(team, points)
 
-/obj/hud/button/ticket_counter/proc/get_count()
-    var/gamemode/horde/horde_mode = SSgamemode.active_gamemode
-    if(!istype(horde_mode))
-        return 0
-    return horde_mode.team_points["[team]_points"]
+/obj/hud/button/ticket_counter/proc/get_points()
+    var/gamemode/gamemode = SSgamemode.active_gamemode
+    return gamemode.team_points["[team]_points"]
 
 /obj/hud/button/ticket_counter/unsc
     name = "unsc tickets"
     team = "unsc"
-    screen_loc = "CENTER,TOP"
-
-/obj/hud/button/ticket_counter/urf
-    name = "urf tickets"
-    team = "urf"
     screen_loc = "CENTER,TOP"
 
 /obj/hud/button/ticket_counter/covenant
@@ -48,3 +41,13 @@ var/global/list/hud_ticket_counters = list()
     team = "covenant"
     screen_loc = "CENTER,TOP:-16"
 
+/obj/hud/button/ticket_counter/urf
+    name = "urf tickets"
+    team = "urf"
+    screen_loc = "CENTER,TOP:-32"
+
+/obj/hud/button/ticket_counter/urf/Initialize()
+    . = ..()
+    var/gamemode/gamemode = SSgamemode.active_gamemode
+    if(isnull(gamemode.team_points["covenant"]))
+        screen_loc = "CENTER,TOP:-16"

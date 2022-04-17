@@ -1,0 +1,1 @@
+#define TICKET_COUNTER_TEXT(team, points) "<span style='text-align: center;font-family: \"Small Fonts\";font-size:12px;-dm-text-outline: 2px #000000;color: #FFFFFF'>[uppertext(team)]: [points]</span>"
