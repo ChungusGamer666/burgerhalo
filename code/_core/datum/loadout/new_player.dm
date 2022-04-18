@@ -377,10 +377,10 @@
 		/obj/item/clothing/mask/gas/halo/unggoy,
 		/obj/item/clothing/belt/storage/colored/black,
 		/obj/item/weapon/ranged/energy/halo/cov_pistol,
-		/obj/item/halo/plasma_nade,
-		/obj/item/halo/plasma_nade,
-		/obj/item/halo/plasma_nade,
-		/obj/item/halo/plasma_nade
+		/obj/item/grenade/timed/explosive/halo/plasma,
+		/obj/item/grenade/timed/explosive/halo/plasma,
+		/obj/item/grenade/timed/explosive/halo/plasma,
+		/obj/item/grenade/timed/explosive/halo/plasma
 	)
 
 /loadout/nt/halo/covenant/kigyar

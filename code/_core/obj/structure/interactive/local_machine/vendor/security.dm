@@ -287,7 +287,7 @@
 	stored_types = list(
 		/obj/item/weapon/ranged/bullet/magazine/rifle/halo/covenant/fuel_rod,
 		/obj/item/weapon/ranged/energy/halo/cov_lmg,
-		/obj/item/halo/plasma_nade,
+		/obj/item/grenade/timed/explosive/halo/plasma,
 
 		/obj/item/weapon/ranged/energy/halo/cov_rifle,
 		/obj/item/weapon/ranged/bullet/magazine/rifle/halo/covenant/needlerifle,
