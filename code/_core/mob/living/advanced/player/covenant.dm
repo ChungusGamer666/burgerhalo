@@ -30,6 +30,8 @@
 
 	equip_loadout(loadout_to_use)
 
+	hook_faction()
+
 	return TRUE
 
 /mob/living/advanced/player/covenant/proc/hook_faction()

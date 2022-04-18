@@ -61,6 +61,9 @@
 		return TRUE
 	state = GAMEMODE_FIGHTING
 	round_time = 0
+	for(var/k in all_fog)
+		var/obj/effect/fog_of_war/F = k
+		F.remove()
 	round_time_next = LIBERATION_DELAY_GEARING
 	allow_launch = TRUE
 	announce(
