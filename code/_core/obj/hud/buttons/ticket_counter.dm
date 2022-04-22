@@ -23,11 +23,9 @@ var/global/list/hud_ticket_counters = list()
 
 /obj/hud/button/ticket_counter/update_owner(mob/desired_owner)
     . = ..()
-    update_name()
+    update_maptext()
 
-//doesn't actually deal with name but this works i guess
-/obj/hud/button/ticket_counter/update_name(desired_name)
-    . = ..()
+/obj/hud/button/ticket_counter/proc/update_maptext()
     maptext = TICKET_COUNTER_TEXT(team, get_points())
 
 /obj/hud/button/ticket_counter/proc/get_points()

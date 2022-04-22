@@ -1727,6 +1727,7 @@
 #include "code\_core\obj\structure\interactive\door\airlock\wood.dm"
 #include "code\_core\obj\structure\interactive\door\alarmlock\_alarmlock.dm"
 #include "code\_core\obj\structure\interactive\door\fire\_fire.dm"
+#include "code\_core\obj\structure\interactive\halo\capture_beacon.dm"
 #include "code\_core\obj\structure\interactive\halo\mortar.dm"
 #include "code\_core\obj\structure\interactive\lighting\_lighting.dm"
 #include "code\_core\obj\structure\interactive\lighting\bonfire.dm"

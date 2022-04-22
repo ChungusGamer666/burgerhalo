@@ -5,6 +5,8 @@
 		TEAM_UNSC = 50,
 		TEAM_COVENANT = 50,
 	)
+	var/beacon_point_loss_time = 30
+	var/beacon_point_loss = 8
 
 /gamemode/liberation/New()
 	. = ..()
@@ -36,7 +38,7 @@
 
 /gamemode/liberation/proc/on_waiting()
 	var/time_to_display = round_time_next - round_time
-	set_status_display("mission","PREP\n[get_clock_time(time_to_display)]")
+	set_status_display("mission", "PREP\n[get_clock_time(time_to_display)]")
 	if(time_to_display >= 0)
 		set_message("Round starts in: [get_clock_time(time_to_display)]",TRUE)
 		return TRUE
@@ -69,11 +71,40 @@
 	announce(
 		"Central Command Update",
 		"Shuttle Boarding",
-		"All landfall crew are ordered to proceed to the hanger bay and prep for shuttle launch. Shuttles will be allowed to launch in 2 minutes.",
+		"All landfall crew are ordered to proceed to the hanger bay and prepare for battle. Shuttles will be allowed to launch in 2 minutes.",
 		ANNOUNCEMENT_STATION,
 		'sound/voice/announcement/landfall_crew_2_minutes.ogg'
 	)
 	return TRUE
 
 /gamemode/liberation/proc/on_fighting()
-    return TRUE
+	. = TRUE
+	if(!length(capture_beacons))
+		return
+	for(var/obj/structure/capture_beacon/beacon as anything in capture_beacons)
+		if(!beacon.controlled_by_team)
+			continue
+		if(beacon.being_captured_by)
+			continue
+		beacon.controlled_time++
+		if(beacon.controlled_time >= beacon_point_loss_time)
+			beacon.controlled_time = 0
+			switch(beacon.controlled_by_team)
+				if(TEAM_UNSC)
+					if(team_points[TEAM_COVENANT])
+						team_points[TEAM_COVENANT] = max(0, team_points[TEAM_COVENANT] - beacon_point_loss)
+					if(team_points[TEAM_URF])
+						team_points[TEAM_URF] = max(0, team_points[TEAM_URF] - beacon_point_loss)
+				if(TEAM_URF)
+					if(team_points[TEAM_COVENANT])
+						team_points[TEAM_COVENANT] = max(0, team_points[TEAM_COVENANT] - beacon_point_loss)
+					if(team_points[TEAM_UNSC])
+						team_points[TEAM_UNSC] = max(0, team_points[TEAM_UNSC] - beacon_point_loss)
+				if(TEAM_COVENANT)
+					if(team_points[TEAM_URF])
+						team_points[TEAM_URF] = max(0, team_points[TEAM_URF] - beacon_point_loss)
+					if(team_points[TEAM_UNSC])
+						team_points[TEAM_UNSC] = max(0, team_points[TEAM_UNSC] - beacon_point_loss)
+			update_points()
+			for(var/obj/ticket_counter as anything in hud_ticket_counters)
+				ticket_counter.update_maptext()
