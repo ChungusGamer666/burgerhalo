@@ -106,5 +106,5 @@
 					if(team_points[TEAM_UNSC])
 						team_points[TEAM_UNSC] = max(0, team_points[TEAM_UNSC] - beacon_point_loss)
 			update_points()
-			for(var/obj/ticket_counter as anything in hud_ticket_counters)
+			for(var/obj/hud/button/ticket_counter as anything in hud_ticket_counters)
 				ticket_counter.update_maptext()

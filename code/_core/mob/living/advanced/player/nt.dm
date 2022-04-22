@@ -43,8 +43,6 @@
 	if(!isnull(gamemode.team_points[TEAM_UNSC]))
 		gamemode.team_points[TEAM_UNSC] -= 1
 		for(var/obj/hud/button/ticket_counter/ticket_counter as anything in hud_ticket_counters)
-			if(ticket_counter.team != TEAM_UNSC)
-				continue
 			ticket_counter.update_maptext()
 	gamemode.update_points()
 
