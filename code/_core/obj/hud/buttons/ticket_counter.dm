@@ -13,7 +13,7 @@ var/global/list/hud_ticket_counters = list()
     mouse_opacity = 1
     var/team = "FUCK"
 
-/obj/hud/button/ticket_counter/Initialize()
+/obj/hud/button/ticket_counter/New(desired_loc)
     . = ..()
     hud_ticket_counters += src
 
