@@ -86,9 +86,9 @@
 			continue
 		if(beacon.being_captured_by)
 			continue
-		beacon.controlled_time++
-		if(beacon.controlled_time >= beacon_point_loss_time)
-			beacon.controlled_time = 0
+		beacon.controlled_by_time++
+		if(beacon.controlled_by_time >= beacon_point_loss_time)
+			beacon.controlled_by_time = 0
 			switch(beacon.controlled_by_team)
 				if(TEAM_UNSC)
 					if(team_points[TEAM_COVENANT])

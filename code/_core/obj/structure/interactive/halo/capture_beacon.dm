@@ -7,8 +7,9 @@ var/global/list/capture_beacons = list()
 	icon = 'icons/halo/structures/comm_tower.dmi'
 	icon_state = "comm_tower_off"
 	var/controlled_by_team
-	var/controlled_time = 0
+	var/controlled_by_time = 0
 	var/being_captured_by
+	var/immediate_point_loss_on_capture = 8
 
 /obj/structure/capture_beacon/New()
 	. = ..()
@@ -56,13 +57,13 @@ var/global/list/capture_beacons = list()
 		. += span("notice", "Currently being controlled by <b>[controlled_by_team]</b>.")
 		var/gamemode/liberation/liberation = SSgamemode.active_gamemode
 		if(istype(liberation))
-			var/time_until_point_loss = round(liberation.beacon_point_loss_time - controlled_time)
+			var/time_until_point_loss = round(liberation.beacon_point_loss_time - controlled_by_time)
 			. += span("notice", "Next point loss in: <b>[time_until_point_loss]</b> seconds.")
 	else
 		. += span("warning", "Currently not being controlled by anyone.")
 
 /obj/structure/capture_beacon/proc/capture(mob/living/advanced/player/caller)
-	controlled_time = 0
+	controlled_by_time = 0
 	being_captured_by = null
 	var/faction
 	if(istype(caller, /mob/living/advanced/player/covenant))
@@ -75,6 +76,22 @@ var/global/list/capture_beacons = list()
 	var/gamemode/liberation/liberation = SSgamemode.active_gamemode
 	if(faction && istype(liberation) && liberation.team_points[faction])
 		liberation.team_points[faction] = min(100, liberation.team_points[faction] + 8)
+		switch(faction)
+			if(TEAM_UNSC)
+				if(liberation.team_points[TEAM_COVENANT])
+					liberation.team_points[TEAM_COVENANT] = max(0, liberation.team_points[TEAM_COVENANT] - immediate_point_loss_on_capture)
+				if(liberation.team_points[TEAM_URF])
+					liberation.team_points[TEAM_URF] = max(0, liberation.team_points[TEAM_URF] - immediate_point_loss_on_capture)
+			if(TEAM_URF)
+				if(liberation.team_points[TEAM_COVENANT])
+					liberation.team_points[TEAM_COVENANT] = max(0, liberation.team_points[TEAM_COVENANT] - immediate_point_loss_on_capture)
+				if(liberation.team_points[TEAM_UNSC])
+					liberation.team_points[TEAM_UNSC] = max(0, liberation.team_points[TEAM_UNSC] - immediate_point_loss_on_capture)
+			if(TEAM_COVENANT)
+				if(liberation.team_points[TEAM_URF])
+					liberation.team_points[TEAM_URF] = max(0, liberation.team_points[TEAM_URF] - immediate_point_loss_on_capture)
+				if(liberation.team_points[TEAM_UNSC])
+					liberation.team_points[TEAM_UNSC] = max(0, liberation.team_points[TEAM_UNSC] - immediate_point_loss_on_capture)
 		liberation.update_points()
 		for(var/obj/hud/button/ticket_counter/ticket_counter as anything in hud_ticket_counters)
 			ticket_counter.update_maptext()
