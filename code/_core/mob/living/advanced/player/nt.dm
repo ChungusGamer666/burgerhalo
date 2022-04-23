@@ -39,12 +39,12 @@
 	return TRUE
 
 /mob/living/advanced/player/nt/proc/nt_point_loss()
-	var/gamemode/horde/penisshit = SSgamemode.active_gamemode
-	var/gamemode/firefight/probablyshit = SSgamemode.active_gamemode
-	if(istype(probablyshit))
-		probablyshit.unsc_points -= 1
-	if(istype(penisshit))
-		penisshit.unsc_points -= 1
+	var/gamemode/gamemode = SSgamemode.active_gamemode
+	if(!isnull(gamemode.team_points[TEAM_UNSC]))
+		gamemode.team_points[TEAM_UNSC] -= 1
+		for(var/obj/hud/button/ticket_counter/ticket_counter as anything in hud_ticket_counters)
+			ticket_counter.update_maptext()
+	gamemode.update_points()
 
 /mob/living/advanced/player/nt/default_appearance()
 	var/species/S = SPECIES(species)

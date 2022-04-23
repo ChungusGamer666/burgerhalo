@@ -2,6 +2,12 @@
 	var/name = "Gamemode Name"
 	var/desc = "Gamemode Description"
 
+	var/list/team_points = list(
+		TEAM_UNSC = 0,
+		TEAM_COVENANT = 0,
+		TEAM_URF = 0,
+	)
+
 	var/list/objective/crew_active_objectives = list()
 	var/list/objective/crew_completed_objectives = list()
 	var/list/objective/crew_failed_objectives = list()
@@ -169,3 +175,6 @@
 	next_objective_update = -1
 
 	return TRUE
+
+// used by gamemodes that use the team point system, like liberation
+/gamemode/proc/update_points()

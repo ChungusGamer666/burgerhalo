@@ -131,7 +131,10 @@
 
 		/obj/hud/button/hunger,
 
-		/obj/hud/button/objectives
+		/obj/hud/button/objectives,
+
+		/obj/hud/button/ticket_counter/unsc,
+		/obj/hud/button/ticket_counter/covenant
 
 	)
 

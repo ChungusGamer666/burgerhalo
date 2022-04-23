@@ -30,6 +30,8 @@
 
 	equip_loadout(loadout_to_use)
 
+	hook_faction()
+
 	return TRUE
 
 /mob/living/advanced/player/covenant/proc/hook_faction()
@@ -37,12 +39,12 @@
 	return TRUE
 
 /mob/living/advanced/player/covenant/proc/covenant_point_loss()
-	var/gamemode/horde/penisshit = SSgamemode.active_gamemode
-	var/gamemode/firefight/probablyshit = SSgamemode.active_gamemode
-	if(istype(probablyshit))
-		probablyshit.covenant_points -= 1
-	if(istype(penisshit))
-		penisshit.covenant_points -= 1
+	var/gamemode/gamemode = SSgamemode.active_gamemode
+	if(!isnull(gamemode.team_points[TEAM_COVENANT]))
+		gamemode.team_points[TEAM_COVENANT] -= 1
+		for(var/obj/hud/button/ticket_counter/ticket_counter as anything in hud_ticket_counters)
+			ticket_counter.update_maptext()
+	gamemode.update_points()
 
 /mob/living/advanced/player/covenant/default_appearance()
 	var/species/S = SPECIES(species)

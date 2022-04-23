@@ -16,10 +16,6 @@
 	var/enemies_to_spawn_per_player = 0.5
 	var/enemies_to_spawn_per_minute = 0.1
 
-	var/unsc_points = 15
-	var/covenant_points = 15
-	var/urf_points = 15
-
 	var/next_spawn_check = 0
 
 	var/spawn_on_markers = TRUE
@@ -197,7 +193,7 @@
 	for(var/k in all_fog)
 		var/obj/effect/fog_of_war/F = k
 		F.remove()
-	announce("Central Command Mission Update","Count your people","We're counting [unsc_points] reserves at the ready. Hold the line.",ANNOUNCEMENT_STATION,'sound/voice/announcement/landfall_crew_0_minutes.ogg')
+	announce("Central Command Mission Update","Count your people","We're counting [LAZYACCESS(team_points, "unsc")] reserves at the ready. Hold the line.",ANNOUNCEMENT_STATION,'sound/voice/announcement/landfall_crew_0_minutes.ogg')
 	for(var/objective/O in crew_active_objectives)
 		O.on_gamemode_playable()
 	return TRUE
@@ -207,13 +203,13 @@
 	if(next_spawn_check > world.time)
 		return TRUE
 
-	if(unsc_points <= 0)
+	if(LAZYACCESS(team_points, "unsc") <= 0)
 		world.end(WORLD_END_FIREFIGHT)
 
-	if(urf_points <= 0)
+	if(LAZYACCESS(team_points, "urf") <= 0)
 		world.end(WORLD_END_FIREFIGHT)
 
-	if(covenant_points <= 0)
+	if(LAZYACCESS(team_points, "covenant") <= 0)
 		world.end(WORLD_END_FIREFIGHT)
 
 	next_spawn_check = world.time + SECONDS_TO_DECISECONDS(1) //Incase a check fails.

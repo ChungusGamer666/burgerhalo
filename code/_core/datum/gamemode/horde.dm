@@ -1,6 +1,8 @@
+/*
 /gamemode/horde/
 	name = "TDM"
 	desc = "Fight 20vs20vs20 on a medium sized map. Tickets are based on deaths."
+	hidden = TRUE
 
 	var/list/horde_targets = list()
 
@@ -15,11 +17,6 @@
 	var/enemies_to_spawn_base = 4
 	var/enemies_to_spawn_per_player = 0.5
 	var/enemies_to_spawn_per_minute = 0.1
-
-	var/unsc_points = 0
-	var/covenant_points = 0
-	var/urf_points = 0
-
 	var/next_spawn_check = 0
 
 	var/spawn_on_markers = TRUE
@@ -197,7 +194,7 @@
 	for(var/k in all_fog)
 		var/obj/effect/fog_of_war/F = k
 		F.remove()
-	announce("Central Command Mission Update","Count your people","We counting [unsc_points] UNSC soldiers down here right now, try to save as many as you can",ANNOUNCEMENT_STATION,'sound/voice/announcement/landfall_crew_0_minutes.ogg')
+	announce("Central Command Mission Update","Count your people","We counting [LAZYACCESS(team_points, "unsc")] UNSC soldiers down here right now, try to save as many as you can",ANNOUNCEMENT_STATION,'sound/voice/announcement/landfall_crew_0_minutes.ogg')
 /*	if(length(all_nt_markers) <= 0 && length(all_antag_markers) <= 0 && length(all_covenant_markers) >= 0)
 		world.end(WORLD_END_COVENANT_VICTORY)
 	if(length(all_antag_markers) <= 0 && length(all_covenant_markers) <= 0 && length(all_nt_markers) >= 0)
@@ -209,8 +206,8 @@
 	return TRUE
 
 /gamemode/horde/proc/on_fighting()
-
-	if(unsc_points < urf_points && covenant_points < urf_points)
+	if((LAZYACCESS(team_points, "unsc") < LAZYACCESS(team_points, "urf")) \
+		&& LAZYACCESS(team_points, "covenant") < LAZYACCESS(team_points, "urf"))
 		world.end(WORLD_END_SYNDICATE_VICTORY)
 
 /*	if(length(all_nt_markers) <= 0 && length(all_antag_markers) <= 0 && length(all_covenant_markers) >= 0)
@@ -392,3 +389,4 @@
 		return N_start
 
 	return null*/
+*/
