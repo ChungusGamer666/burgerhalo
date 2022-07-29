@@ -36,7 +36,7 @@
 			if(TEAM_URF)
 				world.end(WORLD_END_NANOTRASEN_VICTORY)
 			if(TEAM_COVENANT)
-				world.end(WORLD_END_COVENANT_VICTORY)
+				world.end(WORLD_END_NANOTRASEN_VICTORY)
 
 /gamemode/liberation/proc/on_waiting()
 	var/time_to_display = round_time_next - round_time
