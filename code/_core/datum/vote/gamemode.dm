@@ -24,6 +24,6 @@
 	if(winner)
 		SSgamemode.set_active_gamemode(gamemode_name_to_type[winner],"voting on_result")
 	else
-		broadcast_to_clients(span("danger","Vote failed! Defaulting to Beach..."))
+		broadcast_to_clients(span("danger","Vote failed! Defaulting to Liberation..."))
 
 	return TRUE
