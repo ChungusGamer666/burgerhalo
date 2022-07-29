@@ -17,18 +17,16 @@ var/global/list/hud_ticket_counters = list()
     . = ..()
     hud_ticket_counters += src
 
-/obj/hud/button/ticket_counter/Initialize()
-    . = ..()
-    var/gamemode/gamemode = SSgamemode.active_gamemode
-    // if our team is gone we are fucking useless
-    if(!team || isnull(gamemode.team_points[team]))
-        qdel(src)
-    
 /obj/hud/button/ticket_counter/Destroy()
     . = ..()
     hud_ticket_counters -= src
 
 /obj/hud/button/ticket_counter/update_owner(mob/desired_owner)
+    var/gamemode/gamemode = SSgamemode.active_gamemode
+    // if our team is gone we are fucking useless
+    if(!team || isnull(gamemode.team_points[team]))
+        qdel(src)
+        return FALSE
     . = ..()
     update_maptext()
 
