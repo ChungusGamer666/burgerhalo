@@ -31,9 +31,9 @@
 		if(points > 0)
 			continue
 		switch(team)
-			if("unsc")
+			if("UNSC")
 				world.end(WORLD_END_SYNDICATE_VICTORY)
-			if("urf")
+			if("URF")
 				world.end(WORLD_END_NANOTRASEN_VICTORY)
 
 /gamemode/liberation/proc/on_waiting()

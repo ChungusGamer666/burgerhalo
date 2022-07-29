@@ -134,7 +134,7 @@
 	return TRUE
 
 /mob/abstract/observer/verb/new_character()
-	set name = "Become UNSC"
+	set name = "Play UNSC"
 	set category = "Menu"
 
 	if(!can_become_nt())
@@ -236,7 +236,7 @@
 
 
 /mob/abstract/observer/verb/become_antagonist()
-	set name = "Become Insurrection"
+	set name = "Play Insurrection"
 	set category = "Menu"
 
 	if(!can_become_antagonist())
@@ -336,7 +336,7 @@
 
 
 /mob/abstract/observer/verb/become_covenant()
-	set name = "Become Covenant"
+	set name = "Play Covenant"
 	set category = "Menu"
 
 	if(!can_become_covenant())
