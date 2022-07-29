@@ -17,6 +17,13 @@ var/global/list/hud_ticket_counters = list()
     . = ..()
     hud_ticket_counters += src
 
+/obj/hud/button/ticket_counter/Initialize()
+    . = ..()
+    var/gamemode/gamemode = SSgamemode.active_gamemode
+    // if our team is gone we are fucking useless
+    if(!team || isnull(gamemode.team_points[team]))
+        qdel(src)
+    
 /obj/hud/button/ticket_counter/Destroy()
     . = ..()
     hud_ticket_counters -= src
@@ -52,5 +59,6 @@ var/global/list/hud_ticket_counters = list()
 /obj/hud/button/ticket_counter/urf/Initialize()
     . = ..()
     var/gamemode/gamemode = SSgamemode.active_gamemode
+    //stupid snowflake code i don't care
     if(isnull(gamemode.team_points[TEAM_COVENANT]))
         screen_loc = "CENTER,TOP:-12"
