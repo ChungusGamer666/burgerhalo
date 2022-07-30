@@ -54,9 +54,10 @@ var/global/list/hud_ticket_counters = list()
     team = TEAM_URF
     screen_loc = "CENTER,TOP:-24"
 
-/obj/hud/button/ticket_counter/urf/Initialize()
+/obj/hud/button/ticket_counter/urf/update_maptext()
     . = ..()
-    var/gamemode/gamemode = SSgamemode.active_gamemode
-    //stupid snowflake code i don't care
-    if(isnull(gamemode.team_points[TEAM_COVENANT]))
-        screen_loc = "CENTER,TOP:-12"
+    if(.)
+        var/gamemode/gamemode = SSgamemode.active_gamemode
+        //stupid snowflake code i don't care
+        if(isnull(gamemode.team_points[TEAM_COVENANT]))
+            screen_loc = "CENTER,TOP:-12"
