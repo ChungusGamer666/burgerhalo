@@ -11,11 +11,18 @@
 
 	for(var/k in SSgamemode.all_gamemodes)
 		var/gamemode/G = k
-		if(initial(G.hidden)) continue
+		if(initial(G.hidden)) 
+			continue
 		var/game_name = initial(G.name)
 		options += game_name
 		gamemode_name_to_type[game_name] = G
 
+	//stupid jury rigged shit
+	if(findtext(SSdmm_suite.map_name, "Invasion"))
+		options -= "Liberation"
+	else if(findtext(SSdmm_suite.map_name, "Liberation"))
+		options -= "Invasion"
+		
 	return ..()
 
 
