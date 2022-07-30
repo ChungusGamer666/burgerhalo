@@ -56,8 +56,7 @@ var/global/list/hud_ticket_counters = list()
 
 /obj/hud/button/ticket_counter/urf/update_maptext()
     . = ..()
-    if(.)
-        var/gamemode/gamemode = SSgamemode.active_gamemode
-        //stupid snowflake code i don't care
-        if(isnull(gamemode.team_points[TEAM_COVENANT]))
-            screen_loc = "CENTER,TOP:-12"
+    var/gamemode/gamemode = SSgamemode.active_gamemode
+    //stupid snowflake code i don't care
+    if(isnull(gamemode.team_points[TEAM_COVENANT]))
+        screen_loc = "CENTER,TOP:-12"
