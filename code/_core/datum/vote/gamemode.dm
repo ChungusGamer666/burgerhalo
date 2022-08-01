@@ -11,11 +11,18 @@
 
 	for(var/k in SSgamemode.all_gamemodes)
 		var/gamemode/G = k
-		if(initial(G.hidden)) continue
+		if(initial(G.hidden)) 
+			continue
 		var/game_name = initial(G.name)
 		options += game_name
 		gamemode_name_to_type[game_name] = G
 
+	//stupid jury rigged shit
+	if(findtext(SSdmm_suite.map_name, "Invasion"))
+		options -= "Liberation"
+	else if(findtext(SSdmm_suite.map_name, "Liberation"))
+		options -= "Invasion"
+		
 	return ..()
 
 
@@ -24,6 +31,6 @@
 	if(winner)
 		SSgamemode.set_active_gamemode(gamemode_name_to_type[winner],"voting on_result")
 	else
-		broadcast_to_clients(span("danger","Vote failed! Defaulting to Beach..."))
+		broadcast_to_clients(span("danger","Vote failed! Defaulting to Liberation..."))
 
 	return TRUE

@@ -1,9 +1,9 @@
 /gamemode/liberation
 	name = "Liberation"
-	desc = "Team deathmatch: UNSC vs Covenant!"
+	desc = "Team deathmatch: UNSC vs URF!"
 	team_points = list(
 		TEAM_UNSC = 50,
-		TEAM_COVENANT = 50,
+		TEAM_URF = 50,
 	)
 	var/beacon_point_loss_time = 30
 	var/beacon_point_loss = 8
@@ -31,9 +31,11 @@
 		if(points > 0)
 			continue
 		switch(team)
-			if("unsc")
-				world.end(WORLD_END_COVENANT_VICTORY)
-			if("covenant")
+			if(TEAM_UNSC)
+				world.end(WORLD_END_SYNDICATE_VICTORY)
+			if(TEAM_URF)
+				world.end(WORLD_END_NANOTRASEN_VICTORY)
+			if(TEAM_COVENANT)
 				world.end(WORLD_END_NANOTRASEN_VICTORY)
 
 /gamemode/liberation/proc/on_waiting()

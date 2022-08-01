@@ -46,7 +46,7 @@ SUBSYSTEM_DEF(dmm_suite)
 	z_level_to_file["2"] = "bluespace.dmm"
 
 	//Load the map
-	var/voted_map = "Beach Siege - Main"
+	var/voted_map = "Liberation - URF vs UNSC"
 	if(fexists(NEXT_MAP_FILE))
 		var/found_map = trim(file2text(NEXT_MAP_FILE))
 		log_debug("Found map: [found_map]...")

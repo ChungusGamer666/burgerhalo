@@ -23,7 +23,7 @@
 
 	var/atom/list/priority_targets  = list()
 
-/*/gamemode/horde/update_objectives()
+/gamemode/horde/update_objectives()
 
 	. = ..()
 
@@ -34,16 +34,16 @@
 		else
 			world.end(WORLD_END_NANOTRASEN_VICTORY)
 
-	return .*/
+	return
 
-/*/gamemode/horde/proc/create_horde_mob(var/desired_loc)
+/gamemode/horde/proc/create_horde_mob(var/desired_loc)
 	var/mob/living/L = pickweight(enemy_types_to_spawn)
 	L = new L(desired_loc)
 	INITIALIZE(L)
 	FINALIZE(L)
 	GENERATE(L)
 	HOOK_ADD("post_death","horde_post_death",L,src,.proc/on_killed_enemy)
-	return L*/
+	return L
 
 /gamemode/horde/New()
 
@@ -52,10 +52,10 @@
 	round_time_next = HORDE_DELAY_WAIT //Skip to gearing. Nothing to wait for.
 	announce(name,"Starting new round...",desc)
 
-/*	if(spawn_on_markers)
+	if(spawn_on_markers)
 		for(var/k in horde_spawnpoints)
 			var/turf/T = k
-			create_horde_mob(T)*/
+			create_horde_mob(T)
 
 	for(var/obj/structure/interactive/computer/console/remote_flight/O in world)
 		if(O.z != Z_LEVEL_MISSION)
@@ -64,14 +64,14 @@
 
 	return ..()
 
-/*/gamemode/horde/can_continue()
+/gamemode/horde/can_continue()
 
 	if(length(SSbosses.living_bosses) <= 0)
 		return FALSE
 
-	return ..()*/
+	return ..()
 
-/*/gamemode/horde/proc/add_objectives()
+/gamemode/horde/proc/add_objectives()
 
 	var/player_count = length(all_clients)
 
@@ -100,9 +100,9 @@
 
 	next_objective_update = world.time + 100
 
-	return TRUE*/
+	return TRUE
 
-/*/gamemode/horde/on_continue()
+/gamemode/horde/on_continue()
 
 	if(!add_objective(/objective/kill_boss))
 		state = GAMEMODE_BREAK
@@ -112,7 +112,7 @@
 
 	points += 20
 
-	return ..()*/
+	return ..()
 
 /gamemode/horde/on_life()
 
@@ -195,12 +195,12 @@
 		var/obj/effect/fog_of_war/F = k
 		F.remove()
 	announce("Central Command Mission Update","Count your people","We counting [LAZYACCESS(team_points, "unsc")] UNSC soldiers down here right now, try to save as many as you can",ANNOUNCEMENT_STATION,'sound/voice/announcement/landfall_crew_0_minutes.ogg')
-/*	if(length(all_nt_markers) <= 0 && length(all_antag_markers) <= 0 && length(all_covenant_markers) >= 0)
+	if(length(all_nt_markers) <= 0 && length(all_antag_markers) <= 0 && length(all_covenant_markers) >= 0)
 		world.end(WORLD_END_COVENANT_VICTORY)
 	if(length(all_antag_markers) <= 0 && length(all_covenant_markers) <= 0 && length(all_nt_markers) >= 0)
 		world.end(WORLD_END_NANOTRASEN_VICTORY)
 	if(length(all_nt_markers) <= 0 && length(all_covenant_markers) <= 0 && length(all_antag_markers) >= 0)
-		world.end(WORLD_END_SYNDICATE_VICTORY)*/
+		world.end(WORLD_END_SYNDICATE_VICTORY)
 //	for(var/objective/O in crew_active_objectives)
 //		O.on_gamemode_playable()
 	return TRUE
@@ -210,14 +210,14 @@
 		&& LAZYACCESS(team_points, "covenant") < LAZYACCESS(team_points, "urf"))
 		world.end(WORLD_END_SYNDICATE_VICTORY)
 
-/*	if(length(all_nt_markers) <= 0 && length(all_antag_markers) <= 0 && length(all_covenant_markers) >= 0)
+	if(length(all_nt_markers) <= 0 && length(all_antag_markers) <= 0 && length(all_covenant_markers) >= 0)
 		world.end(WORLD_END_COVENANT_VICTORY)
 	if(length(all_antag_markers) <= 0 && length(all_covenant_markers) <= 0 && length(all_nt_markers) >= 0)
 		world.end(WORLD_END_NANOTRASEN_VICTORY)
 	if(length(all_nt_markers) <= 0 && length(all_covenant_markers) <= 0 && length(all_antag_markers) >= 0)
-		world.end(WORLD_END_SYNDICATE_VICTORY)*/
+		world.end(WORLD_END_SYNDICATE_VICTORY)
 
-/*	if(next_spawn_check > world.time)
+	if(next_spawn_check > world.time)
 		return TRUE
 
 	next_spawn_check = world.time + SECONDS_TO_DECISECONDS(1) //Incase a check fails.
@@ -268,9 +268,9 @@
 			tracked_enemies -= k
 			continue
 		if(L.ai && !L.ai.current_path)
-			L.ai.set_path(found_path)*/
+			L.ai.set_path(found_path)
 
-/*/gamemode/horde/proc/get_wave_frequency()
+/gamemode/horde/proc/get_wave_frequency()
 
 	var/player_count = length(all_clients)
 
@@ -300,14 +300,14 @@
 		if(30 to INFINITY)
 			return 6
 
-	return 4*/
+	return 4
 
 
 
-/*/gamemode/horde/proc/get_enemy_types_to_spawn()
-	return enemy_types_to_spawn*/
+/gamemode/horde/proc/get_enemy_types_to_spawn()
+	return enemy_types_to_spawn
 
-/*/gamemode/horde/proc/on_killed_enemy(var/mob/living/L,var/args)
+/gamemode/horde/proc/on_killed_enemy(var/mob/living/L,var/args)
 
 	for(var/k in SSholiday.holidays)
 		var/holiday/H = SSholiday.holidays[k]
@@ -321,18 +321,18 @@
 
 	points += 0.1
 
-	return TRUE*/
+	return TRUE
 
-/*/gamemode/horde/proc/get_enemies_to_spawn()
+/gamemode/horde/proc/get_enemies_to_spawn()
 	. = enemies_to_spawn_base
 	if(enemies_to_spawn_per_player)
 		. += min(30,length(all_players))*enemies_to_spawn_per_player
 	if(enemies_to_spawn_per_minute)
 		. += DECISECONDS_TO_SECONDS(world.time)/(60*enemies_to_spawn_per_minute)
 	. = min(.,50)
-	return FLOOR(.,1)*/
+	return FLOOR(.,1)
 
-/*/gamemode/horde/proc/find_horde_target()
+/gamemode/horde/proc/find_horde_target()
 
 	var/picks_remaining = 3
 
@@ -362,9 +362,9 @@
 			continue
 		return N_end
 
-	return null*/
+	return null
 
-/*/gamemode/horde/proc/find_horde_spawn()
+/gamemode/horde/proc/find_horde_spawn()
 
 	var/picks_remaining = 3
 
@@ -389,4 +389,4 @@
 		return N_start
 
 	return null
-	*/
+*/

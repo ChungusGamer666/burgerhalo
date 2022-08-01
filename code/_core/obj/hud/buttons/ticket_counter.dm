@@ -22,6 +22,11 @@ var/global/list/hud_ticket_counters = list()
     hud_ticket_counters -= src
 
 /obj/hud/button/ticket_counter/update_owner(mob/desired_owner)
+    var/gamemode/gamemode = SSgamemode.active_gamemode
+    // if our team is gone we are fucking useless
+    if(!team || isnull(gamemode.team_points[team]))
+        qdel(src)
+        return FALSE
     . = ..()
     update_maptext()
 
@@ -49,8 +54,9 @@ var/global/list/hud_ticket_counters = list()
     team = TEAM_URF
     screen_loc = "CENTER,TOP:-24"
 
-/obj/hud/button/ticket_counter/urf/Initialize()
+/obj/hud/button/ticket_counter/urf/update_maptext()
     . = ..()
     var/gamemode/gamemode = SSgamemode.active_gamemode
+    //stupid snowflake code i don't care
     if(isnull(gamemode.team_points[TEAM_COVENANT]))
         screen_loc = "CENTER,TOP:-12"
