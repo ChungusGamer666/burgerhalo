@@ -5,7 +5,7 @@
 "ai" = (/obj/structure/interactive/status_display/global_display/drop_pod,/turf/simulated/wall/metal/reinforced,/area/burgerstation/briefing)
 "aj" = (/obj/structure/interactive/vending/medical/medicine,/turf/simulated/floor/tile/command,/area/burgerstation/briefing)
 "ak" = (/turf/simulated/wall/metal/reinforced,/area/burgerstation/hanger)
-"al" = (/obj/structure/interactive/chair/stool,/turf/simulated/floor/tile/chapel,/area)
+"al" = (/obj/structure/interactive/status_display/global_display/bravo,/turf/simulated/wall/covenant,/area/transit/dropship/bravo/station)
 "am" = (/obj/structure/smooth/table/reinforced,/obj/structure/interactive/shop,/obj/item/grenade/timed/explosive/halo,/turf/simulated/floor/tile/dark,/area/burgerstation/briefing)
 "an" = (/obj/structure/smooth/table/reinforced,/obj/structure/interactive/fax_machine,/turf/simulated/floor/tile/nanotrasen,/area/burgerstation/briefing)
 "ap" = (/obj/structure/interactive/crate,/turf/simulated/floor/tile/shuttle/blue,/area/transit/dropship/alpha/station)
@@ -15,18 +15,19 @@
 "av" = (/obj/structure/interactive/vending/security/wardrobe/halo/odst,/obj/structure/interactive/lighting/fixture/tube/station/stronger{dir = 4},/turf/simulated/floor/tile/command,/area/burgerstation/briefing)
 "aw" = (/obj/structure/interactive/vending/security/wardrobe/halo/odst,/obj/structure/interactive/lighting/fixture/tube/station/stronger{dir = 8},/turf/simulated/floor/tile/command,/area/burgerstation/briefing)
 "ax" = (/obj/decal/hazard/corner,/obj/structure/interactive/lighting/fixture/floor/stronger,/turf/simulated/floor/plating,/area/burgerstation/hanger)
+"az" = (/obj/structure/interactive/lighting/fixture/covenant{dir = 4; icon_state = "covie_light_on"},/turf/simulated/wall/covenant/hull,/area/burgerstation/hanger)
 "aA" = (/obj/decal/hazard,/turf/simulated/floor/plating,/area/burgerstation/hanger)
 "aB" = (/obj/decal/hazard,/obj/marker/map_node,/turf/simulated/floor/plating,/area/burgerstation/hanger)
 "aC" = (/obj/decal/hazard/corner{dir = 1},/obj/structure/interactive/lighting/fixture/floor/stronger,/turf/simulated/floor/plating,/area/burgerstation/hanger)
 "aD" = (/turf/simulated/wall/shuttle,/area/transit/dropship/alpha/station)
-"aE" = (/turf/simulated/floor/tile/chapel{dir = 8; icon_state = "floor"},/area)
+"aE" = (/obj/structure/interactive/chair/stool/covies/bar,/turf/simulated/floor/covenant/blue,/area/burgerstation/science)
 "aF" = (/obj/structure/interactive/vending/security/ammo/halo/odst,/turf/simulated/floor/tile/command,/area/burgerstation/briefing)
 "aI" = (/turf/simulated/floor/tile/dark/single,/area/burgerstation/hanger)
 "aJ" = (/mob/living/advanced/npc/halo/marine,/turf/simulated/floor/tile/dark,/area/burgerstation/hanger)
 "aK" = (/obj/structure/interactive/misc/mirror/chargen{pixel_x = 0; pixel_y = -32},/turf/simulated/floor/tile/dark/single,/area/burgerstation/briefing)
 "aL" = (/obj/structure/interactive/telecomms/station,/mob/living/simple/glockroach/nerevar,/turf/simulated/floor/tile/dark/single,/area/burgerstation/briefing)
 "aM" = (/obj/structure/smooth/window/shuttle/middle{dir = 4; icon_state = "single"},/turf/simulated/floor/plating/shuttle,/area/transit/dropship/alpha/station)
-"aN" = (/obj/decal/sidewalk/side,/turf/simulated/floor/carpet/office,/area)
+"aN" = (/obj/structure/interactive/status_display/global_display/bravo,/turf/simulated/wall/covenant,/area/burgerstation/hanger)
 "aO" = (/obj/structure/interactive/door/airlock/glass,/turf/simulated/floor/tile/dark/single,/area/burgerstation/briefing)
 "aP" = (/obj/structure/smooth/table/reinforced,/turf/simulated/floor/tile/nanotrasen,/area/burgerstation/briefing)
 "aQ" = (/turf/simulated/floor/tile/dark/single,/area/burgerstation/briefing)
@@ -38,7 +39,7 @@
 "ba" = (/obj/decal/hazard{dir = 8},/turf/simulated/floor/plating,/area/burgerstation/hanger)
 "bb" = (/obj/structure/interactive/status_display/global_display/alpha,/turf/simulated/wall/shuttle,/area/transit/dropship/alpha/station)
 "bd" = (/obj/structure/interactive/chair{dir = 8},/turf/simulated/floor/tile/shuttle/blue,/area/transit/dropship/alpha/station)
-"bg" = (/obj/structure/interactive/construction/grille,/obj/structure/smooth/window/reinforced,/obj/effect/fog_of_war,/turf/simulated/floor/plating,/area)
+"bg" = (/obj/structure/interactive/status_display/global_display/bravo,/turf/simulated/wall/covenant/hull,/area/burgerstation/science)
 "bi" = (/obj/structure/smooth/table,/turf/simulated/floor/tile/shuttle,/area/transit/dropship/alpha/station)
 "bj" = (/turf/simulated/wall/metal/reinforced,/area/burgerstation/briefing)
 "bl" = (/obj/decal/hazard{dir = 4},/turf/simulated/floor/plating,/area/burgerstation/hanger)
@@ -58,11 +59,13 @@
 "bC" = (/obj/structure/interactive/chair{dir = 8},/obj/structure/interactive/lighting/fixture/tube/station{dir = 8},/turf/simulated/floor/tile/shuttle/blue,/area/transit/dropship/alpha/station)
 "bD" = (/obj/marker/spawning/window/reinforced,/turf/simulated/floor/plating,/area/burgerstation/briefing)
 "bE" = (/obj/structure/interactive/door/airlock/glass,/turf/simulated/floor/tile/dark,/area/burgerstation/hanger)
+"bF" = (/obj/structure/interactive/barricade/covenant,/obj/structure/interactive/barricade/covenant{dir = 8},/turf/simulated/floor/plating/covenant,/area/burgerstation/science)
 "bG" = (/obj/marker/map_node,/obj/structure/interactive/lighting/fixture/tube/station/stronger{dir = 8},/turf/simulated/floor/tile/dark,/area/burgerstation/hanger)
 "bH" = (/obj/structure/interactive/misc/halo/signs/hangar{dir = 8; icon_state = "hangar"},/turf/simulated/floor/tile/dark,/area/burgerstation/briefing)
 "bJ" = (/obj/structure/smooth/table/reinforced,/turf/simulated/floor/tile/command,/area/burgerstation/briefing)
 "bK" = (/obj/structure/interactive/computer/console,/turf/simulated/floor/tile/command,/area/burgerstation/briefing)
 "bL" = (/obj/structure/interactive/telecomms/station,/turf/simulated/floor/tile/command,/area/burgerstation/briefing)
+"bM" = (/mob/living/advanced/npc/halo/unggoy,/turf/simulated/floor/covenant/blue,/area/burgerstation/science)
 "bN" = (/obj/structure/smooth/table/reinforced,/obj/item/clothing/back/storage/backpack/halo/odst,/obj/structure/interactive/shop,/turf/simulated/floor/tile/dark,/area/burgerstation/briefing)
 "bO" = (/mob/living/advanced/npc/halo/marine{dir = 8; icon_state = "directional"},/turf/simulated/floor/tile/dark,/area/burgerstation/hanger)
 "bP" = (/obj/marker/map_node,/obj/structure/interactive/lighting/fixture/tube/station/stronger{dir = 4},/turf/simulated/floor/tile/dark,/area/burgerstation/hanger)
@@ -80,9 +83,8 @@
 "cg" = (/obj/structure/interactive/lighting/fixture/tube/station/stronger,/obj/marker/map_node,/turf/simulated/floor/tile/dark,/area/burgerstation/briefing)
 "ch" = (/turf/simulated/floor/tile/command,/area/burgerstation/briefing)
 "ci" = (/obj/structure/interactive/chair{dir = 4; icon_state = "chair"},/turf/simulated/floor/tile/dark,/area/burgerstation/briefing)
-"ck" = (/obj/effect/fog_of_war,/turf/simulated/wall/brick/red/dark,/area)
+"ck" = (/obj/structure/interactive/lighting/fixture/covenant{dir = 1; icon_state = "covie_light_on"},/obj/structure/interactive/status_display/global_display/bravo,/turf/simulated/wall/covenant,/area/transit/dropship/bravo/station)
 "cp" = (/obj/structure/smooth/table/reinforced,/turf/simulated/floor/tile/dark,/area/burgerstation/briefing)
-"cq" = (/obj/decal/sidewalk/side{dir = 8; icon_state = "cobble_side2"},/obj/marker/map_node,/turf/simulated/floor/carpet/office,/area)
 "cr" = (/turf/simulated/floor/tile/dark,/area/burgerstation/hanger)
 "cu" = (/obj/decal/hazard{dir = 4},/obj/structure/interactive/lighting/fixture/floor/stronger,/mob/living/advanced/npc/halo/marine{dir = 8; icon_state = "directional"},/turf/simulated/floor/plating,/area/burgerstation/hanger)
 "cv" = (/obj/structure/interactive/chair{dir = 8},/obj/structure/interactive/lighting/fixture/tube/station/stronger{dir = 8},/turf/simulated/floor/tile/shuttle/blue,/area/transit/dropship/alpha/station)
@@ -99,220 +101,155 @@
 "da" = (/obj/marker/map_node,/turf/simulated/floor/tile/dark/single,/area/burgerstation/hanger)
 "dc" = (/obj/structure/interactive/chair{dir = 4},/obj/structure/interactive/lighting/fixture/tube/station{dir = 4},/turf/simulated/floor/tile/shuttle/blue,/area/transit/dropship/alpha/station)
 "dd" = (/obj/structure/interactive/drop_pod,/turf/simulated/floor/plating/shuttle,/area/burgerstation/hanger)
-"dg" = (/obj/decal/sidewalk/corner{dir = 4; icon_state = "cobble_corner2"},/obj/structure/interactive/lighting/fixture/floor,/turf/simulated/floor/grass,/area)
 "dh" = (/obj/structure/smooth/table/glass,/obj/item/soapstone/blue,/obj/structure/interactive/lighting/fixture/tube/station/stronger{dir = 1},/turf/simulated/floor/tile/blue_baby,/area/burgerstation/briefing)
 "dj" = (/obj/structure/smooth/table/glass,/obj/item/storage/kit/syndicate/filled,/obj/structure/interactive/lighting/fixture/tube/station/stronger{dir = 1},/turf/simulated/floor/tile/blue_baby,/area/burgerstation/briefing)
 "dl" = (/obj/structure/interactive/misc/halo/decor/machinery/table{dir = 4; icon_state = "holotable"},/turf/simulated/floor/tile/dark,/area/burgerstation/briefing)
 "dp" = (/obj/structure/interactive/misc/halo/decor/machinery/table{dir = 8; icon_state = "holotable"},/turf/simulated/floor/tile/security,/area/burgerstation/briefing)
-"dr" = (/obj/effect/fog_of_war,/turf/simulated/floor/carpet/office,/area)
-"du" = (/turf/simulated/wall/plastic/office/darker,/area)
 "dw" = (/obj/marker/map_node,/turf/simulated/floor/tile/command,/area/burgerstation/briefing)
-"dy" = (/obj/marker/covenant/kig_yar,/turf/simulated/floor/tile/dark,/area)
 "dA" = (/turf/simulated/floor/tile/orange,/area/burgerstation/hanger)
 "dB" = (/obj/marker/map_node,/turf/simulated/floor/tile/dark,/area/burgerstation/briefing)
 "dG" = (/obj/structure/scenery/fake_door/blast_door,/turf/simulated/wall/metal/reinforced,/area/burgerstation/hanger)
 "dJ" = (/obj/structure/interactive/lighting/fixture/tube/station/stronger{dir = 1},/obj/marker/map_node,/turf/simulated/floor/tile/dark,/area/burgerstation/briefing)
 "dK" = (/mob/living/advanced/npc/halo/marine,/turf/simulated/floor/tile/dark,/area/burgerstation/briefing)
-"dM" = (/turf/simulated/floor/carpet/office,/area)
 "dN" = (/obj/marker/map_node,/obj/structure/interactive/lighting/fixture/tube/station/stronger{dir = 1},/turf/simulated/floor/tile/dark,/area/burgerstation/briefing)
 "dO" = (/obj/structure/interactive/chair,/turf/simulated/floor/tile/dark,/area/burgerstation/briefing)
 "dP" = (/mob/living/advanced/npc/halo/marine{dir = 1; icon_state = "directional"},/turf/simulated/floor/tile/dark,/area/burgerstation/hanger)
 "dT" = (/obj/structure/interactive/chair{dir = 4; icon_state = "chair"},/obj/marker/nt/odst,/turf/simulated/floor/tile/dark/single,/area/burgerstation/briefing)
 "dU" = (/mob/living/advanced/npc/halo/unggoy/lobby{dir = 4},/turf/simulated/floor/basalt,/area/burgerstation/tax)
+"ea" = (/obj/structure/interactive/lighting/fixture/covenant,/obj/structure/interactive/lighting/fixture/covenant{dir = 1; icon_state = "covie_light_on"},/turf/simulated/wall/covenant/hull,/area/burgerstation/science)
+"ed" = (/obj/structure/interactive/vending/medical/medicine,/turf/simulated/floor/covenant/blue,/area/burgerstation/science)
 "ee" = (/obj/structure/interactive/ground_ore_deposit/map/carbon,/obj/structure/smooth/wall/sand,/turf/simulated/floor/cave_dirt,/area/burgerstation/tax)
 "el" = (/obj/structure/interactive/barricade{dir = 1},/obj/structure/interactive/barricade{dir = 8},/turf/simulated/floor/plating/shuttle,/area/burgerstation/tax)
 "eq" = (/turf/simulated/wall/rock/indestructable,/area)
 "ez" = (/obj/structure/interactive/lighting/fixture/tube/station/stronger{dir = 1},/turf/simulated/floor/tile/dark,/area/burgerstation/briefing)
-"eC" = (/obj/structure/interactive/chair/covenant{dir = 8; icon_state = "null"},/obj/structure/interactive/barricade/covenant{dir = 8},/turf/simulated/floor/plating/covenant,/area/transit/dropship/bravo/station)
 "eY" = (/obj/structure/interactive/status_display/global_display/alpha,/turf/simulated/wall/metal,/area/burgerstation/hanger)
+"fa" = (/turf/simulated/floor/stair/cult{dir = 1},/area/burgerstation/science)
 "ff" = (/turf/simulated/floor/forerunner,/area/burgerstation/tax)
-"fF" = (/obj/structure/interactive/lighting/fixture/covenant{dir = 8; icon_state = "covie_light_on"},/turf/simulated/wall/covenant,/area)
-"fU" = (/obj/item/cross,/turf/simulated/floor/grass,/area)
-"fW" = (/obj/decal/sidewalk/side{dir = 4; icon_state = "cobble_side2"},/obj/marker/map_node,/turf/simulated/floor/grass,/area)
 "fZ" = (/obj/structure/interactive/lighting/fixture/tube/station/stronger{dir = 1},/turf/simulated/floor/tile/shuttle,/area/transit/dropship/alpha/station)
-"gc" = (/mob/living/advanced/npc/halo/kigyar,/turf/simulated/floor/cave_dirt,/area)
-"gp" = (/turf/simulated/floor/plating,/area)
-"gy" = (/obj/structure/interactive/vending/security/ammo/halo/cov,/turf/simulated/floor/covenant,/area)
-"gF" = (/obj/structure/interactive/crate/covenant/tall,/turf/simulated/floor/covenant/blue,/area)
-"gQ" = (/mob/living/advanced/npc/halo/unggoy{dir = 1; icon_state = "halo_unggoy"},/turf/simulated/floor/tile/chapel{dir = 1; icon_state = "floor"},/area)
-"hk" = (/obj/structure/interactive/lighting/fixture/tube/station{dir = 4},/turf/simulated/floor/tile/dark,/area)
+"gt" = (/obj/effect/temp/crate_gib,/turf/space,/area)
+"gy" = (/obj/structure/interactive/vending/security/ammo/halo/cov,/turf/simulated/floor/covenant,/area/burgerstation/science)
+"gF" = (/obj/structure/interactive/crate/covenant/tall,/turf/simulated/floor/covenant/blue,/area/burgerstation/science)
 "hw" = (/turf/simulated/floor/cave_dirt,/area/burgerstation/tax)
 "hA" = (/mob/living/advanced/npc/halo/kigyar/ranged/lobby{dir = 4},/turf/simulated/floor/cave_dirt,/area/burgerstation/tax)
 "hC" = (/obj/structure/smooth/wall/sand,/turf/simulated/floor/cave_dirt,/area/burgerstation/tax)
-"hD" = (/mob/living/advanced/npc/halo/kigyar/ranged{dir = 4; icon_state = "halo_kigyar1"},/turf/simulated/floor/carpet/office,/area)
+"hE" = (/obj/structure/interactive/lighting/fixture/covenant{dir = 1; icon_state = "covie_light_on"},/turf/simulated/wall/covenant/hull,/area/burgerstation/hanger)
 "hF" = (/obj/structure/smooth/window/shuttle/middle,/turf/simulated/floor/plating/shuttle,/area/transit/dropship/alpha/station)
 "if" = (/obj/structure/interactive/ground_ore_deposit/map/carbon,/obj/marker/map_node,/turf/simulated/floor/cave_dirt,/area/burgerstation/tax)
 "ig" = (/turf/simulated/floor/tile/blue,/area/transit/dropship/alpha/station)
-"iz" = (/obj/structure/smooth/table/wood/poor,/turf/simulated/floor/tile/chapel{dir = 4; icon_state = "floor"},/area)
 "iG" = (/obj/marker/map_node,/turf/simulated/floor/tile/blue,/area/burgerstation/hanger)
-"ja" = (/obj/decal/sidewalk/side,/obj/structure/interactive/fence/end{dir = 8; icon_state = "end"},/turf/simulated/floor/cave_dirt,/area)
 "jj" = (/obj/marker/map_node,/turf/simulated/floor/cave_dirt,/area/burgerstation/tax)
-"jl" = (/obj/structure/interactive/barricade/covenant{dir = 1; icon_state = "cov"},/turf/simulated/floor/carpet/office,/area)
-"jF" = (/obj/structure/smooth/window/reinforced/plasma{health_base = 600000},/turf/simulated/floor/plating/covenant,/area/transit/dropship/bravo/station)
-"jI" = (/obj/marker/map_node,/turf/simulated/floor/cave_dirt,/area)
+"jw" = (/obj/structure/interactive/crate/covenant,/turf/simulated/floor/covenant/blue,/area/burgerstation/science)
+"jF" = (/obj/structure/interactive/computer/console/flight,/turf/simulated/floor/plating/covenant,/area/transit/dropship/bravo/station)
 "jL" = (/obj/structure/interactive/misc/halo/decor/machinery/tower,/obj/structure/interactive/lighting/fixture/floor/stronger,/turf/simulated/floor/plating/shuttle,/area/burgerstation/tax)
-"jV" = (/obj/structure/smooth/table/wood/poor,/obj/structure/interactive/potted_plant/office,/turf/simulated/floor/tile/chapel{dir = 1; icon_state = "floor"},/area)
 "ka" = (/obj/structure/interactive/misc/mirror/chargen{pixel_x = 0; pixel_y = 24},/turf/simulated/floor/tile/dark/single,/area/burgerstation/briefing)
-"ki" = (/obj/marker/covenant/kig_yar,/turf/simulated/floor/covenant/blue,/area)
-"kk" = (/obj/marker/covenant/elite_shipmaster,/turf/simulated/floor/cave_dirt,/area)
+"ki" = (/obj/marker/covenant/kig_yar,/turf/simulated/floor/covenant/blue,/area/burgerstation/science)
+"ks" = (/obj/item/organ/head/halo/unggoy,/turf/space,/area)
 "kx" = (/mob/living/advanced/npc/halo/kigyar/ranged/lobby,/turf/simulated/floor/cave_dirt,/area/burgerstation/tax)
-"kN" = (/obj/marker/covenant/elite_mj,/turf/simulated/floor/covenant/blue,/area)
-"lh" = (/obj/structure/interactive/lighting/fixture/tube/station{dir = 8},/turf/simulated/floor/tile/dark/er,/area)
+"kN" = (/obj/marker/covenant/elite_mj,/turf/simulated/floor/covenant/blue,/area/burgerstation/science)
 "ln" = (/obj/decal/hazard/corner{dir = 4},/turf/simulated/floor/plating,/area/burgerstation/hanger)
-"lA" = (/obj/marker/covenant/grunt_m,/turf/simulated/floor/plating,/area)
 "lE" = (/obj/structure/interactive/barricade{dir = 1},/turf/simulated/floor/plating/shuttle,/area/burgerstation/tax)
 "lF" = (/obj/structure/interactive/crate/covenant/tall,/turf/simulated/floor/cave_dirt,/area/burgerstation/tax)
+"lX" = (/mob/living/advanced/npc/halo/kigyar,/turf/simulated/floor/covenant/blue,/area/burgerstation/hanger)
 "me" = (/obj/structure/interactive/misc/halo/signs/armory,/turf/simulated/floor/tile/dark,/area/burgerstation/briefing)
-"mg" = (/obj/structure/interactive/vending/chaplain/wardrobe,/turf/simulated/floor/tile/dark/er,/area)
-"mj" = (/obj/structure/interactive/chair/stool,/obj/structure/interactive/lighting/fixture/tube/station{dir = 8},/turf/simulated/floor/tile/chapel{dir = 4; icon_state = "floor"},/area)
-"mo" = (/obj/structure/interactive/door/airlock/covenant,/turf/simulated/floor/plating/covenant,/area/transit/dropship/bravo/station)
-"mx" = (/obj/structure/smooth/window/reinforced/plasma{health_base = 600000},/turf/simulated/floor/plating/covenant,/area)
+"mo" = (/obj/structure/interactive/lighting/fixture/covenant{dir = 8; icon_state = "covie_light_on"},/turf/simulated/wall/covenant,/area/transit/dropship/bravo/station)
+"mx" = (/turf/simulated/wall/covenant/hull,/area/burgerstation/science)
 "mC" = (/obj/structure/interactive/barricade{dir = 8},/mob/living/advanced/npc/halo/marine/lobby{dir = 8},/turf/simulated/floor/plating/shuttle,/area/burgerstation/tax)
-"mH" = (/mob/living/advanced/npc/halo/kigyar,/turf/simulated/floor/carpet/office,/area)
-"mT" = (/mob/living/advanced/npc/halo/unggoy{dir = 1; icon_state = "halo_unggoy"},/turf/simulated/floor/carpet/office,/area)
-"mU" = (/obj/structure/interactive/misc/coatrack,/turf/simulated/floor/tile/dark/er,/area)
-"mX" = (/obj/decal/sidewalk/side{dir = 1; icon_state = "cobble_side2"},/obj/structure/interactive/fence/end{dir = 4; icon_state = "end"},/turf/simulated/floor/cave_dirt,/area)
-"mY" = (/obj/structure/smooth/table/wood/poor,/turf/simulated/floor/tile/chapel{dir = 8; icon_state = "floor"},/area)
-"na" = (/obj/structure/interactive/lighting/fixture/covenant,/turf/simulated/wall/covenant/hull,/area)
-"nz" = (/turf/simulated/floor/cave_dirt,/area)
-"ow" = (/obj/structure/interactive/lighting/fixture/tube/station{dir = 8},/turf/simulated/floor/tile/dark,/area)
-"oz" = (/obj/effect/fog_of_war,/turf/simulated/wall/plastic/office/darker,/area)
+"na" = (/obj/structure/interactive/lighting/fixture/covenant,/turf/simulated/wall/covenant/hull,/area/burgerstation/science)
+"nd" = (/obj/structure/smooth/window/reinforced/plasma{health_base = 600000},/turf/simulated/floor/plating/covenant,/area/transit/dropship/bravo/station)
+"nh" = (/obj/structure/interactive/restocker/ammo,/turf/simulated/floor/covenant/blue,/area/burgerstation/science)
+"nD" = (/obj/structure/smooth/table/glass,/obj/item/defib,/obj/structure/interactive/shop,/turf/simulated/floor/covenant/blue,/area/burgerstation/science)
+"nI" = (/obj/item/weapon/ranged/energy/halo/cov_pistol,/turf/space,/area)
+"nJ" = (/mob/living/advanced/npc/halo/elite{dir = 8; icon_state = "halo_elite"},/turf/simulated/floor/covenant/blue,/area/burgerstation/hanger)
+"oc" = (/obj/structure/smooth/table/glass,/obj/structure/interactive/shop,/obj/item/clothing/belt/storage/medical,/turf/simulated/floor/covenant/blue,/area/burgerstation/science)
 "oG" = (/obj/structure/interactive/misc/halo/decor/vehicles/spirit{icon_state = "base_destroyed"},/turf/simulated/hazard/lava,/area/burgerstation/tax)
-"oN" = (/obj/structure/smooth/table/wood/poor,/turf/simulated/floor/tile/chapel{dir = 1; icon_state = "floor"},/area)
-"oU" = (/obj/structure/smooth/table/wood/poor,/turf/simulated/floor/tile/dark,/area)
-"pl" = (/obj/decal/sidewalk/side{dir = 8; icon_state = "cobble_side2"},/turf/simulated/floor/carpet/office,/area)
 "pn" = (/obj/structure/interactive/computer/console{dir = 1; icon_state = "computer"},/turf/simulated/floor/tile/command,/area/burgerstation/briefing)
-"pr" = (/obj/structure/interactive/lighting/fixture/tube/station{dir = 1},/turf/simulated/floor/tile/dark,/area)
 "pV" = (/turf/simulated/floor/tile/blue,/area/burgerstation/hanger)
-"rf" = (/turf/simulated/floor/covenant/blue,/area)
-"rj" = (/obj/decal/sidewalk/side{dir = 1; icon_state = "cobble_side2"},/turf/simulated/floor/carpet/office,/area)
-"rr" = (/obj/decal/sidewalk/side{dir = 4; icon_state = "cobble_side2"},/obj/decal/sidewalk/side{dir = 8; icon_state = "cobble_side2"},/turf/simulated/floor/carpet/office,/area)
-"sr" = (/obj/marker/map_node,/turf/simulated/floor/carpet/office,/area)
-"sx" = (/obj/structure/interactive/door/airlock/glass,/turf/simulated/floor/tile/dark,/area)
-"sI" = (/obj/structure/interactive/chair/stool,/turf/simulated/floor/tile/chapel{dir = 1; icon_state = "floor"},/area)
-"sN" = (/obj/structure/interactive/lighting/fixture/covenant{dir = 4; icon_state = "covie_light_on"},/turf/simulated/wall/covenant,/area)
+"pY" = (/obj/structure/interactive/chair/covenant{dir = 8; icon_state = "null"},/obj/structure/interactive/crate/covenant/tall,/turf/simulated/floor/plating/covenant,/area/transit/dropship/bravo/station)
+"qz" = (/obj/structure/interactive/vending/smart_fridge/chemistry,/turf/simulated/floor/covenant/blue,/area/burgerstation/science)
+"qE" = (/obj/structure/interactive/misc/halo/decor/vehicles/scorpion,/turf/simulated/floor/plating,/area/burgerstation/briefing)
+"sp" = (/obj/structure/interactive/lighting/fixture/floor/stronger,/turf/simulated/floor/covenant/blue,/area/burgerstation/hanger)
 "sS" = (/obj/structure/interactive/vending/security/gundrobe/halo/cov/empty,/turf/simulated/floor/cave_dirt,/area/burgerstation/tax)
+"tg" = (/mob/living/advanced/npc/halo/kigyar,/turf/simulated/floor/covenant/blue,/area/burgerstation/science)
 "tv" = (/obj/structure/interactive/vending/security/ammo/halo/cov/empty,/turf/simulated/floor/cave_dirt,/area/burgerstation/tax)
-"tD" = (/obj/structure/interactive/barricade/covenant{dir = 4; icon_state = "cov"},/mob/living/advanced/npc/halo/kigyar/ranged{dir = 4; icon_state = "halo_kigyar1"},/turf/simulated/floor/carpet/office,/area)
-"tR" = (/obj/structure/interactive/vending/medical/medicine,/turf/simulated/floor/tile/chapel{dir = 1; icon_state = "floor"},/area)
-"tW" = (/obj/structure/interactive/crate/covenant,/turf/simulated/floor/carpet/office,/area)
-"ug" = (/obj/structure/interactive/lighting/fixture/covenant{dir = 8; icon_state = "covie_light_on"},/turf/simulated/wall/covenant/hull,/area)
-"us" = (/turf/simulated/floor/grass,/area)
-"ut" = (/obj/structure/smooth/table/wood/poor,/turf/simulated/floor/tile/chapel,/area)
-"uD" = (/obj/structure/interactive/potted_plant/nanotrasen,/turf/simulated/floor/tile/dark,/area)
+"ug" = (/obj/structure/interactive/lighting/fixture/covenant{dir = 8; icon_state = "covie_light_on"},/obj/structure/interactive/lighting/fixture/covenant{dir = 4; icon_state = "covie_light_on"},/turf/simulated/wall/covenant/hull,/area/burgerstation/science)
 "vi" = (/obj/structure/interactive/ground_ore_deposit/map/carbon,/turf/simulated/floor/cave_dirt,/area/burgerstation/tax)
-"vp" = (/obj/marker/map_node,/turf/simulated/floor/grass,/area)
-"vB" = (/obj/structure/interactive/chair/covenant{dir = 8; icon_state = "null"},/obj/structure/interactive/crate/covenant/tall,/turf/simulated/floor/plating/covenant,/area/transit/dropship/bravo/station)
-"vQ" = (/obj/structure/interactive/crate/trash,/turf/simulated/floor/tile/dark/er,/area)
-"wo" = (/obj/structure/interactive/chair/covenant{dir = 4; icon_state = "null"},/obj/structure/interactive/crate/covenant/tall,/turf/simulated/floor/plating/covenant,/area/transit/dropship/bravo/station)
-"wW" = (/obj/structure/interactive/construction/grille,/obj/structure/smooth/window/reinforced,/turf/simulated/floor/plating,/area)
+"wf" = (/turf/simulated/floor/covenant/blue,/area/burgerstation/science)
+"wk" = (/obj/structure/interactive/door/airlock/covenant,/turf/simulated/floor/plating/covenant,/area/transit/dropship/bravo/station)
+"wI" = (/obj/structure/smooth/table/glass,/obj/item/clothing/belt/storage/colored/janitor,/obj/structure/interactive/shop,/turf/simulated/floor/covenant/blue,/area/burgerstation/science)
+"xf" = (/obj/marker/map_node,/obj/structure/interactive/lighting/fixture/floor/stronger,/turf/simulated/floor/covenant/blue,/area/burgerstation/hanger)
 "xj" = (/obj/structure/interactive/crate/covenant,/turf/simulated/floor/cave_dirt,/area/burgerstation/tax)
-"xq" = (/obj/structure/interactive/vending/security/ammo/halo/cov,/turf/simulated/floor/tile/dark,/area)
-"xv" = (/obj/structure/interactive/misc/curtain_open,/obj/structure/interactive/crate/coffin,/turf/simulated/floor/tile/dark/er,/area)
+"xJ" = (/obj/item/organ/groin/halo/unggoy,/turf/space,/area)
 "yr" = (/obj/structure/interactive/chair/covenant{dir = 4; icon_state = "null"},/turf/simulated/floor/plating/covenant,/area/transit/dropship/bravo/station)
 "yB" = (/obj/marker/landmark{name = "Alpha Shuttle"},/obj/shuttle_controller/alpha{dir = 1},/turf/simulated/floor/tile/blue,/area/transit/dropship/alpha/station)
-"yT" = (/obj/decal/sidewalk/side{dir = 4; icon_state = "cobble_side2"},/turf/simulated/floor/grass,/area)
-"zd" = (/obj/decal/sidewalk/side{dir = 8; icon_state = "cobble_side2"},/turf/simulated/floor/grass,/area)
-"zg" = (/turf/simulated/wall/covenant/hull,/area)
+"yG" = (/obj/structure/interactive/lighting/fixture/covenant,/turf/simulated/wall/covenant/hull,/area/burgerstation/hanger)
+"yJ" = (/obj/structure/smooth/table/glass,/turf/simulated/floor/covenant/blue,/area/burgerstation/science)
+"yQ" = (/obj/structure/interactive/lighting/fixture/covenant{dir = 1; icon_state = "covie_light_on"},/turf/simulated/wall/covenant/hull,/area/burgerstation/science)
+"zg" = (/turf/simulated/wall/covenant/hull,/area/burgerstation/hanger)
 "zk" = (/obj/structure/shuttle_engine/burst,/turf/simulated/floor/tile/shuttle/blue,/area/transit/dropship/alpha/station)
 "zw" = (/turf/simulated/floor/basalt,/area/burgerstation/tax)
-"zE" = (/obj/decal/sidewalk/corner{dir = 1; icon_state = "cobble_corner2"},/obj/structure/interactive/lighting/fixture/floor,/turf/simulated/floor/grass,/area)
 "zI" = (/obj/decal/hazard/corner{dir = 4},/obj/structure/interactive/lighting/fixture/floor/stronger,/turf/simulated/floor/plating,/area/burgerstation/hanger)
 "zL" = (/turf/simulated/floor/plating/shuttle,/area/burgerstation/tax)
-"zQ" = (/turf/simulated/floor/tile/dark,/area)
-"Al" = (/obj/structure/interactive/lighting/fixture/covenant{dir = 1; icon_state = "covie_light_on"},/turf/simulated/wall/covenant,/area/transit/dropship/bravo/station)
-"AF" = (/obj/decal/sidewalk/side,/turf/simulated/floor/grass,/area)
-"AI" = (/obj/structure/interactive/crate/covenant,/turf/simulated/floor/covenant/blue,/area)
+"Ae" = (/obj/structure/smooth/table/glass,/obj/item/storage/bags/chemistry,/obj/structure/interactive/shop,/turf/simulated/floor/covenant/blue,/area/burgerstation/science)
+"Al" = (/obj/structure/shuttle_engine/burst,/obj/shuttle_controller/bravo{dir = 1},/obj/marker/landmark{name = "Bravo Shuttle"},/turf/simulated/floor/plating/covenant,/area/transit/dropship/bravo/station)
+"AE" = (/turf/simulated/floor/stair/cult,/area/burgerstation/science)
 "AN" = (/obj/marker/map_node,/turf/simulated/floor/basalt,/area/burgerstation/tax)
-"AR" = (/turf/simulated/wall/covenant,/area)
-"AV" = (/mob/living/advanced/npc/halo/elite,/turf/simulated/floor/grass,/area)
 "Bj" = (/obj/structure/interactive/barricade{dir = 1},/obj/structure/interactive/barricade{dir = 8},/obj/marker/map_node,/turf/simulated/floor/plating/shuttle,/area/burgerstation/tax)
-"Bt" = (/turf/simulated/floor/tile/chapel,/area)
-"By" = (/obj/structure/interactive/door/airlock,/turf/simulated/floor/tile/dark,/area)
 "BE" = (/obj/decal/hazard/corner{dir = 8},/turf/simulated/floor/plating,/area/burgerstation/hanger)
-"Ch" = (/obj/structure/interactive/computer/console,/turf/simulated/floor/tile/dark/er,/area)
-"Cm" = (/obj/structure/shuttle_engine/burst,/turf/simulated/floor/plating/covenant,/area/transit/dropship/bravo/station)
-"Cx" = (/obj/decal/sidewalk/side{dir = 1; icon_state = "cobble_side2"},/mob/living/advanced/npc/halo/kigyar{dir = 8; icon_state = "halo_kigyar1"},/turf/simulated/floor/carpet/office,/area)
-"CE" = (/obj/structure/interactive/chair/stool/covies/bar,/turf/simulated/floor/covenant/blue,/area)
-"CJ" = (/obj/structure/interactive/computer/console/flight,/turf/simulated/floor/plating/covenant,/area/transit/dropship/bravo/station)
-"Dh" = (/obj/structure/interactive/vending/medical/medicine,/turf/simulated/floor/plating,/area)
-"Dr" = (/obj/marker/covenant/grunt_m,/turf/simulated/floor/cave_dirt,/area)
+"Cz" = (/obj/structure/smooth/window/reinforced/plasma{health_base = 600000},/turf/simulated/floor/plating/covenant,/area/burgerstation/science)
+"CJ" = (/obj/structure/interactive/chair/covenant{dir = 1},/turf/simulated/floor/plating/covenant,/area/transit/dropship/bravo/station)
+"Dc" = (/obj/structure/interactive/vending/security/ammo/halo/cov,/turf/simulated/floor/covenant/blue,/area/burgerstation/science)
 "Ds" = (/obj/marker/lobby,/turf/simulated/floor/cave_dirt,/area/burgerstation/tax)
-"DD" = (/obj/decal/sidewalk/side,/obj/structure/interactive/fence/end{dir = 4; icon_state = "end"},/turf/simulated/floor/grass,/area)
-"DE" = (/obj/marker/covenant/elite_shipmaster,/turf/simulated/floor/covenant/blue,/area)
+"Dx" = (/obj/marker/map_node,/turf/simulated/floor/covenant/blue,/area/burgerstation/science)
+"DE" = (/obj/marker/covenant/elite_shipmaster,/turf/simulated/floor/covenant/blue,/area/burgerstation/science)
 "DO" = (/obj/structure/interactive/barricade{dir = 8},/obj/structure/interactive/barricade,/turf/simulated/floor/plating/shuttle,/area/burgerstation/tax)
-"DP" = (/obj/decal/sidewalk/side{dir = 1; icon_state = "cobble_side2"},/obj/structure/interactive/fence/end{dir = 8; icon_state = "end"},/turf/simulated/floor/cave_dirt,/area)
-"DT" = (/obj/marker/covenant/elite_mj,/turf/simulated/floor/carpet/office,/area)
-"Ea" = (/obj/marker/covenant/elite_ultra,/turf/simulated/floor/carpet/office,/area)
-"Ef" = (/obj/structure/smooth/table/rack/grey,/turf/simulated/floor/tile/dark/er,/area)
 "EC" = (/turf/simulated/wall/covenant,/area/transit/dropship/bravo/station)
-"EJ" = (/obj/structure/interactive/restocker/ammo,/turf/simulated/floor/covenant/blue,/area)
-"EY" = (/turf/simulated/floor/tile/chapel{dir = 4; icon_state = "floor"},/area)
-"Fh" = (/obj/marker/covenant/kig_yar,/turf/simulated/floor/carpet/office,/area)
+"Fp" = (/obj/structure/interactive/misc/halo/decor/vehicles/spirit{dir = 8},/turf/simulated/floor/covenant/blue,/area/burgerstation/hanger)
 "FE" = (/obj/marker/map_node,/turf/simulated/floor/plating/shuttle,/area/burgerstation/tax)
-"FJ" = (/obj/structure/interactive/chair/covenant{dir = 1},/turf/simulated/floor/plating/covenant,/area/transit/dropship/bravo/station)
-"FV" = (/obj/structure/interactive/vending/security/ammo/halo/cov,/turf/simulated/floor/covenant/blue,/area)
-"FY" = (/obj/decal/sidewalk/corner,/obj/structure/interactive/lighting/fixture/floor,/turf/simulated/floor/grass,/area)
-"Gb" = (/obj/effect/fog_of_war,/turf/simulated/wall/covenant,/area)
+"FJ" = (/obj/structure/interactive/lighting/fixture/covenant{dir = 1; icon_state = "covie_light_on"},/turf/simulated/wall/covenant,/area/transit/dropship/bravo/station)
 "Gm" = (/obj/decal/hazard{dir = 6},/obj/structure/interactive/computer/console/remote_flight/alpha,/turf/simulated/floor/plating,/area/burgerstation/hanger)
-"Gy" = (/obj/decal/sidewalk/side{dir = 1; icon_state = "cobble_side2"},/obj/decal/sidewalk/side,/turf/simulated/floor/carpet/office,/area)
-"GC" = (/obj/structure/sign/no_smoking{pixel_y = 32},/turf/simulated/floor/tile/dark/er,/area)
-"GO" = (/obj/structure/interactive/vending/security/gundrobe/halo/cov,/turf/simulated/floor/plating,/area)
+"Hs" = (/obj/structure/interactive/door/airlock/covenant,/turf/simulated/floor/covenant/blue,/area/burgerstation/hanger)
 "Hy" = (/obj/structure/interactive/door/airlock/shuttle,/turf/simulated/floor/tile/shuttle,/area/transit/dropship/alpha/station)
 "HA" = (/turf/simulated/wall/rock/indestructable,/area/burgerstation/tax)
-"HS" = (/obj/structure/interactive/crate/covenant,/turf/simulated/floor/plating,/area)
-"Im" = (/obj/decal/sidewalk/side{dir = 1; icon_state = "cobble_side2"},/turf/simulated/floor/grass,/area)
-"Iy" = (/obj/structure/interactive/lighting/fixture/covenant{dir = 4; icon_state = "covie_light_on"},/turf/simulated/wall/covenant,/area/transit/dropship/bravo/station)
-"IS" = (/obj/marker/map_node,/turf/simulated/floor/covenant/blue,/area)
-"IT" = (/obj/decal/sidewalk/corner{dir = 8; icon_state = "cobble_corner2"},/obj/structure/interactive/lighting/fixture/floor,/obj/structure/interactive/misc/halo/decor/vehicles/spirit,/turf/simulated/floor/grass,/area)
-"Jq" = (/obj/structure/interactive/lighting/fixture/covenant{dir = 8; icon_state = "covie_light_on"},/turf/simulated/wall/covenant,/area/transit/dropship/bravo/station)
-"Jy" = (/obj/structure/interactive/crate/covenant,/turf/simulated/floor/grass,/area)
-"Lb" = (/obj/structure/interactive/chair{dir = 1},/obj/structure/interactive/lighting/fixture/tube/station{dir = 4},/turf/simulated/floor/tile/dark/er,/area)
+"HK" = (/obj/structure/smooth/table/glass,/obj/structure/interactive/computer/console/laptop,/turf/simulated/floor/plating/covenant,/area/burgerstation/science)
+"Iv" = (/obj/structure/smooth/table/glass,/obj/item/cell_charger,/turf/simulated/floor/covenant/blue,/area/burgerstation/science)
+"Iy" = (/obj/structure/interactive/chair/covenant{dir = 4; icon_state = "null"},/obj/structure/interactive/barricade/covenant{dir = 4; icon_state = "cov"},/turf/simulated/floor/plating/covenant,/area/transit/dropship/bravo/station)
+"IH" = (/obj/structure/interactive/bed/sleeper/medical,/turf/simulated/floor/covenant/blue,/area/burgerstation/science)
+"Jk" = (/obj/structure/interactive/vending/security/gundrobe/halo/cov,/turf/simulated/floor/covenant/blue,/area/burgerstation/science)
+"Jq" = (/obj/structure/interactive/chair/covenant{dir = 8; icon_state = "null"},/obj/structure/interactive/barricade/covenant{dir = 8},/turf/simulated/floor/plating/covenant,/area/transit/dropship/bravo/station)
+"Jw" = (/obj/structure/interactive/chair/covenant{dir = 4; icon_state = "null"},/obj/structure/interactive/crate/covenant/tall,/turf/simulated/floor/plating/covenant,/area/transit/dropship/bravo/station)
+"JK" = (/obj/item/organ/torso/halo/unggoy,/turf/space,/area)
+"Kw" = (/obj/structure/interactive/lighting/fixture/covenant{dir = 4; icon_state = "covie_light_on"},/turf/simulated/wall/covenant/hull,/area/burgerstation/science)
 "Ld" = (/obj/decal/hazard{dir = 10},/turf/simulated/floor/plating,/area/burgerstation/hanger)
-"Lj" = (/obj/structure/interactive/door/airlock/covenant,/turf/simulated/floor/covenant/blue,/area)
-"Lr" = (/obj/marker/covenant/elite_m,/turf/simulated/floor/covenant/blue,/area)
-"Ly" = (/obj/structure/interactive/barricade/covenant,/turf/simulated/floor/carpet/office,/area)
-"LN" = (/obj/marker/covenant/elite_ultra,/turf/simulated/floor/covenant/blue,/area)
-"LV" = (/obj/decal/sidewalk/side{dir = 4; icon_state = "cobble_side2"},/obj/marker/covenant/grunt_m,/turf/simulated/floor/carpet/office,/area)
-"LZ" = (/obj/structure/interactive/lighting/fixture/covenant{dir = 1; icon_state = "covie_light_on"},/turf/simulated/wall/covenant,/area)
-"Mq" = (/turf/simulated/wall/plastic/office/darker/indestructable,/area)
-"Mw" = (/obj/structure/interactive/vending/security/gundrobe/halo/cov,/turf/simulated/floor/tile/dark,/area)
-"MT" = (/obj/structure/interactive/lighting/fixture/tube/station{dir = 1},/turf/simulated/floor/tile/dark/er,/area)
-"Ne" = (/obj/decal/sidewalk/side{dir = 8; icon_state = "cobble_side2"},/obj/decal/sidewalk/side{dir = 4; icon_state = "cobble_side2"},/turf/simulated/floor/carpet/office,/area)
-"No" = (/obj/decal/sidewalk/side{dir = 1; icon_state = "cobble_side2"},/mob/living/advanced/npc/halo/kigyar,/turf/simulated/floor/grass,/area)
-"NM" = (/obj/structure/shuttle_engine/burst,/obj/shuttle_controller/bravo{dir = 1},/obj/marker/landmark{name = "Bravo Shuttle"},/turf/simulated/floor/plating/covenant,/area/transit/dropship/bravo/station)
-"Ou" = (/obj/decal/sidewalk/side{dir = 1; icon_state = "cobble_side2"},/mob/living/advanced/npc/halo/unggoy{dir = 4; icon_state = "halo_unggoy"},/turf/simulated/floor/carpet/office,/area)
+"Lj" = (/obj/structure/interactive/door/airlock/covenant,/turf/simulated/floor/covenant/blue,/area/burgerstation/science)
+"Lr" = (/obj/marker/covenant/elite_m,/turf/simulated/floor/covenant/blue,/area/burgerstation/science)
+"Lw" = (/obj/structure/smooth/table/glass,/obj/item/container/blood_pack/full/o_negative,/obj/structure/interactive/shop,/turf/simulated/floor/covenant/blue,/area/burgerstation/science)
+"LN" = (/obj/marker/covenant/elite_ultra,/turf/simulated/floor/covenant/blue,/area/burgerstation/science)
+"Ma" = (/obj/item/organ/arm/halo/unggoy/left,/obj/effect/temp/crate_gib,/turf/space,/area)
+"Me" = (/obj/structure/interactive/barricade/covenant{dir = 1; icon_state = "cov"},/obj/structure/interactive/barricade/covenant{dir = 8},/turf/simulated/floor/plating/covenant,/area/burgerstation/science)
+"Na" = (/obj/structure/shuttle_engine/burst,/turf/simulated/floor/plating/covenant,/area/transit/dropship/bravo/station)
+"NM" = (/turf/simulated/floor/covenant/blue,/area/burgerstation/hanger)
+"Os" = (/obj/structure/smooth/table/glass,/obj/item/crafting/alchemy,/obj/structure/interactive/shop,/turf/simulated/floor/covenant/blue,/area/burgerstation/science)
 "OI" = (/obj/structure/interactive/barricade{dir = 8},/obj/marker/map_node,/turf/simulated/floor/plating/shuttle,/area/burgerstation/tax)
-"Px" = (/obj/marker/covenant/elite_m,/turf/simulated/floor/carpet/office,/area)
-"PN" = (/obj/structure/smooth/table/reinforced/dark,/turf/simulated/floor/tile/dark/er,/area)
-"PR" = (/obj/structure/interactive/door/airlock/station/dark,/turf/simulated/floor/tile/dark/er,/area)
-"Rb" = (/obj/structure/interactive/lighting/fixture/covenant{dir = 1; icon_state = "covie_light_on"},/turf/simulated/wall/covenant/hull,/area)
-"Ri" = (/obj/marker/covenant/grunt_m,/turf/simulated/floor/covenant/blue,/area)
-"Sf" = (/mob/living/advanced/npc/halo/elite{dir = 8; icon_state = "halo_elite"},/turf/simulated/floor/carpet/office,/area)
+"PH" = (/obj/marker/map_node,/turf/simulated/floor/covenant/blue,/area/burgerstation/hanger)
+"PJ" = (/mob/living/advanced/npc/halo/unggoy,/turf/simulated/floor/covenant/blue,/area/burgerstation/hanger)
+"PX" = (/obj/structure/smooth/table/glass,/obj/item/storage/kit/syndicate/filled,/obj/structure/interactive/shop,/turf/simulated/floor/covenant/blue,/area/burgerstation/science)
+"Ql" = (/mob/living/advanced/npc/halo/elite{dir = 8; icon_state = "halo_elite"},/turf/simulated/floor/covenant/blue,/area/burgerstation/science)
+"Rb" = (/obj/structure/interactive/lighting/fixture/covenant{dir = 1; icon_state = "covie_light_on"},/obj/structure/interactive/lighting/fixture/covenant,/turf/simulated/wall/covenant/hull,/area/burgerstation/science)
+"Rv" = (/obj/item/organ/foot/halo/unggoy,/turf/space,/area)
 "Sl" = (/obj/structure/interactive/lighting/fixture/tube/station/stronger{dir = 1},/turf/simulated/floor/tile/orange,/area/burgerstation/hanger)
-"Ss" = (/mob/living/advanced/npc/halo/unggoy,/turf/simulated/floor/grass,/area)
-"SI" = (/obj/structure/interactive/chair/stool,/turf/simulated/floor/tile/chapel{dir = 8; icon_state = "floor"},/area)
 "ST" = (/turf/simulated/hazard/lava,/area/burgerstation/tax)
 "TG" = (/obj/decal/hazard/corner{dir = 8},/obj/structure/interactive/lighting/fixture/floor/stronger,/turf/simulated/floor/plating,/area/burgerstation/hanger)
 "TO" = (/turf/simulated/floor/chasm,/area/burgerstation/tax)
-"Us" = (/obj/structure/interactive/vending/medical/medicine,/turf/simulated/floor/tile/chapel{dir = 4; icon_state = "floor"},/area)
-"UR" = (/obj/structure/interactive/lighting/fixture/covenant,/turf/simulated/wall/covenant,/area)
-"Vh" = (/obj/decal/sidewalk/side{dir = 4; icon_state = "cobble_side2"},/mob/living/advanced/npc/halo/unggoy,/turf/simulated/floor/grass,/area)
 "Vv" = (/obj/marker/spawning/window/reinforced,/turf/simulated/floor/plating,/area/burgerstation/hanger)
-"VA" = (/turf/simulated/wall/plastic/office,/area)
-"VH" = (/mob/living/advanced/npc/halo/unggoy{dir = 4; icon_state = "halo_unggoy"},/turf/simulated/floor/tile/dark,/area)
-"WE" = (/obj/decal/sidewalk/side{dir = 4; icon_state = "cobble_side2"},/turf/simulated/floor/carpet/office,/area)
-"WQ" = (/obj/marker/covenant/grunt_m,/turf/simulated/floor/carpet/office,/area)
-"Xf" = (/obj/structure/interactive/chair/stool,/obj/structure/interactive/lighting/fixture/tube/station{dir = 4},/turf/simulated/floor/tile/chapel{dir = 1; icon_state = "floor"},/area)
+"Wz" = (/obj/structure/interactive/vending/medical/chemistry,/turf/simulated/floor/covenant/blue,/area/burgerstation/science)
+"WO" = (/obj/structure/interactive/lighting/fixture/floor/stronger,/turf/simulated/floor/covenant/blue,/area/burgerstation/science)
+"WP" = (/turf/simulated/floor/plating/covenant,/area/burgerstation/science)
+"Xu" = (/obj/structure/interactive/lighting/fixture/covenant{dir = 8; icon_state = "covie_light_on"},/turf/simulated/wall/covenant/hull,/area/burgerstation/science)
 "Xy" = (/mob/living/advanced/npc/halo/unggoy/lobby{dir = 4},/turf/simulated/floor/cave_dirt,/area/burgerstation/tax)
-"XM" = (/obj/marker/covenant/elite_m,/turf/simulated/floor/cave_dirt,/area)
-"XO" = (/turf/simulated/floor/tile/dark/er,/area)
+"Yp" = (/obj/structure/interactive/chair/covenant{dir = 8},/turf/simulated/floor/plating/covenant,/area/burgerstation/science)
 "YI" = (/obj/structure/interactive/barricade,/obj/structure/interactive/barricade{dir = 8},/obj/marker/map_node,/turf/simulated/floor/plating/shuttle,/area/burgerstation/tax)
-"YL" = (/mob/living/advanced/npc/halo/kigyar/ranged{dir = 8; icon_state = "halo_kigyar1"},/turf/simulated/floor/grass,/area)
-"YO" = (/obj/structure/interactive/chair/stool,/turf/simulated/floor/tile/chapel{dir = 4; icon_state = "floor"},/area)
-"Zd" = (/obj/structure/interactive/chair/covenant{dir = 4; icon_state = "null"},/obj/structure/interactive/barricade/covenant{dir = 4; icon_state = "cov"},/turf/simulated/floor/plating/covenant,/area/transit/dropship/bravo/station)
-"Zz" = (/obj/structure/interactive/vending/security/gundrobe/halo/cov,/turf/simulated/floor/covenant/blue,/area)
-"ZB" = (/obj/decal/sidewalk/side{dir = 1; icon_state = "cobble_side2"},/obj/marker/covenant/grunt_m,/turf/simulated/floor/carpet/office,/area)
+"Zd" = (/obj/structure/interactive/lighting/fixture/covenant{dir = 4; icon_state = "covie_light_on"},/turf/simulated/wall/covenant,/area/transit/dropship/bravo/station)
+"ZE" = (/obj/marker/covenant/grunt_m,/turf/simulated/floor/covenant/blue,/area/burgerstation/science)
 "ZQ" = (/obj/structure/interactive/chair/covenant{dir = 8; icon_state = "null"},/turf/simulated/floor/plating/covenant,/area/transit/dropship/bravo/station)
 
 (1,1,1) = {"
@@ -326,7 +263,7 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakakakdGdGdGdGdGdGakakbjbjbjbjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakdaaIaIaIaIaIaIaIaIdabjagagbjbjbjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakaIaIakddddddddddddakaIbjagagagagbjbjbjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakakaIakddddddddddddakaIbjagagagagbjbjbjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakaIaIakddddddddddddakaIahagagagagagagbjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakaIdaaIaIaIaIaIaIaIaIdabjagagagagagagbjbjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakakaIaIakddddddddddddakaIbjbjbjbjbjagagagbjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -335,7 +272,7 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakaIaIaIakddddddddddddakaIbjaiajamaqataibjagbjbjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakaIaIaIakddddddddddddakaIbjauaQaQaQaQaubjagagbjbjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakakdGdGdGdGdGdGdGdGdGdGdGakakakaIaIdaaIaIaIaIaIaIaIaIdabjavaQbNdBaQawbjagagagbjbjbjbjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakcraxaAaAaAaAaBaAaAaAaAaCcrakakaIakakakakcrcrakakakakakbjaFaKbAbAaKaFbjagagagagbjaLbjbjbjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakcraxaAaAaAaAaBaAaAaAaAaCcrakakakakakakakcrcrakakakakakbjaFaKbAbAaKaFbjagagagagbjaLbjbjbjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakcrblaDaMaDaSaYaZaDaMaDbacrakakakcSdAdAcSdAdAcSdAdAcSdAbjbjbjaOaObjbjbjbjagagbjbjbjbjbjbjbjbjbjbjbjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakdablaDapbbbibmbibbapaDbadaakakdAdaaIaIaIaIaIaIaIaIdacraObpbAbqbAbAbpaObjahbjbjbjbsbsbsbjbjbjbjbjbjbjbtbtbtbtbtbtbtbtaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakcrblaDdcbubvbxbvbubCaDbacrakdAdAaIakddddddddddddakaIcraObAbAbAdBbAbAaObAbAbAdBbpbAbAbAbpbAbAdBbjbjbjbjbjbjbDbDbDbjbjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -348,64 +285,64 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakaIblhFafbwbdbwafbwbdhFbaaI
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakcrblaDdcbwbdbvafbwbCaDbabOakbPcraIakddddddddddddakaIcraObAbAdKdBbAbAaObjaibAbAdTdTdTdTdTdTbAbAaibWbjbjdNdObAchbAdOdNbjaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakdPblaDaffZbwfZbwfZbdaDbacrbEcrcrdaaIaIaIaIaIaIaIaIdacraOezbAmebAbAezaObHdBbAbAdTdTdTdTdTdTbAbAbAdBbjbjbjpnbJbJbJpnaibjaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakcrblaDaDaDHybbHyaDaDaDbacrakdAdASldAdASldAdASldAdASldAbjbjbjaOaObjbjbjbAbAbAdBezbAbAbAezbAbAdBbjbjbjbjbjbjbDbDbDbjbjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakdablzkzkzkigyBigzkzkzkbadaakakdAakakakakcrcrakakakakakbjaukabAbAkaaubjbjahbjbjbjbsbsbsbjbjbjbjbjbjbjbtbtbtbtbtbtbtbtaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakdablzkzkzkigyBigzkzkzkbadaakakakakakakakcrcrakakakakakbjaukabAbAkaaubjbjahbjbjbjbsbsbsbjbjbjbjbjbjbjbtbtbtbtbtbtbtbtaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakcrTGbQbQLdpVpViGGmeYbQzIcrakakakaIdaaIaIaIaIaIaIaIaIdabjavaQbNdBaQawbjbjagagbjbjbjbjbjbjbjbjbjbjbjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakcrcrcrbnBEbQbQbQlnbncrcrcrakakaIaIaIakddddddddddddakaIbjaFaQaQaQaQaFbjbjagagagagagbjbjbjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakakdGdGdGdGdGdGdGdGdGdGdGakakakaIaIaIakddddddddddddakaIbjaiajamaqataibjagagagbjbjbjbjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakaIaIdaaIaIaIaIaIaIaIaIdabjbjbjbjbjbjbjagagagbjbjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakaIaIaIakddddddddddddakaIbjbjbjbjbjbjagagagbjbjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakaIaIaIakddddddddddddakaIbjbjbjbjbjagagagagbjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazgzgzgzgzgzgzgzgzgzgzgaaaaaaaaaaaaaaaaaaakaIaIdaaIaIaIaIaIaIaIaIdabjagagagagagagagbjbjaaaazgzgzgzgzgaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazgzgzgrfrfrfrfrfrfrfrfrfzgzgzgaaaaaaaaaaaaaaakakaIaIakddddddddddddakaIahagagagagagagbjbjaazgzgnaFVFVFVnazgzgzgzgaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazgzgrfrfrfrfrfrfrfrfrfrfrfrfrfzgzgzgaaaaaaaaaaaaakaIaIakddddddddddddakaIbjagagagagbjbjbjaazgzgZzZzrfrfrfrfDErfzgmxmxmxmxaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazgzgrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfzgzgaaaaaaaaaaakakdaaIaIaIaIaIaIaIaIdabjagagbjbjbjaazgzgzgZzrfrfrfrfrfLNLNLNzgrfrfrfmxmxmxaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazgzgrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfzgzgzgaaaaaaakakakakVvVvVvVvVvVvakakbjbjbjbjaaaazgzggFzgZzrfrfrfrfrfrfrfrfzgrfrfrfrfrfmxmxaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazgrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfzgzgzgaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazgnagFgFzgZzrfrfrfrfrfkNkNkNugrfrfrfrfrfrfmxmxmxaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaazgzgrfrfrfrfrfrfECIyrfrfrfJqECrfrfrfrfrfrfrfrfrfrfzgzgzgzgaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazgAIrfrfLjrfrfrfrfrfrfLrLrLrzgrfrfrfrfrfrfrfrfzgzgzgaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaazgrfrfrfrfrfrfECyrZdrfrfrfeCZQECrfrfrfrfrfrfrfrfrfrfrfrfzgzgaaaaaaaaaaaaaaaaaaaaaaaaaazgzgAIEJAIzgrfrfrfrfrfrfLrLrLrzgrfrfrfrfrfrfrfrfrfrfzgzgaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaazgzgzgzgzgzgaaaaaazgzgrfrfrfrfrfrfECyryrrfrfrfZQZQECrfrfrfrfrfrfrfrfrfrfrfrfrfzgzgaaaaaaaaaaaaaaaaaaaazgzgzgzgzgzgzgzgzgRbLjLjRbzgzgzgzgzgrfrfrfrfrfrfrfrfrfrfrfzgzgaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaazgzgzggFgFgFgFzgzgaaaazgrfrfrfrfrfrfrfECyryrrfrfrfZQZQECrfrfrfrfrfrfrfrfrfrfrfrfrfrfzgzgzgaaaaaaaaaaaazgzgzgrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfzgrfrfrfrfrfrfrfrfrfrfrfrfzgaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaazgzgEJEJgFgFgFgFgFzgzgaazgrfrfrfrfrfrfrfECyryrrfrfrfZQZQECrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfzgzgmxmxmxmxzgzgrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfzgrfrfrfrfrfrfrfrfrfrfrfrfzgzgaaaaaaaaaaaaaaaaaaaaaaaa
-aazgzgrfrfrfrfrfrfrfrfrfzgzgzgrfrfrfrfrfrfrfIyyryrrfrfrfZQZQJqrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfzgrfrfrfrfrfrfzgrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfzgrfrfrfrfrfrfrfrfrfrfrfrfrfzgaaaaaaaaaaaaaaaaaaaaaaaa
-aazgrfrfrfrfrfrfrfrfrfrfrfzgrfrfrfrfrfrfrfrfECyryrrfrfrfZQZQECrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfLjrfrfrfrfrfrfLjrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfLjrfrfrfrfrfrfrfrfrfrfrfrfrfzgaaaaaaaaaaaaaaaaaaaaaaaa
-aazgrfrfrfrfrfrfrfrfrfrfrfLjrfrfrfrfrfrfrfrfECyryrrfrfrfZQZQECrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfLjrfrfrfrfrfrfLjrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfLjrfrfrfrfrfrfrfrfrfrfrfrfrfzgaaaaaaaaaaaaaaaaaaaaaaaa
-aazgrfrfrfrfrfrfrfrfrfrfrfzgrfrfrfrfrfrfrfrfECyrZdrfrfrfeCZQECrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfzgrfrfrfrfrfrfzgrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfzgrfrfrfrfrfrfrfrfrfrfrfrfrfzgaaaaaaaaaaaaaaaaaaaaaaaa
-aazgzgrfrfrfrfrfrfrfrfrfzgzgzgrfrfrfrfrfrfrfECwoIyrfrfrfJqvBECrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfzgzgmxmxmxmxzgzgrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfzgrfrfrfrfrfrfrfrfrfrfrfrfzgzgaaaaaaaaaaaaaaaaaaaaaaaa
-aaaazgzgEJEJAIAIAIAIAIzgzgaazgrfrfrfrfrfrfrfECAlECECjFECECAlECrfrfrfrfrfrfrfrfrfrfrfrfrfrfzgzgzgaaaaaaaaaaaazgzgzgrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfzgrfrfrfrfrfrfrfrfrfrfrfrfzgaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaazgzgzgAIAIAIAIzgzgaaaazgrfrfrfrfrfrfrfrfECCmECCJECCmECrfrfrfrfrfrfrfrfrfrfrfrfrfrfzgzgaaaaaaaaaaaaaaaaaaaazgzgzgzgzgzgzgzgzgnaLjLjnazgzgzgzgzgrfrfrfrfrfrfrfrfrfrfrfzgzgaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaazgzgzgzgzgzgaaaaaazgzgrfrfrfrfrfrfrfrfrfmoFJmorfrfrfrfrfrfrfrfrfrfrfrfrfrfrfzgzgaaaaaaaaaaaaaaaaaaaaaaaaaazgzgAIEJAIzgZzrfrfrfrfrfRiRiRizgrfrfrfrfrfrfrfrfrfrfzgzgaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaazgzgrfrfrfrfrfrfrfrfECAlECrfrfrfrfrfrfrfrfrfrfrfrfzgzgzgzgaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazgAIrfrfLjrfrfrfrfrfrfRiRiRizgrfrfrfrfrfrfrfrfzgzgzgaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazgrfrfrfrfrfrfrfrfECNMECrfrfrfrfrfrfrfrfrfrfzgzgzgaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazgRbgFgFzgZzrfrfrfrfrfRiRiRiugrfrfrfrfrfrfmxmxmxaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazgzgrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfzgzgzgaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazgzggFzgZzrfrfrfrfrfkikikizgrfrfrfrfrfmxmxaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazgzgrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfzgzgaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazgzgzgZzrfrfrfrfrfkikikizgrfrfrfmxmxmxaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazgzgrfrfrfrfrfrfrfrfrfrfrfrfrfzgzgzgaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazgzgZzZzrfrfrfkikikizgmxmxmxmxaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazgzgzgrfrfrfrfrfrfrfrfrfzgzgzgaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazgzgRbgygygyRbzgzgzgzgaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazgzgzgzgzgzgzgzgzgzgzgaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazgzgzgzgzgaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazgzgzgzgzgyGzgzgzgzgzgaaaaaaaaaaaaaaaaaaakaIaIdaaIaIaIaIaIaIaIaIdabjagagagagagagagbjbjaaaamxmxmxmxmxaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazgzgyGNMNMNMNMNMNMNMNMNMzgzgzgaaaaaaaaaaaaaaakakaIaIakddddddddddddakaIahagagagagagagbjbjaamxmxnaDcDcDcnamxmxmxmxaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazgzgNMNMNMNMNMNMPHNMnJNMNMNMNMzgzgzgaaaaaaaaaaaaakaIaIakddddddddddddakaIbjagqEagagbjbjbjaamxmxJkJkwfwfwfwfDEwfmxmxnaCzCzaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazgyGNMNMNMNMNMNMNMNMNMNMNMPHNMNMNMNMzgzgaaaaaaaaaaakakdaaIaIaIaIaIaIaIaIdabjbjbjbjbjbjaamxmxmxJkwfwfwfwfwfLNLNLNmxwfwfwfCzCzCzaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazgzgNMNMNMxfNMNMNMNMNMNMNMNMNMspNMNMNMNMyGzgzgaaaaaaaaakakakVvVvVvVvVvVvakakbjbjbjbjaaaamxmxgFmxJkwfQlwfwfwfwfwfwfLjwfwfwfwfwfCzCzaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazgNMNMNMNMNMNMECZdNMNMNMmoECNMNMNMNMNMNMNMNMzgzgzgaaaaaaaaaaaaaaaaaagtxJaaaaaaaaaaaaaamxmxgFgFugJkQlwfwfwfwfkNkNkNugwfwfbMwfwfwfCzCzCzaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaazgyGNMNMNMNMNMECyrIyNMNMNMJqZQECNMNMPJNMNMNMNMNMNMyGzgzgzgaaaaMaaaaaJKaaaaaaaaaaaaaaaaaamxjwwfwfLjwfwfwfwfwfwfLrLrLrmxwfwfwfwfwfwfwfwfXumxmxaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaazgNMNMlXNMNMNMmoyryrNMNMNMZQZQZdNMNMNMNMNMNMNMNMNMNMNMNMzgzgaaaaaaRvaaksaagtaaaaaaaaaamxKwjwnhjwmxedQlwfwfwfwfLrLrLrmxwfwfwfwfwfwfwfwfwfwfmxmxaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaamxmxmxmxmxmxaaaaaazgzgNMNMNMPHNMNMZdyryrNMNMNMZQZQmoNMNMNMNMNMNMNMNMNMNMNMNMNMzgzgaaaagtnIaaaaaaaaaaaamxmxmxmxmxnamxmxmxRbLjLjRbmxmxmxmxmxwfwfwfwfwfwfwfwfwfwfwfmxmxaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaamxmxmxgFgFgFgFmxmxaaaazgNMNMNMNMNMNMNMECyryrNMNMNMZQZQECNMNMPHNMNMNMNMNMNMNMNMNMNMNMyGzgzgaaaaaaaaaaaamxmxnaededWzOsAewImxwfwfwfwfwfwfwfwfwfmxwfwfwfwfwfWOwfwfwfwfwfwfmxaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaamxmxnhnhgFgFgFgFgFmxmxaazgNMNMnJNMNMNMNMalyryrNMNMNMZQZQalNMNMNMNMFpNMNMNMNMNMNMNMNMNMNMNMzgnaCzCzCzCznamxqzyJwfwfwfwfwfwfmxwfwfwfwfwfwfwfwfwfugwfwfaEaEaEaEaEwfwfwfwffaXumxaaaaaaaaaaaaaaaaaaaaaaaa
+aamxmxedwfwfwfwfwfwfwfedmxmxazNMNMNMNMNMNMNMECyryrNMNMNMZQZQECNMaNNMNMNMNMNMNMNMNMNMNMNMNMNMNMzgwfwfwfwfwfwfmxwfaEwfQlwfwfwftgbgwfwfwfwfwfwfwfwfwfbgwfwfaEaEaEaEaEwfwfwfMeWPWPmxaaaaaaaaaaaaaaaaaaaaaaaa
+aamxwfwfwfwfwfwfwfwfwfwfwfmxNMNMNMNMNMNMNMNMZdyryrNMNMNMZQZQmoNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMHswfbMwfwfwfwfLjwfwfwfDxwfwfwfwfLjwfwfwfwfwfwfwfwfwfLjwfwfwfwfwfwfwfwfwfHKWPWPWPmxaaaaaaaaaaaaaaaaaaaaaaaa
+aamxwfwfDxwfwfwfwfwfDxwfwfLjNMNMNMPHNMNMNMNMmoyrIyNMNMNMJqZQZdNMNMNMNMNMPHNMNMNMNMNMPHNMNMNMNMHswfwfDxwfwfwfLjwfwfwfwfwfwfwfwfLjwfDxwfwfwfwfwfwfwfLjwfwfwfwfwfwfQlwfwfYpWPWPWPmxaaaaaaaaaaaaaaaaaaaaaaaa
+aamxwfwfwfwfwfwfwfwfwfwfwfmxNMNMNMNMNMNMNMNMECJwZdNMNMNMmopYECNMaNNMNMNMNMNMNMNMNMNMNMnJNMNMNMzgwfwfwfwfwfwfmxwfwfwfwfwfwfIHwfbgwfwfwfwfwfwfwfwfwfbgwfwfaEaEaEaEaEwfwfwfbFWPWPmxaaaaaaaaaaaaaaaaaaaaaaaa
+aamxmxDcwfwfwfwfwfwfwfDcmxmxazNMNMNMlXNMNMNMECFJECECndECECFJECNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMzgyQCzCzCzCzyQmxIHwfwfwfwfwfaEIvmxwfQlwfwfwfwfwfwfwfugwfwfaEaEaEaEaEwfwfwfwfAEXumxaaaaaaaaaaaaaaaaaaaaaaaa
+aaaamxmxnhnhjwjwjwjwjwmxmxaazgNMNMNMNMNMNMNMNMECNaECjFECNaECNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMhEzgzgaaaaaaaaaaaamxmxyQnDLwPXocIHwfmxwfwfwfDxwfwfwfwfwfmxwfwfwfwfwfWOwfwfwfwfwfwfmxaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaamxmxmxjwjwjwjwmxmxaaaazgNMNMNMNMNMNMNMNMNMNMwkCJwkNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMzgzgaaaaaaaaaaaaaaaaaaaamxmxmxmxmxyQmxmxmxeaLjLjeamxmxmxmxmxwfwfwfwfwfwfwfwfwfwfwfmxmxaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaamxmxmxmxmxmxaaaaaazgzgNMNMNMNMNMNMNMNMNMmockZdNMNMNMNMNMNMlXFpNMNMNMNMNMNMNMzgzgaaaaaaaaaaaaaaaaaaaaaaaaaamxKwjwnhjwmxedwfwfwfwfgFZEZEZEmxwfwfwfwfbMwfwfwfwfwfmxmxaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaazghENMNMNMPHspNMNMNMECAlECNMNMNMspNMPHNMNMNMNMNMNMhEzgzgzgaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamxjwwfwfLjwfwfwfwfwfwfZEZEZELjwfwfwfwfwfwfwfwfXumxmxaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazgNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMzgzgzgaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamxmxgFgFugJkbMwfDxwfwfZEZEZEugwfwfwfwfwfwfCzCzCzaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazgzgNMNMNMNMnJNMNMNMNMNMNMNMNMNMNMNMNMNMhEzgzgaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamxmxgFmxJkwfwfwfwfwfkikikimxwfwfwfwfwfCzCzaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazghENMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMzgzgaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamxmxmxJkwfwfwfwfwfkikikimxwfwfwfCzCzCzaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazgzgNMNMNMNMNMNMNMPHNMNMNMNMNMzgzgzgaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamxmxJkJkwfwfwfkikikimxmxyQCzCzaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazgzghENMNMNMNMNMNMNMNMNMhEzgzgaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamxmxyQgygygyyQmxmxmxmxaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazgzgzgzgzghEzgzgzgzgzgaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamxmxmxmxmxaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaMqmTdMGbGbbgbgbgbgckckckbgbgbgGbckckbgbgbgbgckckckckckckaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaMqdMdMWEususYLusususNeusususususNeusususususpldMmHdMdMdraaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaMqWQdMdMrjCxrjrjZBrjsrrjrjrjrjrjaNGyGyOuGyGyaNsrdMdMSfdraaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaMqdMsrdMWQdMWQdMdMFhdMdMFhdMWQWEusususrrusususplhDdMdMdraaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaMqdMnzWQdMdMdMdMjljljldMdMdMaNduduwWdusxduwWduduaNdMhDdraaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaMqdMARARDrnzRiURARrfARARARWEusdutREYuDzQuDgQUsduuspldMdraaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaMqdMARrfrflARirfARgpZzGOFVfFJywWSIalzQzQzQSIalwWuscqdMdraaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaMqWQrfrfFVARZzrfEJgpCEkkdMdMusduXfYOdydyzQsImjduuspldMdraaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaMqnzISRiARARARRirfDrdMnzdMLVuswWSIalzQzQdySIalwWuspldMdraaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaMqnznzrfZzARFVrfHSnznzdMdMWEusdusIYOdyzQzQsIYOduuspldMdraaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaMqnzARCEgpDhrfAIARnzDTEaDTdMrjduaEBtMwxqMwaEBtdudududuozaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaMqnzARLZnzlArfARARXMdMdMdMPxdMduhkjVizoUoNizowdugpgpgpozaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaMqdMjInznzdMWQdMdMsrdMtWdMdMWQduzQmYBtzQaEutzQdugpgpgpozaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaMqdMdMgcnzdMzEImImImNoImImFYdMduzQzQzQprzQVHzQdugpgpgpozaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaMqmXDPVAWQdMzdususususfUAVyTdMdududuBydudududududududuozaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaMqusnzARLyLyzdususususfUusVhdMtDdMdMdMdMdMdMsrdMdMdMdMdraaaaaaaaaaaaaaaaaaeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeq
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaMqusnzARdMdMzdususususususyTdMdududududududuPRdudududuozaaaaaaaaaaaaaaaaaaeqSTzwTOTOzwzwzwhwhwhwhwhwkxhwjjhwhwhwzwzwHAffffffffffeq
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaMqnzussNdMdMzdususususAVusyTLyduChEfXOmUduGCXOduxvxvxvozaaaaaaaaaaaaaaaaaaeqSTzwTOTOzwzwzwhwhwhwvivihwhwhwhwhwzwzwzwHAffffffffffeq
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaMqnznzARdMdMzdusususvpususyTdMduLbXOXOXOPRXOXOPRXOXOlhozaaaaaaaaaaaaaaaaaaeqSTSTzwTOzwzwzwhwhwjjsSvihwhwhwhwvizwANzwHAffffffffffeq
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaMqususVAsrdMzdususususfUSsfWdMduXOXOmgPNduMTvQduxvxvxvozaaaaaaaaaaaaaaaaaaeqSTSTzwzwzwzwzwvilFhwhwhwBjlEhCeeeehwzwzwHAffffffffffeq
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaMqDDjaARdMdMITAFAFAFAFAFAFdgdMdudududududududududududuozaaaaaaaaaaaaaaaaaaeqSTSTSTzwzwhwvivihwhwhwxjmChwjjhwhChwhwzwHAffffffffffeq
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaMqdMdMdMdMdMdMdMdMdMdMdMdMdMdMdMdMdMdMdMhDdMdMdMsrdMdMdraaaaaaaaaaaaaaaaaaeqzwSTSTzwzwhwhwtvhAvivihwOIhwhwhwjjhwviviHAffffffffffeq
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqaaaaaaaaaaaaaaaaaaeqzwSTSTzwzwhwhwhwhwvihwhwhChwhwviellEzLviHAffffffffffeq
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeq
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeqSTzwTOTOzwzwzwhwhwhwhwhwkxhwjjhwhwhwzwzwHAffffffffffeq
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeqSTzwTOTOzwzwzwhwhwhwvivihwhwhwhwhwzwzwzwHAffffffffffeq
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeqSTSTzwTOzwzwzwhwhwjjsSvihwhwhwhwvizwANzwHAffffffffffeq
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeqSTSTzwzwzwzwzwvilFhwhwhwBjlEhCeeeehwzwzwHAffffffffffeq
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeqSTSTSTzwzwhwvivihwhwhwxjmChwjjhwhChwhwzwHAffffffffffeq
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeqzwSTSTzwzwhwhwtvhAvivihwOIhwhwhwjjhwviviHAffffffffffeq
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeqzwSTSTzwzwhwhwhwhwvihwhwhChwhwviellEzLviHAffffffffffeq
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeqzwSTSTSTzwzwhwhwhwjjhwhwhChwifvizLjLFEhwHAffffffffffeq
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeqzwSTSToGzwzwhwhwhwhwDshwhChwhwhwDOcDzLhwHAffffffffffeq
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeqzwSTSTSTzwzwXyhwvihwhwhwOIhwhwhwifvihwzwHAffffffffffeq
