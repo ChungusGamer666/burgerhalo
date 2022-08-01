@@ -1437,9 +1437,9 @@
 "BJ" = (/obj/decal/sidewalk/side{dir = 1; icon_state = "cobble_side2"},/obj/structure/interactive/fence/end{dir = 8; icon_state = "end"},/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
 "BK" = (/turf/simulated/wall/covenant,/area/halo/interior)
 "BL" = (/obj/marker/covenant/grunt_m,/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
-"BM" = (/obj/marker/covenant/grunt_m,/turf/simulated/floor/covenant/blue,/area/halo/exterior/jungle)
+"BM" = (/obj/marker/covenant/grunt_m,/turf/simulated/floor/covenant/blue,/area/halo/interior)
 "BN" = (/obj/structure/interactive/lighting/fixture/covenant,/turf/simulated/wall/covenant,/area/halo/interior)
-"BO" = (/turf/simulated/floor/covenant/blue,/area/halo/exterior/jungle)
+"BO" = (/turf/simulated/floor/covenant/blue,/area/halo/interior)
 "BP" = (/obj/structure/interactive/vending/medical/medicine,/turf/simulated/floor/tile/chapel{dir = 1; icon_state = "floor"},/area/halo/interior/geminus/church)
 "BQ" = (/turf/simulated/floor/tile/chapel{dir = 4; icon_state = "floor"},/area/halo/interior/geminus/church)
 "BR" = (/obj/structure/interactive/potted_plant/nanotrasen,/turf/simulated/floor/tile/dark,/area/halo/interior/geminus/church)
@@ -1454,10 +1454,10 @@
 "Ca" = (/obj/decal/sidewalk/side{dir = 4; icon_state = "cobble_side2"},/obj/structure/interactive/fence/end{dir = 1; icon_state = "end"},/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
 "Cb" = (/turf/simulated/wall/plastic/office/darker,/area/halo/interior/bar)
 "Cc" = (/turf/simulated/wall/plastic/office/darker/indestructable,/area/halo/interior/bar)
-"Cd" = (/obj/marker/covenant/grunt_m,/turf/simulated/floor/plating,/area/halo/exterior/jungle)
-"Ce" = (/obj/structure/interactive/vending/security/gundrobe/halo/cov,/turf/simulated/floor/covenant/blue,/area/halo/exterior/jungle)
-"Cf" = (/obj/structure/interactive/vending/security/gundrobe/halo/cov,/turf/simulated/floor/plating,/area/halo/exterior/jungle)
-"Cg" = (/obj/structure/interactive/vending/security/ammo/halo/cov,/turf/simulated/floor/covenant/blue,/area/halo/exterior/jungle)
+"Cd" = (/obj/marker/covenant/grunt_m,/turf/simulated/floor/plating,/area/halo/interior)
+"Ce" = (/obj/structure/interactive/vending/security/gundrobe/halo/cov,/turf/simulated/floor/covenant/blue,/area/halo/interior)
+"Cf" = (/obj/structure/interactive/vending/security/gundrobe/halo/cov,/turf/simulated/floor/plating,/area/halo/interior)
+"Cg" = (/obj/structure/interactive/vending/security/ammo/halo/cov,/turf/simulated/floor/covenant/blue,/area/halo/interior)
 "Ch" = (/obj/structure/interactive/lighting/fixture/covenant{dir = 8; icon_state = "covie_light_on"},/turf/simulated/wall/covenant,/area/halo/interior)
 "Ci" = (/obj/structure/interactive/crate/covenant,/turf/simulated/floor/grass,/area/halo/exterior/jungle)
 "Cj" = (/obj/structure/interactive/chair/stool,/turf/simulated/floor/tile/chapel{dir = 8; icon_state = "floor"},/area/halo/interior/geminus/church)
@@ -1465,8 +1465,8 @@
 "Cl" = (/obj/structure/interactive/chair{dir = 1},/turf/simulated/floor/tile/dark,/area/halo/interior/geminus/core)
 "Cm" = (/obj/structure/interactive/door/airlock/syndicate,/turf/simulated/floor/tile/dark,/area/halo/interior/geminus/core)
 "Cn" = (/obj/structure/interactive/fence/end,/turf/simulated/wall/plastic/office,/area/halo/interior)
-"Co" = (/obj/structure/interactive/restocker/ammo,/turf/simulated/floor/covenant/blue,/area/halo/exterior/jungle)
-"Cp" = (/obj/structure/interactive/chair/stool/covies/bar,/turf/simulated/floor/covenant/blue,/area/halo/exterior/jungle)
+"Co" = (/obj/structure/interactive/restocker/ammo,/turf/simulated/floor/covenant/blue,/area/halo/interior)
+"Cp" = (/obj/structure/interactive/chair/stool/covies/bar,/turf/simulated/floor/covenant/blue,/area/halo/interior)
 "Cq" = (/obj/marker/covenant/elite_shipmaster,/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
 "Cr" = (/obj/structure/interactive/chair/stool,/obj/structure/interactive/lighting/fixture/tube/station{dir = 4},/turf/simulated/floor/tile/chapel{dir = 1; icon_state = "floor"},/area/halo/interior/geminus/church)
 "Cs" = (/obj/structure/interactive/chair/stool,/turf/simulated/floor/tile/chapel{dir = 4; icon_state = "floor"},/area/halo/interior/geminus/church)
@@ -1483,14 +1483,14 @@
 "CD" = (/obj/structure/interactive/door/airlock/syndicate,/turf/simulated/floor/tile/dark/er,/area/halo/interior/geminus/core)
 "CE" = (/obj/decal/sidewalk/side{dir = 8; icon_state = "cobble_side2"},/obj/structure/interactive/fence/end{dir = 1; icon_state = "end"},/turf/simulated/floor/grass,/area/halo/exterior/jungle)
 "CF" = (/obj/decal/sidewalk/side{dir = 4; icon_state = "cobble_side2"},/obj/structure/interactive/fence/end{dir = 1; icon_state = "end"},/turf/simulated/floor/grass,/area/halo/exterior/jungle)
-"CG" = (/obj/structure/interactive/crate/covenant,/turf/simulated/floor/plating,/area/halo/exterior/jungle)
+"CG" = (/obj/structure/interactive/crate/covenant,/turf/simulated/floor/plating,/area/halo/interior)
 "CH" = (/obj/structure/interactive/vending/engineering/equipment,/turf/simulated/floor/tile/dark/er,/area/halo/interior/geminus/core)
 "CI" = (/mob/living/advanced/npc/halo/marine{dir = 4; icon_state = "directional"},/turf/simulated/floor/tile/dark/er,/area/halo/interior/geminus/core)
 "CJ" = (/obj/structure/interactive/crate/engineering,/turf/simulated/floor/tile/dark/er,/area/halo/interior/geminus/core)
 "CK" = (/obj/structure/interactive/power/apc{pixel_y = 32},/turf/simulated/floor/tile/dark/er,/area/halo/interior/geminus/core)
 "CL" = (/mob/living/advanced/npc/halo/kigyar/ranged,/turf/simulated/floor/carpet/office,/area/halo/exterior/jungle)
-"CM" = (/obj/structure/interactive/vending/medical/medicine,/turf/simulated/floor/plating,/area/halo/exterior/jungle)
-"CN" = (/obj/structure/interactive/crate/covenant,/turf/simulated/floor/covenant/blue,/area/halo/exterior/jungle)
+"CM" = (/obj/structure/interactive/vending/medical/medicine,/turf/simulated/floor/plating,/area/halo/interior)
+"CN" = (/obj/structure/interactive/crate/covenant,/turf/simulated/floor/covenant/blue,/area/halo/interior)
 "CO" = (/obj/marker/covenant/elite_mj,/turf/simulated/floor/carpet/office,/area/halo/exterior/jungle)
 "CP" = (/obj/marker/covenant/elite_ultra,/turf/simulated/floor/carpet/office,/area/halo/exterior/jungle)
 "CQ" = (/turf/simulated/floor/tile/chapel{dir = 8; icon_state = "floor"},/area/halo/interior/geminus/church)
@@ -1582,7 +1582,7 @@
 "Ey" = (/obj/structure/interactive/lighting/fixture/bulb{dir = 1; icon_state = "preview"},/turf/simulated/floor/tile/dark/er,/area/halo/interior/geminus/core)
 "Ez" = (/obj/decal/sidewalk/side{dir = 1; icon_state = "cobble_side2"},/obj/marker/map_node,/turf/simulated/floor/carpet/office,/area/halo/exterior/jungle)
 "EA" = (/mob/living/advanced/npc/halo/kigyar{dir = 1; icon_state = "halo_kigyar1"},/turf/simulated/floor/wood/brown,/area/halo/interior/bar)
-"EB" = (/obj/structure/interactive/lighting/fixture/covenant{dir = 4; icon_state = "covie_light_on"},/turf/simulated/wall/covenant,/area/halo/interior)
+"EB" = (/obj/structure/interactive/lighting/fixture/covenant{dir = 4; icon_state = "covie_light_on"},/turf/simulated/wall/covenant,/area/halo/exterior/jungle)
 "EC" = (/obj/structure/interactive/computer/console,/turf/simulated/floor/tile/dark/er,/area/halo/interior/geminus/church)
 "ED" = (/obj/structure/smooth/table/rack/grey,/turf/simulated/floor/tile/dark/er,/area/halo/interior/geminus/church)
 "EE" = (/turf/simulated/floor/tile/dark/er,/area/halo/interior/geminus/church)
@@ -1664,7 +1664,7 @@
 "Ge" = (/obj/decal/sidewalk/side{dir = 8; icon_state = "cobble_side2"},/obj/marker/map_node,/turf/simulated/floor/carpet/office,/area/halo/exterior/jungle)
 "Gf" = (/obj/marker/map_node,/mob/living/advanced/npc/halo/kigyar,/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
 "Gg" = (/obj/structure/interactive/lighting/fixture/bulb{dir = 1; icon_state = "preview"},/obj/marker/map_node,/turf/simulated/floor/tile/dark,/area/halo/interior/geminus/core)
-"Gh" = (/obj/marker/map_node,/turf/simulated/floor/covenant/blue,/area/halo/exterior/jungle)
+"Gh" = (/obj/marker/map_node,/turf/simulated/floor/covenant/blue,/area/halo/interior)
 "Gi" = (/obj/marker/map_node,/turf/simulated/floor/tile/dark/er,/area/halo/interior/geminus/core)
 "Gj" = (/obj/structure/interactive/atmospherics/fan,/obj/marker/map_node,/turf/simulated/floor/tile/dark/er,/area/halo/interior/geminus/core)
 "Gk" = (/mob/living/advanced/npc/halo/unggoy{dir = 8; icon_state = "halo_unggoy"},/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
@@ -1673,6 +1673,10 @@
 "Gn" = (/obj/structure/smooth/table/reinforced,/turf/simulated/floor/plating,/area/halo/interior/geminus/core)
 "Go" = (/turf/simulated/floor/plating,/area/halo/interior/geminus/core)
 "Gp" = (/obj/decal/sidewalk/side{dir = 4; icon_state = "cobble_side2"},/obj/marker/map_node,/turf/simulated/floor/grass,/area/halo/exterior/jungle)
+"GC" = (/obj/marker/covenant/grunt_m,/turf/simulated/floor/cave_dirt,/area/halo/interior)
+"In" = (/turf/simulated/wall/covenant,/area/halo/exterior/jungle)
+"PA" = (/turf/simulated/floor/cave_dirt,/area/halo/interior)
+"Wo" = (/turf/simulated/wall/plastic/office,/area/halo/exterior/jungle)
 
 (1,1,1) = {"
 mImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
@@ -1759,22 +1763,22 @@ mImJadadnPmVmVAmmVmVmVBmmVmVmVmVmVBmmVmVmVmVmVnGadstadaddsadadaeaeaeaeaeadEzoLoL
 mImJBsadadoLBtoLoLBuoLdeoLoLoLoLoLngBvBvBwBvBvngdeadadBxdsadadaeaeaeAIaeaeadadadadadadxSFUadhsadadadadadrradadadadadxSFUadadadadadadaeaeaeaeaeaeadddadadadByadadafadaddeadadadadadjUjVBzjVjVjVjVjWadadmJmImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
 mImJaddeadBsadBsadadBAadadBAadBsnPmVmVmVBBmVmVmVnGvGadaddshsadaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaetsaeagaeaeaeaeadadadadadBCgLafadadadadadadadadoaadadadadadadadadadadmJmImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
 mImJadafBsadadadadBbBbBbadadadngBDBDBEBDBFBDBEBDBDngadvGdsadadaeaeBGagaeaeAIaeaeaeaeaeaeaeaeaeaeaeaeaejBaeaeaeaeaeaeaeaeaeaejBaeaefuaeaegMaeaeaeadadBHBHBHBHmQafBImQBHafBHBHBHadkmnkBJkmaddeadadadadadmJmImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
-mImJadBKBKBLafBMBNBKBOBKBKBKnPmVBDBPBQBRBSBRBTBUBDmVnGaddsadadaeaeaeaeaeaeaeaeaeagaeaejBaejBaesjagaeaeaeaerTagaeaeaeaeaeaeagaefuaeaeaeaeaeaeaeaeadhsBHBVBWBWBHBIafafafoIBXBYBHdeBZafafCaadCbCbCbCbCbCbCcmImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
-mImJadBKBOBOCdBMBOBKmQCeCfCgChCiBECjCkBSBSBSCjCkBEmVGeaddsadadadaeaeaeaeBGaeaeaeaeaeaeaeaeaeaefuaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeadadadBHClBXBXCmmQGfafmQBXBXBWBHddCnafafCnadCbhlhmhmhnhoCcmImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
-mImJBsBOBOCgBKCeBOComQCpCqadadmVBDCrCsCtCtBSCuCvBDmVnGaddsadrdadadaeaeAIaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeCwaeaeaeaeaeaeaeaeaeaeaddeadadBHCxGgBXBHmQCzmQBHBYCACBBHadkmmVafkmadCbhphmhqhrhmCcmImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
+mImJadBKBKGCPABMBNBKBOBKBKBKnPmVBDBPBQBRBSBRBTBUBDmVnGaddsadadaeaeaeaeaeaeaeaeaeagaeaejBaejBaesjagaeaeaeaerTagaeaeaeaeaeaeagaefuaeaeaeaeaeaeaeaeadhsBHBVBWBWBHBIafafafoIBXBYBHdeBZafafCaadCbCbCbCbCbCbCcmImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
+mImJadBKBOBOCdBMBOBKmTCeCfCgChCiBECjCkBSBSBSCjCkBEmVGeaddsadadadaeaeaeaeBGaeaeaeaeaeaeaeaeaeaefuaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeadadadBHClBXBXCmmQGfafmQBXBXBWBHddCnafafCnadCbhlhmhmhnhoCcmImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
+mImJBsBOBOCgBKCeBOComTCpCqadadmVBDCrCsCtCtBSCuCvBDmVnGaddsadrdadadaeaeAIaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeCwaeaeaeaeaeaeaeaeaeaeaddeadadBHCxGgBXBHmQCzmQBHBYCACBBHadkmmVafkmadCbhphmhqhrhmCcmImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
 mImJafGhBMBKBKBKBMBOBLadafadCCmVBECjCkBSBSCtCjCkBEmVnGaddsdeadadadadadngngngadngngngadadadadaeaeaeaeaeaddeadadadadadadadadadadadadadadadadadadadrdadBHBHBHBHBHBHCDBHBHBHBHBHBHadCEafmVCFadCbhmhmhthuhmCcmImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
-mImJafafBOCeBKCgBOCGafafadadnPmVBDCuCsCtBSBSCuCsBDmVnGaddsadadadadadnPmVmVmVBmmVmVmVnGaddeadaeaeaeaeaeadadadadadadadafafdeafadadadadadadadadadadadadadBHBHCHBICIBICJCKGiBHBHadCLCnnInjCnadhvhnhmhmhnhmCcmImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
-mImJafBKCpmQCMBOCNBKafCOCPCOadoLBDCQCRCSCTCSCQCRBDBDBDBDCUadwywywyCVwywyisisisisiswywywyadadaeaeaeaeaeadadCWCXCXCXCXCXafafafCXCXCXCXCXCXCXCXCXCXCXCYadBHBHCZBIBHGjBHBIDbBHBHdeadCLadadaddeCbhwhxhmhmhyCcmImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
-mImJafBKDcafCdBOBKBKDdadadadDeadBDDfDgDhDiDjDhDkBDDlDlDlCUadwyDmhHDnAGhHhHhHhHhHDoDpDqwyCLadaeaeagaeaeadadDrDsmVmVmVmVafafmVDtDsmVmVmVmVyjmVmVmVDsDrafGkmQBHBIBIBIGlBIBHBHBHDwadCbCbCbCbCbCbCbCbCbhzCbCcmImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
+mImJafPABOCeBKCgBOCGafafadadnPmVBDCuCsCtBSBSCuCsBDmVnGaddsadadadadadnPmVmVmVBmmVmVmVnGaddeadaeaeaeaeaeadadadadadadadafafdeafadadadadadadadadadadadadadBHBHCHBICIBICJCKGiBHBHadCLCnnInjCnadhvhnhmhmhnhmCcmImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
+mImJafBKCpmTCMBOCNBKafCOCPCOadoLBDCQCRCSCTCSCQCRBDBDBDBDCUadwywywyCVwywyisisisisiswywywyadadaeaeaeaeaeadadCWCXCXCXCXCXafafafCXCXCXCXCXCXCXCXCXCXCXCYadBHBHCZBIBHGjBHBIDbBHBHdeadCLadadaddeCbhwhxhmhmhyCcmImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
+mImJafBKDcPACdBOBKBKDdadadadDeadBDDfDgDhDiDjDhDkBDDlDlDlCUadwyDmhHDnAGhHhHhHhHhHDoDpDqwyCLadaeaeagaeaeadadDrDsmVmVmVmVafafmVDtDsmVmVmVmVyjmVmVmVDsDrafGkmQBHBIBIBIGlBIBHBHBHDwadCbCbCbCbCbCbCbCbCbhzCbCcmImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
 mImJadasafafadBsadaddeadDxadadBsBDBSDyCRBSCQDzBSBDDlDlDlCUadwyDohHDAhHAGhHhHAGhHhHAGDBwyadaeaeaeaeaeaeaeadDrmVDDDDmVDDafDEDDDDmVDDDDmVDDDDmVDDDDmVDradmQBHBHBHDFBIDGBHBHBHBHadadCbhAhmhmhvhBCbhChDhEhFCcmImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
 mImJadadocafadDHDIDIDIDJDIDIDKadBDBSBSBSDLBSDMBSBDDlDlDlCUadwywywywywywyDNDODODOwyxIwywyadaeaeaeaeaeaeaeadDrmVDDDDmVDPDDmVDDDDmVDDDDmVDDDDmVDDDDmVDradBHafBHBHBHCDBHBHBHBHBHiFadCbhGhnhmCbCbCbhEhHhIhECcmImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
-mImJDQBJkmBsadDRmVmVmVmVDSDTDUadBDBDBDDVBDBDBDBDBDBDBDBDCUadwyDWDXwODYwyhEAGDZhEwyxhEawyadaeaeaeaeaeaeaeadEbGmDDDDmVDDDDDtDDDDmVEcDDmVDDDDmVDDDDmVDrssBHBHEdEeBIGiafGnEeBHBHaddeCbhKhmhmhvhLCbhMhNhOhPCcmImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
-mImJmVafBKEgEgDRmVmVmVmVDSmVEhadEiadadadadadaddeadadadaddsadwyzcEjxhxhxIAGhEhEhExIxhEkwyadaeaeaeaeaeaeaeadElmVDDDDmVDDDDmVEmDDtZDDDDmVDDDDmVDDDDmVDradBHBHEnBIBIEoBIgVCJBHBHadadCbCbhvCbCbCbCbhQEphQhRCcmImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
-mImJmVafBKadadDRmVmVmVmVmVmVDUadBDBDBDBDBDBDBDEqBDBDBDBDCUadwyErwOEswRwyEtEuEvEwwywywywyadaeaeaeagaeaeaeadDrmVDDDDmVDDDDExDDDDmVDDDDmVDDDDnxDDDDmVDradBHBHBICJEyBInXasBIGoBHadadCbhSxkhThShUhVhSEAhShSCcmImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
+mImJDQBJWoBsadDRmVmVmVmVDSDTDUadBDBDBDDVBDBDBDBDBDBDBDBDCUadwyDWDXwODYwyhEAGDZhEwyxhEawyadaeaeaeaeaeaeaeadEbGmDDDDmVDDDDDtDDDDmVEcDDmVDDDDmVDDDDmVDrssBHBHEdEeBIGiafGnEeBHBHaddeCbhKhmhmhvhLCbhMhNhOhPCcmImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
+mImJmVafInEgEgDRmVmVmVmVDSmVEhadEiadadadadadaddeadadadaddsadwyzcEjxhxhxIAGhEhEhExIxhEkwyadaeaeaeaeaeaeaeadElmVDDDDmVDDDDmVEmDDtZDDDDmVDDDDmVDDDDmVDradBHBHEnBIBIEoBIgVCJBHBHadadCbCbhvCbCbCbCbhQEphQhRCcmImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
+mImJmVafInadadDRmVmVmVmVmVmVDUadBDBDBDBDBDBDBDEqBDBDBDBDCUadwyErwOEswRwyEtEuEvEwwywywywyadaeaeaeagaeaeaeadDrmVDDDDmVDDDDExDDDDmVDDDDmVDDDDnxDDDDmVDradBHBHBICJEyBInXasBIGoBHadadCbhSxkhThShUhVhSEAhShSCcmImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
 mImJafmVEBadadDRmVmVmVmVDTmVDUEgBDECEDEEEFBDEGEEBDEHEHEHCUadwywywywywywywywywywywyhsadadadaeaeaeaeaeaeaeadDrmVDDDDmVDDDDmVDDDDExDDDDmVDDDDmVDDDDmVDradBHEIGiEJBHEKBHEJELEMBHogiFCbxkhXhSENhShShShShXhYCcmImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
-mImJafafBKadadDRmVmVmVtZmVmVDUadBDEOEEEEEEEqEEEEEqEEEEEPCUadadadadadwxadadadadadadadadhsadaeaeaeaeaeaeaeadDrDsmVmVmVmVmVmVmVmVDsmVmVmVmVmVmVmVmVDsDradBHBHCIDbBHBHBHEQBIGoBradadCbhZiaiaibhZicidibhSieCcmImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
-mImJmVmVkmdeadDRmVmVmVmVDSDtGpadBDEEEEERESBDETEUBDEHEHEHCUadaddeadadadadadaddeadadkmkmadadaeaeaeaeaeaeaeadEVCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXEWddBHBHBIBIBIBInUwdasafmQadadCbijiaikibiliaiaibEXimCcmImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
-mImJniEYBKadadEZFaFaFaFaFaFaFbadBDBDBDBDBDBDBDBDBDBDBDBDCUadadkmkmkmkmkmkmadadadkmkmaddeadaeaeaeagaeaeaeaddeadadadadadadadadadaddeadadadadadadadadadadBHBHBHBHBHBHBHBHafBHBHadadCbCbisisCbCbisisCbitCbCcmImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
+mImJafafInadadDRmVmVmVtZmVmVDUadBDEOEEEEEEEqEEEEEqEEEEEPCUadadadadadwxadadadadadadadadhsadaeaeaeaeaeaeaeadDrDsmVmVmVmVmVmVmVmVDsmVmVmVmVmVmVmVmVDsDradBHBHCIDbBHBHBHEQBIGoBradadCbhZiaiaibhZicidibhSieCcmImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
+mImJmVmVWodeadDRmVmVmVmVDSDtGpadBDEEEEERESBDETEUBDEHEHEHCUadaddeadadadadadaddeadadkmkmadadaeaeaeaeaeaeaeadEVCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXEWddBHBHBIBIBIBInUwdasafmQadadCbijiaikibiliaiaibEXimCcmImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
+mImJniEYInadadEZFaFaFaFaFaFaFbadBDBDBDBDBDBDBDBDBDBDBDBDCUadadkmkmkmkmkmkmadadadkmkmaddeadaeaeaeagaeaeaeaddeadadadadadadadadadaddeadadadadadadadadadadBHBHBHBHBHBHBHBHafBHBHadadCbCbisisCbCbisisCbitCbCcmImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
 mImJadadadadadadadadadadadadadadadadadadadvGadadaddeadaddsadadadadadadogadfiadadadadadadadadaeaeaeaeaeadadadadmNadadmNadadadadadmNadadmNadadadadaddevGadadadadadadadadadafaddeadadadadadadhsadadaddeadmJmImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
 mImJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJdsdtdtdtdtdtdsmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmJmImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
 mImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImJdsdtdtdtdtdtdsmJmImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
