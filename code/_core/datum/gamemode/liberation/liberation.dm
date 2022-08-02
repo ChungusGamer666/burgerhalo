@@ -6,7 +6,7 @@
 		TEAM_URF = 50,
 	)
 	var/beacon_point_loss_time = 30
-	var/beacon_point_loss = 8
+	var/beacon_point_loss = 2
 
 /gamemode/liberation/New()
 	. = ..()
