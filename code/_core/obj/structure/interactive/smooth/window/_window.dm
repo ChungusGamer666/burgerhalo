@@ -103,3 +103,10 @@
 /obj/structure/smooth/window/shuttle/end_02
 	icon_state = "end_02"
 	corner_icons = FALSE
+
+/obj/structure/smooth/window/shuttle/covenant
+	name = "covenant shuttle window"
+	icon = 'icons/obj/structure/smooth/window/normal.dmi'
+	icon_state = "window"
+	corner_category = "window"
+	color = "#E423C9"

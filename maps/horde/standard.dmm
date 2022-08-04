@@ -652,9 +652,9 @@
 "mH" = (/obj/structure/smooth/wall/brick{color = "#2c2b2b"},/obj/decal/hazard/black{dir = 9; icon_state = "line"},/turf/simulated/floor/brick/grey,/area/halo/exterior/jungle)
 "mI" = (/turf/unsimulated/void,/area)
 "mJ" = (/turf/simulated/wall/plastic/office/darker/indestructable,/area)
-"mK" = (/obj/decal/hazard{dir = 6},/obj/structure/interactive/lighting/fixture/floor/stronger,/turf/simulated/floor/plating/covenant,/area/halo/exterior/jungle)
-"mL" = (/obj/decal/hazard{dir = 1},/turf/simulated/floor/plating/covenant,/area/halo/exterior/jungle)
-"mM" = (/obj/decal/hazard{dir = 10},/obj/structure/interactive/lighting/fixture/floor/stronger,/turf/simulated/floor/plating/covenant,/area/halo/exterior/jungle)
+"mK" = (/obj/effect/fog_of_war,/turf/simulated/wall/rock/indestructable,/area/halo/interior)
+"mL" = (/obj/decal/hazard{dir = 6},/obj/structure/interactive/lighting/fixture/floor/stronger,/turf/simulated/floor/plating,/area/halo/exterior/jungle)
+"mM" = (/obj/decal/hazard{dir = 10},/obj/structure/interactive/lighting/fixture/floor/stronger,/turf/simulated/floor/plating,/area/halo/exterior/jungle)
 "mN" = (/turf/simulated/wall/plastic/office/darker/indestructable,/area/halo/interior)
 "mO" = (/turf/simulated/wall/plastic/office/darker/indestructable,/area/halo/interior/geminus/mining)
 "mP" = (/obj/structure/interactive/barricade{dir = 8},/obj/structure/interactive/barricade,/turf/simulated/floor/colored/sand/oasis,/area/halo/exterior/jungle)
@@ -701,7 +701,6 @@
 "nE" = (/turf/simulated/floor/carpet/office,/area)
 "nF" = (/mob/living/advanced/npc/halo/marine,/turf/simulated/floor/grass,/area/halo/exterior/jungle)
 "nG" = (/obj/decal/sidewalk/side{dir = 8; icon_state = "cobble_side2"},/turf/simulated/floor/carpet/office,/area/halo/exterior/jungle)
-"nH" = (/obj/decal/hazard{dir = 1},/turf/simulated/floor/covenant,/area/transit/dropship/bravo/landing)
 "nI" = (/obj/decal/sidewalk/side,/obj/structure/interactive/fence/end{dir = 4; icon_state = "end"},/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
 "nJ" = (/mob/living/advanced/npc/halo/kigyar{dir = 8; icon_state = "halo_kigyar1"},/turf/simulated/floor/carpet/office,/area/halo/exterior/jungle)
 "nK" = (/obj/decal/tile/cargo{dir = 8; icon_state = "tile"},/obj/decal/tile/cargo{dir = 1; icon_state = "tile"},/obj/structure/interactive/stacker,/turf/simulated/floor/tile/grey,/area/halo/interior/geminus/mining)
@@ -728,8 +727,6 @@
 "of" = (/obj/structure/interactive/bed,/turf/simulated/floor/wood/rich,/area/halo/interior/geminus/car_storage)
 "og" = (/mob/living/advanced/npc/halo/kigyar{dir = 4; icon_state = "halo_kigyar1"},/turf/simulated/floor/carpet/office,/area/halo/exterior/jungle)
 "oh" = (/obj/structure/interactive/door/airlock/station/dark,/turf/simulated/floor/tile/dark/ish,/area/halo/interior)
-"oi" = (/obj/decal/hazard{dir = 8},/obj/structure/interactive/lighting/fixture/floor/stronger,/turf/simulated/floor/plating/covenant,/area/transit/dropship/bravo/landing)
-"oj" = (/obj/decal/hazard{dir = 4},/obj/structure/interactive/lighting/fixture/floor/stronger,/turf/simulated/floor/plating/covenant,/area/transit/dropship/bravo/landing)
 "ok" = (/obj/structure/smooth/table/wood,/obj/item/container/food/dynamic/chicken/cooked,/turf/simulated/floor/grass,/area/halo/exterior/jungle)
 "ol" = (/obj/structure/smooth/table/wood,/obj/item/container/food/dynamic/meat/cooked_steak,/turf/simulated/floor/grass,/area/halo/exterior/jungle)
 "om" = (/obj/structure/interactive/barricade{dir = 1; icon_state = "metal"},/obj/structure/interactive/barricade{dir = 8},/turf/simulated/floor/colored/sand/oasis,/area/halo/exterior/jungle)
@@ -805,7 +802,7 @@
 "pE" = (/obj/decal/tile/medbay{dir = 8; icon_state = "tile"},/turf/simulated/floor/tile,/area/halo/interior/geminus/morgue)
 "pF" = (/turf/simulated/floor/tile,/area/halo/interior/geminus/morgue)
 "pG" = (/turf/simulated/floor/tile/medical,/area/halo/interior/geminus/morgue)
-"pH" = (/obj/decal/hazard{dir = 8},/turf/simulated/floor/plating/covenant,/area/halo/exterior/jungle)
+"pH" = (/obj/effect/fog_of_war,/turf/simulated/wall/plastic/office/darker/indestructable,/area/halo/interior)
 "pI" = (/obj/decal/tile/medbay{dir = 4; icon_state = "tile"},/turf/simulated/floor/tile,/area/halo/interior/geminus/morgue)
 "pJ" = (/obj/structure/interactive/lighting/fixture/tube/station{dir = 4},/turf/simulated/floor/wood/rich,/area/halo/interior/geminus/morgue)
 "pK" = (/obj/structure/interactive/chair/wood,/turf/simulated/floor/wood/rich,/area/halo/interior/geminus/morgue)
@@ -841,9 +838,8 @@
 "qp" = (/obj/decal/tile/medbay,/obj/decal/tile/medbay{dir = 4; icon_state = "tile"},/obj/structure/interactive/lighting/fixture/tube/station{dir = 1},/turf/simulated/floor/tile,/area/halo/interior/geminus/morgue)
 "qq" = (/obj/marker/map_node,/turf/simulated/floor/plating,/area/halo/interior)
 "qr" = (/obj/structure/smooth/table/rack/grey,/turf/simulated/floor/wood/rich,/area/halo/interior/geminus/morgue)
-"qs" = (/obj/decal/hazard{dir = 5},/obj/structure/interactive/lighting/fixture/floor/stronger,/turf/simulated/floor/plating/covenant,/area/halo/exterior/jungle)
-"qt" = (/obj/decal/hazard,/turf/simulated/floor/covenant,/area/transit/dropship/bravo/landing)
-"qu" = (/obj/decal/hazard{dir = 9; icon_state = "line"},/obj/structure/interactive/lighting/fixture/floor/stronger,/turf/simulated/floor/plating/covenant,/area/halo/exterior/jungle)
+"qs" = (/obj/effect/fog_of_war,/turf/simulated/wall/plastic/office/darker,/area/halo/interior)
+"qu" = (/obj/decal/hazard{dir = 8},/obj/structure/interactive/lighting/fixture/floor/stronger,/turf/simulated/floor/plating,/area/halo/exterior/jungle)
 "qv" = (/mob/living/advanced/npc/halo/marine,/turf/simulated/floor/carpet,/area/halo/interior)
 "qw" = (/obj/structure/interactive/chair/wood{dir = 4},/turf/simulated/floor/wood/rich,/area/halo/interior)
 "qx" = (/obj/structure/interactive/chair/wood{dir = 8},/turf/simulated/floor/wood/rich,/area/halo/interior)
@@ -882,7 +878,6 @@
 "rg" = (/obj/decal/tile/medbay,/mob/living/advanced/npc/halo/marine{dir = 1; icon_state = "directional"},/turf/simulated/floor/tile,/area/halo/interior/geminus/morgue)
 "rh" = (/obj/decal/tile/medbay,/obj/decal/tile/medbay{dir = 4; icon_state = "tile"},/obj/structure/interactive/crate/trash,/obj/structure/interactive/lighting/fixture/tube/station{dir = 8},/turf/simulated/floor/tile,/area/halo/interior/geminus/morgue)
 "ri" = (/mob/living/advanced/npc/halo/marine{dir = 4; icon_state = "directional"},/turf/simulated/floor/tile/dark,/area/halo/interior/geminus/morgue)
-"rj" = (/turf/simulated/floor/covenant,/area/transit/dropship/bravo/landing)
 "rk" = (/turf/simulated/floor/wood/boat/starting,/area/halo/interior)
 "rl" = (/obj/structure/smooth/table/wood,/turf/simulated/floor/wood/boat/starting,/area/halo/interior)
 "rm" = (/obj/structure/smooth/table/wood,/obj/structure/interactive/misc/tv,/obj/structure/interactive/lighting/fixture/tube/station/stronger,/turf/simulated/floor/wood/boat/starting,/area/halo/interior)
@@ -1087,7 +1082,7 @@
 "vd" = (/obj/decal/tile/medbay{dir = 8; icon_state = "tile"},/obj/structure/smooth/table/glass,/obj/structure/interactive/lighting/fixture/tube/station{dir = 4},/turf/simulated/floor/tile,/area/halo/interior/geminus/medbay)
 "ve" = (/mob/living/advanced/npc/halo/unggoy{dir = 4; icon_state = "halo_unggoy"},/turf/simulated/floor/tile,/area/halo/interior/geminus/medbay)
 "vf" = (/mob/living/advanced/npc/halo/elite{dir = 4; icon_state = "halo_elite"},/turf/simulated/floor/tile/medical,/area/halo/interior/geminus/medbay)
-"vg" = (/turf/simulated/floor/plating/covenant,/area/halo/exterior/jungle)
+"vg" = (/obj/decal/hazard{dir = 4},/obj/structure/interactive/lighting/fixture/floor/stronger,/turf/simulated/floor/plating,/area/halo/exterior/jungle)
 "vh" = (/mob/living/advanced/npc/halo/marine{dir = 8; icon_state = "directional"},/turf/simulated/floor/tile/medical,/area/halo/interior/geminus/medbay)
 "vi" = (/obj/structure/interactive/bed/padded,/turf/simulated/floor/carpet,/area/halo/interior)
 "vj" = (/obj/structure/interactive/misc/mirror/cracked{pixel_x = 24},/turf/simulated/floor/carpet,/area/halo/interior)
@@ -1145,7 +1140,7 @@
 "wj" = (/obj/structure/interactive/misc/sink{pixel_y = 20},/obj/structure/interactive/misc/mirror/cracked{pixel_y = 28},/turf/simulated/floor/tile,/area/halo/interior/comm_unsc)
 "wk" = (/obj/structure/interactive/door/airlock,/turf/simulated/floor/tile,/area/halo/interior/comm_unsc)
 "wl" = (/obj/structure/interactive/crate/secure,/turf/simulated/floor/tile/grey,/area/halo/interior/comm_unsc)
-"wm" = (/obj/decal/hazard{dir = 4},/turf/simulated/floor/plating/covenant,/area/halo/exterior/jungle)
+"wm" = (/obj/effect/fog_of_war,/turf/simulated/wall/brick/red/dark,/area/halo/interior)
 "wn" = (/obj/structure/interactive/restocker/ammo,/turf/simulated/floor/tile/grey,/area/halo/interior/comm_unsc)
 "wo" = (/obj/effect/cleanable/blood/splatter,/turf/simulated/floor/tile/grey,/area/halo/interior/comm_unsc)
 "wp" = (/obj/structure/interactive/door/airlock/glass,/turf/simulated/floor/tile/dark,/area/halo/interior/comm_unsc)
@@ -1296,7 +1291,6 @@
 "ze" = (/obj/structure/scenery/grass,/mob/living/advanced/npc/halo/kigyar/ranged{dir = 8; icon_state = "halo_kigyar1"},/turf/simulated/floor/grass,/area/halo/exterior/jungle)
 "zf" = (/obj/structure/smooth/table/rack/grey,/turf/simulated/floor/wood/rich,/area/halo/interior)
 "zg" = (/obj/structure/smooth/table/reinforced/dark,/turf/simulated/floor/plating,/area/halo/interior)
-"zh" = (/obj/decal/hazard{dir = 1},/turf/simulated/floor/plating/covenant,/area/transit/dropship/bravo/landing)
 "zi" = (/obj/structure/scenery/jungle_grass,/turf/simulated/floor/grass,/area/halo/exterior/jungle)
 "zj" = (/obj/structure/interactive/lighting/fixture/bulb{dir = 8},/turf/simulated/floor/tile/shuttle,/area/halo/interior/geminus/shuttle)
 "zk" = (/obj/decal/hazard{dir = 4},/mob/living/advanced/npc/halo/kigyar{dir = 1; icon_state = "halo_kigyar1"},/turf/simulated/floor/plating,/area/halo/exterior/jungle)
@@ -1461,7 +1455,7 @@
 "Cn" = (/obj/structure/interactive/fence/end,/turf/simulated/wall/plastic/office,/area/halo/interior)
 "Co" = (/obj/structure/interactive/restocker/ammo,/turf/simulated/floor/covenant/blue,/area/halo/interior)
 "Cp" = (/obj/structure/interactive/chair/stool/covies/bar,/turf/simulated/floor/covenant/blue,/area/halo/interior)
-"Cq" = (/obj/decal/hazard,/turf/simulated/floor/plating/covenant,/area/halo/exterior/jungle)
+"Cq" = (/obj/decal/hazard{dir = 5},/obj/structure/interactive/lighting/fixture/floor/stronger,/turf/simulated/floor/plating,/area/halo/exterior/jungle)
 "Cr" = (/obj/structure/interactive/chair/stool,/obj/structure/interactive/lighting/fixture/tube/station{dir = 4},/turf/simulated/floor/tile/chapel{dir = 1; icon_state = "floor"},/area/halo/interior/geminus/church)
 "Cs" = (/obj/structure/interactive/chair/stool,/turf/simulated/floor/tile/chapel{dir = 4; icon_state = "floor"},/area/halo/interior/geminus/church)
 "Ct" = (/obj/marker/covenant/kig_yar,/turf/simulated/floor/tile/dark,/area/halo/interior/geminus/church)
@@ -1672,77 +1666,70 @@
 "GR" = (/mob/living/advanced/npc/halo/kigyar,/turf/simulated/floor/colored/sand/oasis,/area/halo/exterior/jungle)
 "Hk" = (/obj/structure/interactive/status_display/global_display/alpha,/turf/simulated/wall/plastic/office,/area/halo/interior)
 "HB" = (/mob/living/advanced/npc/halo/unggoy{dir = 8; icon_state = "halo_unggoy"},/turf/simulated/floor/colored/sand/underwater,/area/halo/exterior/jungle)
-"Ia" = (/obj/decal/hazard{dir = 8},/turf/simulated/floor/plating/covenant,/area/transit/dropship/bravo/landing)
+"HM" = (/obj/structure/interactive/door/airlock,/obj/effect/fog_of_war,/turf/simulated/floor/carpet,/area/halo/interior)
 "If" = (/obj/structure/interactive/status_display/global_display/alpha,/turf/simulated/wall/plastic/office,/area/halo/interior/bar)
 "In" = (/turf/simulated/wall/covenant,/area/halo/exterior/jungle)
 "IM" = (/obj/structure/interactive/barricade/covenant{dir = 4; icon_state = "cov"},/mob/living/advanced/npc/halo/elite{dir = 4; icon_state = "halo_elite"},/turf/simulated/floor/cave_dirt,/area/halo/interior)
-"IR" = (/obj/decal/hazard{dir = 4},/turf/simulated/floor/plating/covenant,/area/transit/dropship/bravo/landing)
 "JD" = (/mob/living/advanced/npc/halo/unggoy{dir = 4; icon_state = "halo_unggoy"},/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
 "JN" = (/obj/structure/interactive/misc/halo/decor/vehicles/spirit{dir = 4},/turf/simulated/floor/colored/sand/oasis,/area/halo/exterior/jungle)
+"JS" = (/obj/effect/fog_of_war,/obj/effect/fog_of_war,/turf/simulated/wall/brick/red/dark,/area/halo/interior)
 "KB" = (/obj/structure/capture_beacon,/turf/simulated/floor/colored/sand/underwater,/area/halo/exterior/jungle)
-"KF" = (/obj/effect/fog_of_war,/turf/simulated/wall/plastic/office/darker/indestructable,/area/halo/interior)
-"KM" = (/obj/effect/fog_of_war,/turf/simulated/wall/plastic/office/darker,/area/halo/interior)
 "Ls" = (/obj/structure/interactive/lighting/fixture/bulb,/turf/simulated/wall/rock/indestructable,/area/halo/interior)
+"LU" = (/obj/effect/fog_of_war,/turf/simulated/wall/plastic/office,/area/halo/interior)
 "Mn" = (/obj/structure/scenery/rocks,/mob/living/advanced/npc/halo/elite{dir = 8; icon_state = "halo_elite"},/turf/simulated/floor/colored/sand/oasis,/area/halo/exterior/jungle)
-"Mw" = (/obj/effect/fog_of_war,/turf/simulated/floor/plating,/area/halo/interior)
-"Nd" = (/obj/structure/interactive/barricade/covenant,/obj/effect/fog_of_war,/turf/simulated/floor/carpet/office,/area/halo/exterior/jungle)
 "NU" = (/obj/structure/interactive/misc/halo/decor/vehicles/spirit{dir = 1},/mob/living/advanced/npc/halo/unggoy,/turf/simulated/floor/colored/sand/oasis,/area/halo/exterior/jungle)
 "NV" = (/mob/living/advanced/npc/halo/elite{dir = 8; icon_state = "halo_elite"},/turf/simulated/floor/colored/sand/oasis,/area/halo/exterior/jungle)
-"NW" = (/obj/decal/hazard{dir = 1},/turf/simulated/floor/covenant,/area/halo/exterior/jungle)
+"NW" = (/obj/decal/hazard{dir = 9; icon_state = "line"},/obj/structure/interactive/lighting/fixture/floor/stronger,/turf/simulated/floor/plating,/area/halo/exterior/jungle)
 "Ot" = (/mob/living/advanced/npc/halo/unggoy{dir = 4; icon_state = "halo_unggoy"},/turf/simulated/floor/cave_dirt,/area/halo/interior)
 "PA" = (/turf/simulated/floor/cave_dirt,/area/halo/interior)
 "PM" = (/obj/effect/fog_of_war,/turf/simulated/floor/cave_dirt,/area/halo/interior)
 "Rx" = (/mob/living/advanced/npc/halo/unggoy,/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
+"RQ" = (/obj/item/storage/heavy/trash_pile,/obj/effect/fog_of_war,/turf/simulated/floor/plating,/area/halo/interior)
 "Sr" = (/obj/structure/interactive/computer/console/remote_flight/alpha{dir = 8},/turf/simulated/floor/colored/ash/dark,/area/halo/exterior/jungle)
 "Sw" = (/obj/marker/drop_pod_location,/turf/simulated/floor/colored/sand/underwater,/area/halo/exterior/jungle)
-"Sy" = (/obj/structure/interactive/door/airlock,/obj/effect/fog_of_war,/turf/simulated/floor/carpet,/area/halo/interior)
 "Ts" = (/obj/structure/wip/meme,/obj/marker/objective_spawn,/turf/simulated/wall/rock/indestructable,/area/halo/interior)
-"TX" = (/turf/simulated/floor/covenant,/area/halo/exterior/jungle)
+"TX" = (/obj/effect/fog_of_war,/turf/simulated/floor/plating,/area/halo/interior)
 "TZ" = (/mob/living/advanced/npc/halo/marine{dir = 1; icon_state = "directional"},/turf/simulated/floor/colored/sand/oasis,/area/halo/exterior/jungle)
-"Uy" = (/turf/simulated/floor/plating/covenant,/area/transit/dropship/bravo/landing)
+"Uy" = (/turf/simulated/floor/plating,/area/transit/dropship/bravo/landing)
 "UJ" = (/mob/living/advanced/npc/halo/urf{dir = 1; icon_state = "directional"},/turf/simulated/floor/cave_dirt,/area/halo/interior)
-"UZ" = (/obj/item/storage/heavy/trash_pile,/obj/effect/fog_of_war,/turf/simulated/floor/plating,/area/halo/interior)
 "Vl" = (/mob/living/advanced/npc/halo/elite{dir = 4; icon_state = "halo_elite"},/turf/simulated/floor/cave_dirt,/area/halo/interior)
 "Vp" = (/obj/structure/interactive/barricade/covenant{dir = 4; icon_state = "cov"},/turf/simulated/floor/cave_dirt,/area/halo/interior)
 "VJ" = (/mob/living/advanced/npc/halo/kigyar{dir = 8; icon_state = "halo_kigyar1"},/turf/simulated/floor/colored/sand/oasis,/area/halo/exterior/jungle)
 "Wn" = (/obj/structure/interactive/barricade/covenant{dir = 4; icon_state = "cov"},/mob/living/advanced/npc/halo/kigyar{dir = 4; icon_state = "halo_kigyar1"},/turf/simulated/floor/cave_dirt,/area/halo/interior)
 "Wo" = (/turf/simulated/wall/plastic/office,/area/halo/exterior/jungle)
-"WF" = (/obj/effect/fog_of_war,/turf/simulated/wall/plastic/office,/area/halo/interior)
 "WI" = (/mob/living/advanced/npc/halo/unggoy{dir = 8; icon_state = "halo_unggoy"},/turf/simulated/floor/colored/sand/oasis,/area/halo/exterior/jungle)
 "Xh" = (/obj/structure/interactive/chair/stool,/turf/simulated/floor/colored/ash/dark,/area/halo/exterior/jungle)
-"Yd" = (/obj/effect/fog_of_war,/obj/effect/fog_of_war,/turf/simulated/wall/brick/red/dark,/area/halo/interior)
 "Yz" = (/mob/living/advanced/npc/halo/kigyar{dir = 4; icon_state = "halo_kigyar1"},/turf/simulated/floor/cave_dirt,/area/halo/interior)
 "YE" = (/obj/marker/drop_pod_location,/turf/simulated/floor/colored/sand/oasis,/area/halo/exterior/jungle)
-"YG" = (/obj/effect/fog_of_war,/turf/simulated/wall/brick/red/dark,/area/halo/interior)
 "YT" = (/mob/living/advanced/npc/halo/urf{dir = 8; icon_state = "directional"},/turf/simulated/floor/cave_dirt,/area/halo/interior)
 "YY" = (/obj/marker/map_node,/obj/structure/capture_beacon,/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
 "Zo" = (/obj/structure/capture_beacon,/turf/simulated/floor/carpet/office,/area/halo/exterior/jungle)
-"ZA" = (/obj/effect/fog_of_war,/turf/simulated/wall/rock/indestructable,/area/halo/interior)
+"Zz" = (/obj/structure/interactive/barricade/covenant,/obj/effect/fog_of_war,/turf/simulated/floor/carpet/office,/area/halo/exterior/jungle)
 "ZY" = (/obj/structure/smooth/wall/wood/starting,/turf/simulated/floor/cave_dirt,/area/halo/interior)
 
 (1,1,1) = {"
-acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacZAacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacabmImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
-acacadadadadadadadadadadadadadacacacacacacacacacacacacacacacacZAacacacacacacacacacacacacacacacacacacacacacgjgIgIgjgIgjgIacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacabmImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
-acadadadadadadadadadadadadadadadacacacacacacacacacacacacacacacZAacacacacacacacacacacacacacacacacacgIgjgIgIgIgjgjgIgjgIgIgjgjgjgjgjgIgIgInhnEnEacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacabmImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
-acadadmKzhnHNWmLmLmLNWnHzhmMadadadadadadacacacacacacacacacacacKFmNmNmNmNmNmNmNmNmNmNmNacacgIgjgjgIgIgIgjgIgjgIgIgjgjgjgjgIgIgIgIgIgjgjgImJnEnEnEnEacacacacacacmOmOmOmOmOmOmOmOmOmOmOmOmOmOmOmOmOmOmOmOmOacacabmImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
-acadadIarjrjrjvgvgvgrjrjrjIRadadadadadadadadadadacacacacadadadKMmQmRmQmSmTmUmTmSmTmTmSafafmVafmVafafmVmVmVmSmVafafafafmVmVmVmVmVmVmVafafmSadadadadadadadadadadmWmXmYmZnamWnbncmQndnendndndmQnendndndnfmOacacabmImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
-acadadIarjrjrjvgvgvgrjrjrjIRadDwadngAFngngnyvOngngngngngadadadKMBcmQmQmSmTqqsJmTmTqqmSafafmSmSmSmSmSmSninjmSafmVmVafafafafmVmVafmVmVafmVmSadadadadadiFkmnknlmWmWnmnnndnfnonpranqmWnrnsmWmWntrVmQmWnrnumOacacabmImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
-acadadIarjrjrjvgvgvgrjrjrjIRadngnvnwmVmVmVmVnwmVmVyimVnwsongadKMmQrVmQmSmTmTmTmSmSnzmSmVmVmSaddeadadadadadmSninjmSmSmSmSmSmSmSmSmSmSninjmSadiFaddeadadkmmVafmVmWmWnAmWnBmWmWmQmWmQnCnDmWmWnDmQmWmWnDnDmOacacabmImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
-acadadIarjrjrjvgvgvgrjrjrjIRnPmVmVmVmVmVmVmVmVmVmVmVBhmVmVmVnGKMmQmQBcmSmTmTmTmTsJmTmSnInjmSadadadadadiFadadnJaddeadadafadadaddeadadadadadadadadadadadkmafafmVmWnKnLnMnNmWnOnOafafadadadadadadadadadadmNacacabmImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
-acadadIarjrjrjvgvgvgrjrjrjIRnPmVmVtZnQnRnQmVnSmVnQnTnQmVmVmVnGKMmQmQmQmSmSmTmSmSmTmTmSadadadadadadadadadadadnVnVadnVafnVnVnVnVnVadadadadadadadiFadadadkmkmmVmVmWnWwFnXnfnBadafadafadafadadadadadadadadmNacacabmImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
-acadadIarjrjrjvgvgvgrjrjrjIRnPmVmVmVnQnYnQtZmVmVnQnZnQmVmVtZnGdsadadaddeadadadadadadaddeadadadadadiFadadadafnVobocmQafodoemQofnVadadogdeadadadadadadadadkmninjmWafmQmWmWmWadadfCafafafadoamSmSmSmSmSohmNacacabmImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
-acadDwoirjrjrjvgvgvgrjrjrjojnPmVmVmVnQoknQmVmVmVnQolnQmVmVmVBsYGonononononononooononononononadadaddeiFadafafnVmQrVopgZoqCyorosnVdeadadadadadadadadadaddeadadadgNafafadafnOadotafouafafadadmSovowoxmSoymNacacabmImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
-acadadIarjrjrjvgvgvgrjrjrjIRnPmVmVmVmVBumVmVmVmVmVmVmVBhmVmVnGYGozoAonoBoCoCoCoDoCoooCoEoFonadadaeaeaeaeafadnVoGoHoInVoJororoenVnVnVnVnVnVnVnVnVadadadadadadgLadadafadaddeadadafafoaaddeadmSoKoxDamSDumNacacabmImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
-acadadIarjrjTXvgvgvgTXrjrjIRadoLoMnwmVBAmVmVnwmVmVmVmVnwoNoLadYGDvoAonoCoCoCoCoCoConEfoCoPonadaeaeaeaeaeaedeafnVoQnVnVnVoRnVnVnVoSoToUoUoUoUoVnVadadoWoXoXoXoXoXoXoXoXoXoXoXoXasoXoXmQadadmSmSoYmSmSoZmNacacabmImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
-acadadIarjrjrjrjrjrjrjrjrjIRadadadoLoLoLoLBwoLoLoLBLoLEzadadadYGpaononoCpbonoOFpoConononononadgPaeaeaeaeaeafafpcorafpdpeosnVnVpfpgphpiphphpjpkpljFpmadoXpnpopppppppqpoproXpsptpuafpvoXadadmSpwDuoypxoymNacacabmImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
-acadadpHUyrjrjrjrjrjrjrjUywmadwxadadogdeadBMadadadCdadadadadadYGoCoCoCoCoCoCoCoCoCoooCoEoFonadaeaeaeaeaeafgVnVasmQormQorornVpypzFqpBpBpBpBpCpDpljFadadoXpEpFFrpGpGpFpFpIoXpJpKpLFspMoXadadmSpNpOoyohoymNacacabmImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
-acadadpHvgvgvgrjrjrjvgvgvgwmadadadadadadCfkmkmkmkmkmkmkmkmadadYGoCoCoCFpoCoCoCoCoConoOFpoPonadaeaeaeaeaeaeafnVmQmQpQororornVpypzpApRpBpBpBpCpkpljFdeadoXpEpFpFpGpSpFFrpIoXpLpTpLpUpVoXaddemSmSmSmSmSmSmNacacabmImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
-acadadpHvgvgvgrjrjrjvgvgvgwmadadadadadpWkmpXpXpXpXpYpZpYkmadadYGoCqaqboCpbonoOoCqconononononadaeqdaeagaeaeadnVorqeoeCyororqfpfqgqhqiqjqiqiqkpkpljFadadoXqlqmqnqoqoqoqoqpoXpsFtpspsqroXadfiadadadiFadadmNacacabmImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
-acadadqsCqCqCqqtqtqtCqCqCqquadadDEafadBMkmpXqvpXpXpXFupXkmaddeYGoOqwqbqxoCoCoCqcoCoooCoEoFonadaeqdaeaeaeaeadnVqyoroeororqznVqAqBqBqBqBqBFvqBqCnVadadadoXoXqDqDqDoXoXqEoXqFoXqDqGqDoXoXoXoXoXoXoXadadadmNacacabmImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
-acacDwdeadadadadadadadadadadafFwafafafadkmqHpXFupXpXpXpXkmadadYGoCoCqboCoCoCFpoCoConoOafafafadaeaeaeaeqdaeadnVnVnVnVnVoRnVnVnVqInVnVnVqJqKqLnVnVadadadadadadadadadoXqMpopoqNqOpopoqPoXqQqRqSqQoXadiFadmNacacabmImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
-ZAKFMwMwKMKMKMKMKMKMKMKMKMKMCCCCafafafadkmpXpXpXpXpYqVpYWFdsdsYdYGpxpxonooooonpxonononafasafadaeaeaeaeaeaeadadadadadadiTadadadiTadadadiTiTiTadadadadadadqWadadadadqXqYFrpFpFpFpFpFpIqZqSqSFxqSqZaddeadmNacacabmImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
-acmNmTmTmSmTqqmSmTMwUZrbmSMwMwafiJafaddeWFWFSyWFWFWFWFWFWFadadrdiFadadadadadadadadrerdadafadadqdaeaeaeaeaeadadaddeadadadadadadaddeadadadadadadadadadadadadadadadadrfqoqoqoqoqorgFyrhoXriqSqSqSoXadadadmNacacabmImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
-acmNmTnzmSmTmTmTmTmTmTrbmSmTMwMwKMNddsdsWFrkrkrkrlrmrlrkkmafadadadadadadadadadadadadadadadadaeaeaernaeaeaeaeadadadadadadadadadadadadadadadadadadaddeadadadadadadadoXoXoXoXrooXoXoXoXoXrpqSqSrqoXadrradmNacacabmImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacmKacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacabmImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
+acacadadadadadadadadadadadadadacacacacacacacacacacacacacacacacmKacacacacacacacacacacacacacacacacacacacacacgjgIgIgjgIgjgIacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacabmImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
+acadmLiXiXiXiXiXiXiXiXiXiXiXmMadacacacacacacacacacacacacacacacmKacacacacacacacacacacacacacacacacacgIgjgIgIgIgjgjgIgjgIgIgjgjgjgjgjgIgIgInhnEnEacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacabmImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
+acadjbmQUyUymQmQmQmQmQUyUymQjdadadadadadacacacacacacacacacacacpHmNmNmNmNmNmNmNmNmNmNmNacacgIgjgjgIgIgIgjgIgjgIgIgjgjgjgjgIgIgIgIgIgjgjgImJnEnEnEnEacacacacacacmOmOmOmOmOmOmOmOmOmOmOmOmOmOmOmOmOmOmOmOmOacacabmImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
+acadjbUyUyUyUymQmQmQUyUyUyUyjdadadadadadadadadadacacacacadadadqsmQmRmQmSmTmUmTmSmTmTmSafafmVafmVafafmVmVmVmSmVafafafafmVmVmVmVmVmVmVafafmSadadadadadadadadadadmWmXmYmZnamWnbncmQndnendndndmQnendndndnfmOacacabmImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
+acadjbUyUyUyUymQmQmQUyUyUyUyjdDwadngAFngngnyvOngngngngngadadadqsBcmQmQmSmTqqsJmTmTqqmSafafmSmSmSmSmSmSninjmSafmVmVafafafafmVmVafmVmVafmVmSadadadadadiFkmnknlmWmWnmnnndnfnonpranqmWnrnsmWmWntrVmQmWnrnumOacacabmImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
+acadjbUyUyUyUymQmQmQUyUyUyUyjdngnvnwmVmVmVmVnwmVmVyimVnwsongadqsmQrVmQmSmTmTmTmSmSnzmSmVmVmSaddeadadadadadmSninjmSmSmSmSmSmSmSmSmSmSninjmSadiFaddeadadkmmVafmVmWmWnAmWnBmWmWmQmWmQnCnDmWmWnDmQmWmWnDnDmOacacabmImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
+acadjbUyUyUyUymQmQmQUyUyUyUyjdmVmVmVmVmVmVmVmVmVmVmVBhmVmVmVnGqsmQmQBcmSmTmTmTmTsJmTmSnInjmSadadadadadiFadadnJaddeadadafadadaddeadadadadadadadadadadadkmafafmVmWnKnLnMnNmWnOnOafafadadadadadadadadadadmNacacabmImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
+acadjbUyUyUyUymQmQmQUyUyUyUyjdmVmVtZnQnRnQmVnSmVnQnTnQmVmVmVnGqsmQmQmQmSmSmTmSmSmTmTmSadadadadadadadadadadadnVnVadnVafnVnVnVnVnVadadadadadadadiFadadadkmkmmVmVmWnWwFnXnfnBadafadafadafadadadadadadadadmNacacabmImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
+acadjbUyUyUyUymQmQmQUyUyUyUyjdmVmVmVnQnYnQtZmVmVnQnZnQmVmVtZnGdsadadaddeadadadadadadaddeadadadadadiFadadadafnVobocmQafodoemQofnVadadogdeadadadadadadadadkmninjmWafmQmWmWmWadadfCafafafadoamSmSmSmSmSohmNacacabmImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
+acadquUyUyUyUymQmQmQUyUyUyUyvgmVmVmVnQoknQmVmVmVnQolnQmVmVmVBswmonononononononooononononononadadaddeiFadafafnVmQrVopgZoqCyorosnVdeadadadadadadadadadaddeadadadgNafafadafnOadotafouafafadadmSovowoxmSoymNacacabmImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
+acadjbUyUyUyUymQmQmQUyUyUyUyjdmVmVmVmVBumVmVmVmVmVmVmVBhmVmVnGwmozoAonoBoCoCoCoDoCoooCoEoFonadadaeaeaeaeafadnVoGoHoInVoJororoenVnVnVnVnVnVnVnVnVadadadadadadgLadadafadaddeadadafafoaaddeadmSoKoxDamSDumNacacabmImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
+acadjbUyUyUymQmQmQmQmQUyUyUyjdoLoMnwmVBAmVmVnwmVmVmVmVnwoNoLadwmDvoAonoCoCoCoCoCoConEfoCoPonadaeaeaeaeaeaedeafnVoQnVnVnVoRnVnVnVoSoToUoUoUoUoVnVadadoWoXoXoXoXoXoXoXoXoXoXoXoXasoXoXmQadadmSmSoYmSmSoZmNacacabmImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
+acadjbUyUyUyUyUyUyUyUyUyUyUyjdadadoLoLoLoLBwoLoLoLBLoLEzadadadwmpaononoCpbonoOFpoConononononadgPaeaeaeaeaeafafpcorafpdpeosnVnVpfpgphpiphphpjpkpljFpmadoXpnpopppppppqpoproXpsptpuafpvoXadadmSpwDuoypxoymNacacabmImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
+acadjbmQUyUyUyUyUyUyUyUyUymQjdwxadadogdeadBMadadadCdadadadadadwmoCoCoCoCoCoCoCoCoCoooCoEoFonadaeaeaeaeaeafgVnVasmQormQorornVpypzFqpBpBpBpBpCpDpljFadadoXpEpFFrpGpGpFpFpIoXpJpKpLFspMoXadadmSpNpOoyohoymNacacabmImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
+acadjbmQmQmQmQUyUyUymQmQmQmQjdadadadadadCfkmkmkmkmkmkmkmkmadadwmoCoCoCFpoCoCoCoCoConoOFpoPonadaeaeaeaeaeaeafnVmQmQpQororornVpypzpApRpBpBpBpCpkpljFdeadoXpEpFpFpGpSpFFrpIoXpLpTpLpUpVoXaddemSmSmSmSmSmSmNacacabmImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
+acadjbmQmQmQmQUyUyUymQmQmQmQjdadadadadpWkmpXpXpXpXpYpZpYkmadadwmoCqaqboCpbonoOoCqconononononadaeqdaeagaeaeadnVorqeoeCyororqfpfqgqhqiqjqiqiqkpkpljFadadoXqlqmqnqoqoqoqoqpoXpsFtpspsqroXadfiadadadiFadadmNacacabmImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
+acadjbmQmQmQmQUyUyUymQmQmQmQjdadDEafadBMkmpXqvpXpXpXFupXkmaddewmoOqwqbqxoCoCoCqcoCoooCoEoFonadaeqdaeaeaeaeadnVqyoroeororqznVqAqBqBqBqBqBFvqBqCnVadadadoXoXqDqDqDoXoXqEoXqFoXqDqGqDoXoXoXoXoXoXoXadadadmNacacabmImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
+acacCqjVjVjVjVjVjVjVjVjVjVjVNWFwafafafadkmqHpXFupXpXpXpXkmadadwmoCoCqboCoCoCFpoCoConoOafafafadaeaeaeaeqdaeadnVnVnVnVnVoRnVnVnVqInVnVnVqJqKqLnVnVadadadadadadadadadoXqMpopoqNqOpopoqPoXqQqRqSqQoXadiFadmNacacabmImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
+mKpHTXTXqsqsqsqsqsqsqsqsqsqsCCCCafafafadkmpXpXpXpXpYqVpYLUdsdsJSwmpxpxonooooonpxonononafasafadaeaeaeaeaeaeadadadadadadiTadadadiTadadadiTiTiTadadadadadadqWadadadadqXqYFrpFpFpFpFpFpIqZqSqSFxqSqZaddeadmNacacabmImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
+acmNmTmTmSmTqqmSmTTXRQrbmSTXTXafiJafaddeLULUHMLULULULULULUadadrdiFadadadadadadadadrerdadafadadqdaeaeaeaeaeadadaddeadadadadadadaddeadadadadadadadadadadadadadadadadrfqoqoqoqoqorgFyrhoXriqSqSqSoXadadadmNacacabmImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
+acmNmTnzmSmTmTmTmTmTmTrbmSmTTXTXqsZzdsdsLUrkrkrkrlrmrlrkkmafadadadadadadadadadadadadadadadadaeaeaernaeaeaeaeadadadadadadadadadadadadadadadadadadaddeadadadadadadadoXoXoXoXrooXoXoXoXoXrpqSqSrqoXadrradmNacacabmImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
 acmNmTmTmSmTmTmSmTqqmTmTmSsumTrbmSadqWadkmrkFzrkrkrkrsafiJafgVadadaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeadadadadadadadadadadoaadoXrtrupoporvporwoXrpqSqSrpoXadadadmNacacabmImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
 acmNqqmTmSrxmTmSmSmTrymSmSmTmTrzmSdeadadkmrArkrkrkrBafrCafafafadaeagaeaeaeaeaeaerDaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaernaeaeadoWadadadadadadadadadqDrErFrGFArHrIrJoXqSqSrKFBoXpmadadmNacacabmImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
 acmNmTmTmSmTmTmSmTmTmTmTmSmTrbrLmSadadpWkmrMrkrBrkrsrkasafiJadaeaeaeaeaegPagaeaeaeaeaeaeaeaeaeaeagaeaeaeaeaeaerNaeaeaeagaeaeaeaeaerOaeaeaeaeaeaeadadadadadadadadadadqDrEpFpGrPrHpFpIoXrprKqSrpoXadpmadmNacacabmImImImImImImImImImImImImImImImImImImImImImImImImImImImImI
