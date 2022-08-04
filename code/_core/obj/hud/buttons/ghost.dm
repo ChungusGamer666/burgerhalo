@@ -69,6 +69,12 @@
 
 	interaction_flags = FLAG_INTERACTION_LIVING | FLAG_INTERACTION_DEAD | FLAG_INTERACTION_NO_DISTANCE
 
+/obj/hud/button/become_antag/New(desired_loc)
+	. = ..()
+	var/gamemode/chungusmode = SSgamemode.active_gamemode
+	if(chungusmode && isnull(chungusmode.team_points[TEAM_URF]))
+		qdel(src)
+
 /obj/hud/button/become_antag/clicked_on_by_object(var/mob/caller,var/atom/object,location,control,params)
 
 	. = ..()
@@ -90,6 +96,12 @@
 	has_quick_function = FALSE
 
 	interaction_flags = FLAG_INTERACTION_LIVING | FLAG_INTERACTION_DEAD | FLAG_INTERACTION_NO_DISTANCE
+
+/obj/hud/button/become_covenant/New(desired_loc)
+	. = ..()
+	var/gamemode/chungusmode = SSgamemode.active_gamemode
+	if(chungusmode && isnull(chungusmode.team_points[TEAM_COVENANT]))
+		qdel(src)
 
 /obj/hud/button/become_covenant/clicked_on_by_object(var/mob/caller,var/atom/object,location,control,params)
 
@@ -113,6 +125,12 @@
 
 	interaction_flags = FLAG_INTERACTION_LIVING | FLAG_INTERACTION_DEAD | FLAG_INTERACTION_NO_DISTANCE
 
+/obj/hud/button/become_nt/New(desired_loc)
+	. = ..()
+	var/gamemode/chungusmode = SSgamemode.active_gamemode
+	if(chungusmode && isnull(chungusmode.team_points[TEAM_UNSC]))
+		qdel(src)
+	
 /obj/hud/button/become_nt/clicked_on_by_object(var/mob/caller,var/atom/object,location,control,params)
 
 	. = ..()
