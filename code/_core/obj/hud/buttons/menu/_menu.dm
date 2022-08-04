@@ -12,6 +12,8 @@
 	icon_state = "title"
 	screen_loc = "LEFT+1,CENTER+2"
 
+var/global/list/join_buttons = list()
+
 /obj/hud/button/menu/selection
 	var/command_to_run
 
@@ -25,8 +27,25 @@
 	return .
 
 /obj/hud/button/menu/selection/New(var/desired_loc)
+	var/static/list/bigchungus = list("become-unsc" = TEAM_UNSC, "become-insurrection" = TEAM_URF, "become-covenant" = TEAM_COVENANT)
+	var/chungus = command_to_run ? bigchungus[command_to_run] : null
+	var/gamemode/chungusmode = SSgamemode.active_gamemode
+	if(chungus && chungusmode && isnull(chungusmode.team_points[chungus]))
+		qdel(src)
+		return
+	else if(command_to_run)
+		if(!join_buttons[command_to_run])
+			join_buttons[command_to_run] = list()
+		join_buttons[command_to_run] += src
 	color = null
 	return ..()
+
+/obj/hud/button/menu/selection/Destroy()
+	. = ..()
+	if(command_to_run)
+		join_buttons[command_to_run] -= src
+		if(!length(join_buttons[command_to_run]))
+			join_buttons[command_to_run] = null
 
 /obj/hud/button/menu/selection/MouseEntered(location,control,params)
 	color = "#FFB200"
