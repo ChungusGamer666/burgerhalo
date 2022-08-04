@@ -42,7 +42,7 @@ var/global/list/join_buttons = list()
 
 /obj/hud/button/menu/selection/Destroy()
 	. = ..()
-	if(command_to_run)
+	if(command_to_run && join_buttons[command_to_run])
 		join_buttons[command_to_run] -= src
 		if(!length(join_buttons[command_to_run]))
 			join_buttons[command_to_run] = null
