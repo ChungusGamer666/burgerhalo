@@ -4,6 +4,8 @@
 	desc_extended = "An armored protective vest worn by the Minor Elites."
 	icon = 'icons/obj/item/clothing/suit/elite_m.dmi'
 
+	shield_health = /health/shield/elite
+
 	rarity = RARITY_MYTHICAL
 
 	defense_rating = list(

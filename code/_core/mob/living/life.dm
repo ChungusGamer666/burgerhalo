@@ -405,7 +405,7 @@ mob/living/proc/on_life_slow()
 	return FALSE
 
 /mob/living/proc/handle_regen()
-
+	handle_shield_regen()
 	if(!health)
 		return FALSE
 
@@ -454,6 +454,53 @@ mob/living/proc/on_life_slow()
 
 	return TRUE
 
+/mob/living/proc/handle_shield_regen()
+	if(!shield_health)
+		return FALSE
+
+	if(shield_health.health_regeneration <= 0 && shield_health.stamina_regeneration <= 0 && shield_health.mana_regeneration <= 0)
+		return FALSE
+
+	var/delay_mod = LIFE_TICK_SLOW
+
+	var/health_adjust = 0
+	var/mana_adjust = 0
+	var/stamina_adjust = 0
+
+	health_regen_delay = max(0,health_regen_delay - delay_mod)
+	stamina_regen_delay = max(0,stamina_regen_delay - delay_mod)
+	mana_regen_delay = max(0,mana_regen_delay - delay_mod)
+
+	var/player_controlled = is_player_controlled()
+
+	if(health_regen_delay <= 0 && health.health_regeneration > 0)
+		var/health_mod = DECISECONDS_TO_SECONDS(shield_health.health_regeneration * delay_mod)
+		var/brute_to_adjust = min(max(0,shield_health.get_loss(BRUTE) - brute_regen_buffer),health_mod)
+		var/burn_to_adjust = min(max(0,shield_health.get_loss(BURN) - burn_regen_buffer),health_mod)
+		var/pain_to_adjust = min(max(0,shield_health.get_loss(PAIN) - pain_regen_buffer),health_mod)
+		health_adjust += brute_to_adjust + burn_to_adjust + pain_to_adjust
+		if(health_adjust)
+			brute_regen_buffer += brute_to_adjust
+			burn_regen_buffer += burn_to_adjust
+			pain_regen_buffer += pain_to_adjust
+			if(health_adjust > 0 && player_controlled)
+				add_attribute_xp(ATTRIBUTE_FORTITUDE,health_adjust*10)
+
+	if(stamina_regen_delay <= 0 && shield_health.stamina_regeneration > 0)
+		stamina_adjust += min(max(0,shield_health.get_stamina_loss() - stamina_regen_buffer),shield_health.stamina_regeneration*delay_mod*0.1)
+		if(stamina_adjust)
+			stamina_regen_buffer += stamina_adjust
+			if(stamina_adjust > 0 && player_controlled)
+				add_attribute_xp(ATTRIBUTE_RESILIENCE,stamina_adjust*10)
+
+	if(mana_regen_delay <= 0 && shield_health.mana_regeneration > 0)
+		mana_adjust = min(max(0,shield_health.get_mana_loss() - mana_regen_buffer),shield_health.mana_regeneration*delay_mod*0.1*(1 + (shield_health.mana_current/shield_health.mana_max)*3)) //The 0.1 converts from seconds to deciseconds.
+		if(mana_adjust)
+			mana_regen_buffer += mana_adjust
+			if(mana_adjust > 0 && player_controlled)
+				add_attribute_xp(ATTRIBUTE_WILLPOWER,mana_adjust*10)
+
+	return TRUE
 
 /mob/living/proc/smite()
 	var/turf/T = get_turf(src)

@@ -29,6 +29,7 @@
 
 	var/reagent_container/reagents //The reagents object. If an object is supposed to hold liquid, give it a reagent_container datum.
 	var/health/health //The health object. If an object is supposed to take damage, give it a health datum.
+	var/health/shield/shield_health //Health object separate from normal health, to simulate halo shields
 
 	var/corner_icons = FALSE
 	var/corner_category = "none"
@@ -91,6 +92,7 @@
 
 	QDEL_NULL(reagents)
 	QDEL_NULL(health)
+	QDEL_NULL(shield_health)
 
 	for(var/k in contents)
 		var/atom/movable/A = k
@@ -119,6 +121,10 @@
 		health = new health(src)
 		INITIALIZE(health)
 		FINALIZE(health)
+	if(shield_health)
+		shield_health = new shield_health(src)
+		INITIALIZE(shield_health)
+		FINALIZE(shield_health)
 
 	update_atom_light()
 

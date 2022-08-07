@@ -38,6 +38,7 @@
 	icon = 'icons/obj/item/clothing/suit/markv_sage.dmi'
 	rarity = RARITY_UNCOMMON
 //	flags_clothing = FLAG_CLOTHING_SPARTAN
+	shield_health = /health/shield
 
 	loyalty_tag = "NanoTrasen"
 
