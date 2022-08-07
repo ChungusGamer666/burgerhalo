@@ -20,9 +20,13 @@
 	//stupid jury rigged shit
 	if(findtext(SSdmm_suite.map_name, "Invasion"))
 		options -= "Liberation"
+		for(var/atom/chungus in join_buttons["become-urf"])
+			qdel(chungus)
 	else if(findtext(SSdmm_suite.map_name, "Liberation"))
 		options -= "Invasion"
-		
+		for(var/atom/chungus in join_buttons["become-covenant"])
+			qdel(chungus)
+
 	return ..()
 
 
