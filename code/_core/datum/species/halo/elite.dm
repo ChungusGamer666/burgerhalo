@@ -34,6 +34,7 @@
 		BODY_ARM_LEFT = /obj/item/organ/arm/halo/elite/left,
 		BODY_HAND_RIGHT = /obj/item/organ/hand/halo/elite,
 		BODY_HAND_LEFT = /obj/item/organ/hand/halo/elite/left,
+
 		BODY_EYE_RIGHT = /obj/item/organ/eye,
 		BODY_EYE_LEFT = /obj/item/organ/eye/left,
 		BODY_EAR_RIGHT = /obj/item/organ/ear,
