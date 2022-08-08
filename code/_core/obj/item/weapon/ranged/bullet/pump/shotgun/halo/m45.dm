@@ -4,36 +4,36 @@
 	desc_extended = "The UNSC's older model primary shotgun. An effective close range infantry weapon used by colonial police and insurrectionists abroad."
 	icon = 'icons/obj/item/weapons/ranged/shotgun/m45.dmi'
 
-	shoot_delay = 2.5
+	shoot_delay = 4
 
 	automatic = FALSE
 
-	bullet_count_max = 8
+	bullet_count_max = 12
 
 	shoot_sounds = list(
 	'sound/weapons/unsc/shotgun/shotgun1.wav',
 	'sound/weapons/unsc/shotgun/shotgun2.wav',
 	'sound/weapons/unsc/shotgun/shotgun3.wav')
 
-
 	can_wield = TRUE
-
-	view_punch = 12
 
 	icon_state_worn = "worn"
 	item_slot = SLOT_TORSO_B
 	worn_layer = LAYER_MOB_CLOTHING_BACK
 	slot_icons = TRUE
 
-	size = SIZE_4
-	weight = 11
+	view_punch = 12
 
-	value = 100
+
+
+	size = SIZE_4
+	weight = 12
+
+
+	value = 200
 
 	heat_per_shot = 0.02
-	heat_max = 0.1
-
-	dan_mode = TRUE
+	heat_max = 0.08
 
 	attachment_whitelist = list(
 		/obj/item/attachment/barrel/charger = FALSE,
@@ -60,24 +60,22 @@
 	)
 
 	attachment_barrel_offset_x = 32 - 16
-	attachment_barrel_offset_y = 19 - 16
+	attachment_barrel_offset_y = 18 - 16
 
-	attachment_sight_offset_x = 9 - 16
+	attachment_sight_offset_x = 13 - 16
 	attachment_sight_offset_y = 19 - 16
 
-	attachment_undermount_offset_x = 28 - 16
-	attachment_undermount_offset_y = 15 - 16
+	attachment_undermount_offset_x = 27 - 16
+	attachment_undermount_offset_y = 14 - 16
 
 	firing_pin = /obj/item/firing_pin/electronic/iff/syndicate
 
 /obj/item/weapon/ranged/bullet/pump/shotgun/halo/m45/get_static_spread()
-	if(!wielded)
-		return 0.1
-	return 0.004
+	return 0.002
 
 /obj/item/weapon/ranged/bullet/pump/shotgun/halo/m45/get_skill_spread(var/mob/living/L)
 	if(!heat_current) return 0
-	return max(0,0.01 - (0.04 * L.get_skill_power(SKILL_RANGED)))
+	return max(0,0.005 - (0.005 * L.get_skill_power(SKILL_RANGED)))
 
 /obj/item/weapon/ranged/bullet/pump/shotgun/halo/m45/get_base_spread()
-	return 0.06
+	return 0.1

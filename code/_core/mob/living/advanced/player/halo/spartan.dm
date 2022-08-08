@@ -14,5 +14,5 @@
 	sex = MALE
 	setup_name()
 	to_chat(span("danger","You're a Spartan II. Show them how the UNSC does it while dying like your peers."))
-	to_chat(span("notice","Find your fireteam buddy. Do you really need someone to explain what an S-II is?."))
+	to_chat(span("notice","Find your fireteam buddy. Do you really need someone to explain what a S-II is?"))
 	return .
