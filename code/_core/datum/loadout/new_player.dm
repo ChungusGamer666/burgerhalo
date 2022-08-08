@@ -501,25 +501,14 @@
 
 /loadout/halo/spartan
 	spawning_items = list(
-		/obj/item/clothing/uniform/halo/odst,
-		/obj/item/clothing/feet/shoes/halo/combat,
-		/obj/item/clothing/feet/shoes/halo/combat/left,
-		/obj/item/clothing/hands/gloves/colored/padded/black,
-		/obj/item/clothing/hands/gloves/colored/padded/black/left,
-		/obj/item/clothing/overwear/hardsuit/halo/spi,
-		/obj/item/clothing/head/helmet/hardsuit/halo/spi,
-		/obj/item/clothing/belt/storage/colored/black,
-		/obj/item/storage/pouch/triple/black,
-		/obj/item/storage/pouch/triple/black,
-		/obj/item/weapon/ranged/bullet/magazine/rifle/halo/ma5b,
-		/obj/item/magazine/halo/ma5b,
-		/obj/item/magazine/halo/ma5b,
-		/obj/item/magazine/halo/ma5b,
-		/obj/item/magazine/halo/ma5b,
-		/obj/item/magazine/halo/ma5b,
-		/obj/item/weapon/ranged/bullet/magazine/pistol/halo/socom,
-		/obj/item/magazine/halo/magnum_socom,
-		/obj/item/magazine/halo/magnum_socom,
-		/obj/item/magazine/halo/magnum_socom,
-		/obj/item/weapon/melee/sword/machete
+		/obj/item/clothing/uniform/halo/spartan,
+		/obj/item/clothing/ears/headset,
+		/obj/item/clothing/overwear/armor/halo/spartan,
+		/obj/item/clothing/head/helmet/halo/spartan,
+		/obj/item/clothing/hands/gloves/halo/spartan,
+		/obj/item/clothing/hands/gloves/halo/spartan/left,
+		/obj/item/clothing/feet/shoes/halo/spartan,
+		/obj/item/clothing/feet/shoes/halo/spartan/left,
+		/obj/item/clothing/belt/storage/colored/black
 	)
+

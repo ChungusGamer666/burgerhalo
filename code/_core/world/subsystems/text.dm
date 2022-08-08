@@ -17,6 +17,8 @@ SUBSYSTEM_DEF(text)
 
 	var/list/first_sangheili = list()
 	var/list/last_sangheili = list()
+	var/list/first_spartan = list()
+	var/list/last_spartan = list()
 	var/list/first_kigyar = list()
 	var/list/first_unggoy = list()
 
@@ -30,6 +32,8 @@ SUBSYSTEM_DEF(text)
 	last_sangheili = splittext(rustg_file_read("text/names/last_sangheili.txt"),"\n")
 	first_kigyar = splittext(rustg_file_read("text/names/first_kigyar.txt"),"\n")
 	first_unggoy = splittext(rustg_file_read("text/names/first_unggoy.txt"),"\n")
+	first_spartan = splittext(rustg_file_read("text/names/first_spartan.txt"),"\n")
+	last_spartan = splittext(rustg_file_read("text/names/last_spartan.txt"),"\n")
 
 	adjectives = splittext(rustg_file_read("text/names/adjectives.txt"),"\n")
 	verbs = splittext(rustg_file_read("text/names/verbs.txt"),"\n")
@@ -45,6 +49,8 @@ SUBSYSTEM_DEF(text)
 
 	log_subsystem(name,"Found [length(first_sangheili)] first sang names.")
 	log_subsystem(name,"Found [length(last_sangheili)] last sang names.")
+	log_subsystem(name,"Found [length(first_spartan)] first sang names.")
+	log_subsystem(name,"Found [length(last_spartan)] last sang names.")
 	log_subsystem(name,"Found [length(first_kigyar)] kig names.")
 	log_subsystem(name,"Found [length(first_unggoy)] ung names.")
 

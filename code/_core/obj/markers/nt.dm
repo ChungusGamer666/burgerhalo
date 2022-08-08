@@ -49,5 +49,5 @@ var/global/list/all_nt_markers = list()
 	spawn_type = /mob/living/advanced/player/nt/halo/odst/commander
 
 /obj/marker/nt/spartan_three
-	name = "S-III"
+	name = "S-II"
 	spawn_type = /mob/living/advanced/player/nt/halo/spartan
