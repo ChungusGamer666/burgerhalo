@@ -19,7 +19,7 @@
 
 	emote_sounds_male = list(
 		"pain" = list('sound/voice/spartan/pain/pain1.ogg','sound/voice/spartan/pain/pain2.ogg','sound/voice/spartan/pain/pain3.ogg','sound/voice/spartan/pain/pain4.ogg','sound/voice/spartan/pain/pain5.ogg','sound/voice/spartan/pain/pain6.ogg','sound/voice/spartan/pain/pain7.ogg','sound/voice/spartan/pain/pain8.ogg','sound/voice/spartan/pain/pain9.ogg','sound/voice/spartan/pain/pain10.ogg'),
-		"scream" = list('sound/voice/spartan/scream/death1.ogg','sound/voice/spartan/scream/death2.ogg','sound/voice/spartan/scream/death3.ogg','sound/voice/spartan/scream/death4.ogg','sound/voice/spartan/scream/death5.ogg','sound/voice/spartan/scream/death6.ogg','sound/voice/spartan/scream/death7.ogg','sound/voice/spartan/scream/death8.ogg','sound/voice/spartan/scream/death9.ogg','sound/voice/spartan/scream/death10.ogg')
+		"scream" = list('sound/voice/spartan/scream/death1.ogg','sound/voice/spartan/scream/death2.ogg','sound/voice/spartan/scream/death3.ogg','sound/voice/spartan/scream/death4.ogg','sound/voice/spartan/scream/death5.ogg','sound/voice/spartan/scream/death6.ogg','sound/voice/spartan/scream/death7.ogg','sound/voice/spartan/scream/death8.ogg','sound/voice/spartan/scream/death9.ogg','sound/voice/spartan/scream/death10.ogg','sound/voice/spartan/scream/death11.ogg')
 	)
 
 	spawning_organs_male = list(
