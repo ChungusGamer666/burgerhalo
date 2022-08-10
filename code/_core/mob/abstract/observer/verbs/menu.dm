@@ -127,9 +127,9 @@
 //		src.to_chat(span("warning","The round is currently ending!"))
 //		return FALSE*/
 
-	if(length(all_nt_markers) <= 0)
-		src.to_chat(span("warning","There are no available roles!"))
-		return FALSE
+//	if(length(all_nt_markers) <= 0)
+//		src.to_chat(span("warning","There are no available roles!"))
+//		return FALSE
 
 	return TRUE
 
@@ -162,13 +162,13 @@
 		src.to_chat(span("notice","Good choice."))
 		return FALSE
 
-	if(!length(all_nt_markers))
-		src.to_chat(span("warning","Someone stole your slot! There are no UNSC slots left!"))
-		return ..()
+//	if(!length(all_nt_markers))
+//		src.to_chat(span("warning","Someone stole your slot! There are no UNSC slots left!"))
+//		return ..()
 
-	if(!nt_choice || !length(all_nt_markers[nt_choice]))
-		src.to_chat(span("warning","Someone stole your slot! Pick another role!"))
-		return ..()
+//	if(!nt_choice || !length(all_nt_markers[nt_choice]))
+//		src.to_chat(span("warning","Someone stole your slot! Pick another role!"))
+//		return ..()
 
 	if(!can_become_nt())
 		return ..()
@@ -227,9 +227,9 @@
 //		src.to_chat(span("warning","The round is currently ending!"))
 //		return FALSE*/
 
-	if(length(all_antag_markers) <= 0)
-		src.to_chat(span("warning","There are no available roles!"))
-		return FALSE
+//	if(length(all_antag_markers) <= 0)
+//		src.to_chat(span("warning","There are no available roles!"))
+//		return FALSE
 
 	return TRUE
 
@@ -264,13 +264,13 @@
 		src.to_chat(span("notice","Good choice."))
 		return FALSE
 
-	if(!length(all_antag_markers))
-		src.to_chat(span("warning","Someone stole your slot! There are no Insurrection slots left!"))
-		return ..()
+//	if(!length(all_antag_markers))
+//		src.to_chat(span("warning","Someone stole your slot! There are no Insurrection slots left!"))
+//		return ..()
 
-	if(!antagonist_choice || !length(all_antag_markers[antagonist_choice]))
-		src.to_chat(span("warning","Someone stole your slot! Pick another role!"))
-		return ..()
+//	if(!antagonist_choice || !length(all_antag_markers[antagonist_choice]))
+//		src.to_chat(span("warning","Someone stole your slot! Pick another role!"))
+//		return ..()
 
 	if(!can_become_antagonist())
 		return ..()
@@ -327,9 +327,9 @@
 //		src.to_chat(span("warning","The round is currently ending!"))
 //		return FALSE*/
 
-	if(length(all_covenant_markers) <= 0)
-		src.to_chat(span("warning","There are no available roles!"))
-		return FALSE
+//	if(length(all_covenant_markers) <= 0)
+//		src.to_chat(span("warning","There are no available roles!"))
+//		return FALSE
 
 	return TRUE
 
@@ -364,13 +364,13 @@
 		src.to_chat(span("notice","Good choice."))
 		return FALSE
 
-	if(!length(all_covenant_markers))
-		src.to_chat(span("warning","Someone stole your slot! There are no Covenant slots left!"))
-		return ..()
+//	if(!length(all_covenant_markers))
+//		src.to_chat(span("warning","Someone stole your slot! There are no Covenant slots left!"))
+//		return ..()
 
-	if(!covenant_choice || !length(all_covenant_markers[covenant_choice]))
-		src.to_chat(span("warning","Someone stole your slot! Pick another role!"))
-		return ..()
+//	if(!covenant_choice || !length(all_covenant_markers[covenant_choice]))
+//		src.to_chat(span("warning","Someone stole your slot! Pick another role!"))
+//		return ..()
 
 	if(!can_become_covenant())
 		return ..()

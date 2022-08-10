@@ -423,6 +423,13 @@
 		/obj/item/weapon/melee/energy/shield/blue
 	)
 
+/loadout/nt/halo/covenant/elite_player
+	spawning_items = list(
+		/obj/item/clothing/uniform/halo/covenant/elite,
+		/obj/item/clothing/ears/headset/covenant,
+		/obj/item/clothing/belt/storage/colored/black
+	)
+
 /loadout/nt/halo/covenant/elite_minor
 	spawning_items = list(
 		/obj/item/clothing/uniform/halo/covenant/elite,

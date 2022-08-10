@@ -17,7 +17,7 @@ var/global/list/all_covenant_markers = list()
 	return ..()
 
 /obj/marker/covenant/elite_m
-	name = "Elite Minor"
+	name = "Elite"
 	spawn_type = /mob/living/advanced/player/covenant/elite_minor
 
 /obj/marker/covenant/elite_mj

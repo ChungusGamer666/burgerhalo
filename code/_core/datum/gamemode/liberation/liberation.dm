@@ -22,6 +22,8 @@
 			on_waiting()
 		if(GAMEMODE_GEARING)
 			on_gearing()
+		if(GAMEMODE_LAUNCHING)
+			on_launching()
 		if(GAMEMODE_FIGHTING)
 			on_fighting()
 
@@ -46,7 +48,7 @@
 		return TRUE
 	state = GAMEMODE_GEARING
 	round_time = 0
-	round_time_next = HORDE_DELAY_GEARING
+	round_time_next = LIBERATION_DELAY_BOARDING
 	SSshuttle.next_pod_launch = world.time + SECONDS_TO_DECISECONDS(30*10 + 10)
 	announce(
 		"Central Command Update",
@@ -63,13 +65,9 @@
 	if(time_to_display >= 0)
 		set_message("Loadout Period: [get_clock_time(time_to_display)]",TRUE)
 		return TRUE
-	state = GAMEMODE_FIGHTING
+	state = GAMEMODE_LAUNCHING
 	round_time = 0
-	for(var/k in all_fog)
-		var/obj/effect/fog_of_war/F = k
-		F.remove()
-	round_time_next = LIBERATION_DELAY_GEARING
-	allow_launch = TRUE
+	round_time_next = LIBERATION_DELAY_LAUNCHING
 	announce(
 		"Central Command Update",
 		"Shuttle Boarding",
@@ -77,6 +75,22 @@
 		ANNOUNCEMENT_STATION,
 		'sound/voice/announcement/landfall_crew_2_minutes.ogg'
 	)
+	return TRUE
+
+/gamemode/liberation/proc/on_launching()
+	var/time_to_display = round_time_next - round_time
+	set_status_display("mission","LNCH\n[get_clock_time(time_to_display)]")
+	if(time_to_display >= 0)
+		set_message("Launch Period: [get_clock_time(time_to_display)]",TRUE)
+		return TRUE
+	state = GAMEMODE_FIGHTING
+	round_time = 0
+	for(var/k in all_fog)
+		var/obj/effect/fog_of_war/F = k
+		F.remove()
+	announce("Central Command Mission Update","Mission is a Go","Shuttles are prepped and ready to depart into the Area of Operations. All crew are cleared to launch.",ANNOUNCEMENT_STATION,'sound/voice/announcement/landfall_crew_0_minutes.ogg')
+	allow_launch = TRUE
+	SSshuttle.next_pod_launch = world.time + SECONDS_TO_DECISECONDS(5)
 	return TRUE
 
 /gamemode/liberation/proc/on_fighting()

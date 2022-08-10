@@ -11,7 +11,7 @@
 
 	for(var/k in SSgamemode.all_gamemodes)
 		var/gamemode/G = k
-		if(initial(G.hidden)) 
+		if(initial(G.hidden))
 			continue
 		var/game_name = initial(G.name)
 		options += game_name
@@ -20,7 +20,7 @@
 	//stupid jury rigged shit
 	if(findtext(SSdmm_suite.map_name, "Invasion"))
 		options -= "Liberation"
-		for(var/atom/chungus in join_buttons["become-urf"])
+		for(var/atom/chungus in join_buttons["become-insurrection"])
 			qdel(chungus)
 	else if(findtext(SSdmm_suite.map_name, "Liberation"))
 		options -= "Invasion"
