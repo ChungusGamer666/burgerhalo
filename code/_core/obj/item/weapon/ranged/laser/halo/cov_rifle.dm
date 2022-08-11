@@ -11,12 +11,12 @@
 	bullet_color = "#466ab6"
 
 	projectile_speed = TILE_SIZE - 1
-	shoot_delay = 1
-	max_bursts = 3
+	shoot_delay = 2
+	//max_bursts = 3
 
 	automatic = TRUE
 
-	charge_cost = CELL_SIZE_BASIC / 120
+	charge_cost = CELL_SIZE_ADVANCED / 100
 
 	view_punch = 16
 
