@@ -217,3 +217,57 @@
 	qdel(src)
 
 	return TRUE
+
+/obj/item/halo/kit/cov/minor
+	name = "Minor-kit"
+	value = 1200
+	icon_state = "briefcase"
+
+/obj/item/halo/kit/cov/minor/click_self(var/mob/caller)
+
+	INTERACT_CHECK
+	INTERACT_DELAY(10)
+
+	var/mob/living/advanced/A = caller
+
+//	if(!length(A.worn_objects))
+	A.equip_loadout(/loadout/nt/halo/covenant/elite_minor,TRUE)
+	qdel(src)
+
+	return TRUE
+
+/obj/item/halo/kit/cov/major
+	name = "Major-kit"
+	value = 1200
+	icon_state = "briefcase"
+
+/obj/item/halo/kit/cov/major/click_self(var/mob/caller)
+
+	INTERACT_CHECK
+	INTERACT_DELAY(10)
+
+	var/mob/living/advanced/A = caller
+
+//	if(!length(A.worn_objects))
+	A.equip_loadout(/loadout/nt/halo/covenant/elite_major,TRUE)
+	qdel(src)
+
+	return TRUE
+
+/obj/item/halo/kit/cov/ultra
+	name = "Ultra-kit"
+	value = 1200
+	icon_state = "briefcase"
+
+/obj/item/halo/kit/cov/ultra/click_self(var/mob/caller)
+
+	INTERACT_CHECK
+	INTERACT_DELAY(10)
+
+	var/mob/living/advanced/A = caller
+
+//	if(!length(A.worn_objects))
+	A.equip_loadout(/loadout/nt/halo/covenant/elite_ultra,TRUE)
+	qdel(src)
+
+	return TRUE

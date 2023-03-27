@@ -143,8 +143,8 @@ var/global/list/mob/living/advanced/player/all_players = list()
 	if(species == "unga")//forced here for names because I hate stuff.
 		name = "[gender == MALE ? UNGG : UNGG]"
 		real_name = name
-	if(species == "spartan")//forced here for names because I hate stuff.
-		name = "[gender == MALE ? FIRST_NAME_MALE : FIRST_NAME_FEMALE]"/* G[S_LAST_NAME]"*/
+	if(species == "Spartan")//forced here for names because I hate stuff.
+		name = "[gender == MALE ? FIRST_NAME_SPARTAN : FIRST_NAME_SPARTAN] [LAST_NAME_SPARTAN]"
 		real_name = name
 
 

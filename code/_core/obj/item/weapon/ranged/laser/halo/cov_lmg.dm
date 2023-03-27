@@ -13,13 +13,13 @@
 	bullet_color = "#466ab6"
 
 	projectile_speed = TILE_SIZE - 1
-	shoot_delay = 1
+	shoot_delay = 1.5
 
 	automatic = TRUE
 	can_wield = TRUE
 	wield_only = TRUE
 
-	charge_cost = CELL_SIZE_BASIC / 100
+	charge_cost = CELL_SIZE_ADVANCED / 130
 
 	view_punch = 16
 

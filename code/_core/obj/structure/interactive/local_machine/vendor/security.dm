@@ -300,6 +300,16 @@
 		/obj/item/weapon/melee/sword/bdagger
 	)
 
+/obj/structure/interactive/vending/security/wardrobe/halo/cov
+	name = "wardrobe vendor"
+	icon_state = "covarmorvendor"
+
+	stored_types = list(
+		/obj/item/halo/kit/cov/minor,
+		/obj/item/halo/kit/cov/major,
+		/obj/item/halo/kit/cov/ultra
+	)
+
 //empty
 /obj/structure/interactive/vending/security/gundrobe/halo/cov/empty
 	name = "battery"

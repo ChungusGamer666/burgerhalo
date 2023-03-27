@@ -6,7 +6,7 @@
 SUBSYSTEM_DEF(discord)
 	name = "Discord API"
 	desc = "Handles the discord API."
-	priority = SS_ORDER_PRELOAD
+	priority = SS_ORDER_CONFIG
 
 	var/discord_webhook_key
 
@@ -25,6 +25,12 @@ SUBSYSTEM_DEF(discord)
 	if(world.port == 0) //Don't send to local servers.
 		return FALSE
 
+	if(!world.visibility)
+		return FALSE
+
+	if(!discord_webhook_key)
+		return FALSE
+
 	var/list/webhook_forum_params = list(
 		"content" = message_to_send
 	)
@@ -33,6 +39,6 @@ SUBSYSTEM_DEF(discord)
 		"Content-Type" = "application/json"
 	)
 
-	rustg_http_request_blocking(RUSTG_HTTP_METHOD_POST,"https://discordapp.com/api/webhooks/[discord_webhook_key]",json_encode(webhook_forum_params),json_encode(webhook_header_params))
+	rustg_http_request_async(RUSTG_HTTP_METHOD_POST,"https://discordapp.com/api/webhooks/[discord_webhook_key]",json_encode(webhook_forum_params),json_encode(webhook_header_params),"")
 
 	return TRUE

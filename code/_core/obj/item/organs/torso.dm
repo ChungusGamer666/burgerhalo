@@ -149,10 +149,10 @@
 /obj/item/organ/torso/monkey/female
 	icon_state = BODY_TORSO_FEMALE
 
-/obj/item/organ/torso/spartan
+/obj/item/organ/torso/halo/spartan
+	name = "torso"
+	icon = 'icons/mob/living/advanced/species/halo/spartan/spartan.dmi'
+	desc = "An organ."
 
-	health_base = 120//they're basically just humans but slightly beefier
-//	flags_organ = FLAG_ORGAN_SPARTAN//for SPI / Mjolnir
-
-/obj/item/organ/torso/spartan/female
-	icon_state = BODY_TORSO_FEMALE
+	health_base = 150
+	flags_organ = FLAG_ORGAN_SPARTAN

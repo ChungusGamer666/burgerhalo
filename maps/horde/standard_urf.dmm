@@ -224,7 +224,7 @@
 "eq" = (/obj/decal/hazard,/turf/simulated/floor/plating,/area/halo/exterior/jungle)
 "er" = (/obj/decal/hazard,/obj/structure/interactive/lighting/fixture/floor/stronger,/turf/simulated/floor/plating,/area/halo/exterior/jungle)
 "es" = (/obj/decal/hazard{dir = 9; icon_state = "line"},/obj/structure/interactive/lighting/fixture/floor/stronger,/turf/simulated/floor/plating,/area/halo/exterior/jungle)
-"et" = (/turf/simulated/floor/plating,/area/transit/dropship/alpha/station)
+"et" = (/turf/simulated/floor/plating,/area/transit/dropship/alpha/landing)
 "eu" = (/obj/marker/map_node,/turf/simulated/floor/carpet,/area/halo/interior)
 "ev" = (/obj/structure/interactive/chair{dir = 4; icon_state = "chair"},/mob/living/advanced/npc/halo/urf{dir = 4},/turf/simulated/floor/wood/rich,/area/halo/interior/geminus/car_storage)
 "ew" = (/obj/structure/interactive/chair/wood{dir = 4},/mob/living/advanced/npc/halo/urf{dir = 4},/turf/simulated/floor/wood/rich,/area/halo/interior)

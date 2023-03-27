@@ -293,6 +293,8 @@ var/global/list/debug_verbs = list(
 	/client/verb/generate_map_icon,
 	/client/verb/stealth_test,
 	/client/verb/check_lights,
+	/client/proc/debug_variables,
+	/client/proc/spawn_atom,
 	/client/verb/subsystem_report,
 	/client/verb/reload_badwords,
 	/client/verb/force_save_all,

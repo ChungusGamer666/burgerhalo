@@ -1,6 +1,6 @@
 /obj/item/weapon/ranged/bullet/pump/shotgun/halo/m90
 	name = "M90 Combat Shotgun"
-	desc = "The most standart shotgun in UNSC forces."
+	desc = "The most standard shotgun in the UNSC forces."
 	desc_extended = "The UNSC's primary shotgun and one of the most effective close range infantry weapons used by front line forces."
 	icon = 'icons/obj/item/weapons/ranged/shotgun/m90.dmi'
 

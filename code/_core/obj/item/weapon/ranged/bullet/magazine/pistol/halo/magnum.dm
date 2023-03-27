@@ -79,9 +79,9 @@
 	icon = 'icons/obj/item/weapons/ranged/pistol/halo/magnum2.dmi'
 	value = 40
 
-	shoot_delay = 0.5
+	shoot_delay = 3
 
-	automatic = TRUE
+	automatic = FALSE
 
 	shoot_sounds = list(
 	'sound/weapons/unsc/magnum/magnum_stereo1.wav',
@@ -158,9 +158,9 @@
 	icon = 'icons/obj/item/weapons/ranged/pistol/halo/magnum3.dmi'
 	value = 40
 
-	shoot_delay = 0.5
+	shoot_delay = 3
 
-	automatic = TRUE
+	automatic = FALSE
 
 	shoot_sounds = list(
 	'sound/weapons/unsc/magnum/magnum_stereo1.wav',

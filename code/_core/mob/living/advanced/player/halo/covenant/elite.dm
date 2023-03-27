@@ -1,5 +1,5 @@
 /mob/living/advanced/player/covenant/elite_minor
-	loadout_to_use = /loadout/nt/halo/covenant/elite_minor
+	loadout_to_use = /loadout/nt/halo/covenant/elite_player
 	species = "Elite"
 
 /mob/living/advanced/player/covenant/elite_minor/default_appearance()

@@ -28,7 +28,7 @@ SUBSYSTEM_DEF(cargo)
 			FINALIZE(P)
 			P.invisibility = 101
 			P.loc = null
-			var/md5_hash = copytext(rustg_hash_string(RUSTG_HASH_MD5,line),1,6)
+			var/md5_hash = copytext(md5("[P.type]"),1,6)
 			cargo_id_to_type[md5_hash] = P
 			sortTim(cargo_id_to_type,/proc/cmp_path_dsc,associative=TRUE)
 

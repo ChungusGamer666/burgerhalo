@@ -148,3 +148,12 @@
 	flags_organ = FLAG_ORGAN_COVENANT
 
 	health_base = 80
+
+/obj/item/organ/head/halo/spartan
+	name = "head"
+	icon = 'icons/mob/living/advanced/species/halo/spartan/spartan.dmi'
+	desc = "An organ."
+
+	flags_organ = FLAG_ORGAN_SPARTAN
+
+	health_base = 80

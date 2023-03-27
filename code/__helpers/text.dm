@@ -163,3 +163,8 @@
 
 /proc/proper_url_encode(var/input)
 	return url_encode(replacetextEx(input,"\n",""))
+
+// Used to get a sanitized input.
+/proc/stripped_input(var/mob/user, var/message = "", var/title = "", var/default = "", var/max_length=MAX_MESSAGE_LEN)
+	var/name = input(user, message, title, default) as text|null
+	return html_encode(trim(name, max_length))
